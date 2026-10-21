@@ -1,0 +1,294 @@
+{
+  "source_game_sha256": "3ba755a6360e3cd8ce36d6e17b86545158a01641a0bdf9b99985c5b09f215431",
+  "source_descriptors": [
+    {
+      "name": "ProtoRank.proto",
+      "sha256": "50d350ec555169e35d2e7e395464a41f963fac27aa8a3a68ba58c0d2c0308d14"
+    },
+    {
+      "name": "gmInner.proto",
+      "sha256": "aaf57ec8473dd9a0afaf742af4dab2509095197b965dc494d0714d0d9a65eac0"
+    },
+    {
+      "name": "exoptions.proto",
+      "sha256": "938b9bec1988e9b609fab4658147a7283962e61c0cd1b362e8cfb95322993979"
+    },
+    {
+      "name": "ClientGatewayProtocol.proto",
+      "sha256": "468c56505d5fd64c456bc50ea8f578b593b067d662a2d21dca2b33249a9004e7"
+    },
+    {
+      "name": "ErrorDefine.proto",
+      "sha256": "ca65ad033eecf34d468bdb976b5b83b7086f60c95b13a6cec9a324284e8b9f8f"
+    },
+    {
+      "name": "ProtoActivityGroupCommon.proto",
+      "sha256": "baf57317ba79239e17f2e71345a436d2a024eb757f367d15085b8d80c9c1352e"
+    },
+    {
+      "name": "ProtoActivityGroupCommonSync_auto.proto",
+      "sha256": "994c849ef128b39dc0eb0a2a2cc1821e29ecb046b94d0dfbb5458af38b601ee7"
+    },
+    {
+      "name": "ProtoActivityGvg.proto",
+      "sha256": "203e81afcc7cdca8f40300606348babb3a29c40f035bde4d50f5f11fc0f329dd"
+    },
+    {
+      "name": "ProtoActivityGvgCommon.proto",
+      "sha256": "a07b9ff681f523db857ed0c15a47587a64235bf2f24489fe84f93f782918d350"
+    },
+    {
+      "name": "ProtoActivityGvgCommonSync_auto.proto",
+      "sha256": "296f78e5b14c2a6d7b297d56986ab30c0a90e9adb009ce3649815b643299043f"
+    },
+    {
+      "name": "ProtoBase.proto",
+      "sha256": "a807dfb1aebdd4b0f3406d776597cd2adde429fefc00da8ead6009a76d13abe5"
+    },
+    {
+      "name": "ProtoBattle.proto",
+      "sha256": "f5c5b6fd29a80b72d42e21612e9619c46ad71a85f8fbb1d5158874a996f28881"
+    },
+    {
+      "name": "ProtoCache.proto",
+      "sha256": "19d194df7d9e5291aa0d235dd897993bfca94598ff795ddfb0e32afe9b349752"
+    },
+    {
+      "name": "ProtoCacheRoleCommonSync_auto.proto",
+      "sha256": "a7621de55d3cf578ef49889fd3dba130d1d5519ca6561ae775047bdca2bfd4f1"
+    },
+    {
+      "name": "ProtoComm.proto",
+      "sha256": "0b1025c8f28f65f005e71eeabf1e4e7d9dd78bcc831afda2afccb4e3f144eec0"
+    },
+    {
+      "name": "ProtoGame.proto",
+      "sha256": "4acc480295738c8d4d855013c6ed30be242cb15ac3c1e21a02e0cebc3d8933b7"
+    },
+    {
+      "name": "ProtoGuildCommon.proto",
+      "sha256": "c3193529fac1b21ad1046662f8a0b859ac6e79555afdd022e016179398eff65a"
+    },
+    {
+      "name": "ProtoGuildCommonSync_auto.proto",
+      "sha256": "e6fc163ff4805ad677dca4df20378a3ccaa64f3ea19d334f12010fce9f4fbbef"
+    },
+    {
+      "name": "ProtoMessageBattle.proto",
+      "sha256": "fdb92160146ebe77f61ad7f22e909384586c566b86857983110569a7f68855f3"
+    },
+    {
+      "name": "ProtoRoom.proto",
+      "sha256": "e97e083e47fabf7d0f45a8a885117c7d90cf4dc7560f1481c52f7980906e15af"
+    },
+    {
+      "name": "ProtoRoomCommon.proto",
+      "sha256": "6ea4f5593e269c48189c6322cfe02b39a285130cf7faaf1aa3c6f36541821cd7"
+    },
+    {
+      "name": "ProtoRoomCommonSync_auto.proto",
+      "sha256": "e8ea2ac502f083b3e239daf65e48a9692c4402c336d0452ce703e964c2c2d5bc"
+    },
+    {
+      "name": "cacheCommon.proto",
+      "sha256": "bd4ea17accba79ba562e0a7267734110c6c8acc853d9196a359505aad085bf08"
+    },
+    {
+      "name": "ProtoSyncComm.proto",
+      "sha256": "74f5f6c48012ba6f1bc5785b2f1859cd5e629e2f3aae44b421e2cd1a1127b67e"
+    }
+  ],
+  "base_schema_sha256": "3a6a974ab66b80b84c49b3cf30e325fb6e47bffc789feb949ecf6891304c96e9",
+  "schema_sha256": "8b4cf9cf1f35aaea159965131975d3f40dbb3010d3eaa3026522b63e6ad3145e",
+  "schema_size": 10458,
+  "roots": [
+    "SNKProto.Cmd_Heartbeat_Ack",
+    "SNKProto.Cmd_Heartbeat_Req",
+    "SNKProto.Cmd_Market_Auction_Buy_Ack",
+    "SNKProto.Cmd_Market_Auction_Buy_Req",
+    "SNKProto.Cmd_Market_Auction_QueryLumiDetail_Ack",
+    "SNKProto.Cmd_Market_Auction_QueryLumiDetail_Req",
+    "SNKProto.Cmd_Market_Auction_Watch_Start_Ack",
+    "SNKProto.Cmd_Market_Auction_Watch_Start_Req",
+    "SNKProto.Cmd_Market_Auction_Watch_Stop_Ack",
+    "SNKProto.Cmd_Market_Auction_Watch_Stop_Req",
+    "SNKProto.Cmd_Net_LumiLogin_Ack",
+    "SNKProto.Cmd_Net_LumiLogin_Req",
+    "SNKProto.Cmd_Notify_LoginEnd",
+    "SNKProto.Cmd_Role_EnterGame_Ack",
+    "SNKProto.Cmd_Role_EnterGame_Req",
+    "SNKProto.Cmd_SystemShop_QueryItemPrice_Ack",
+    "SNKProto.Cmd_SystemShop_QueryItemPrice_Req",
+    "SNKProto.ReqProto",
+    "SNKProto.RspProto"
+  ],
+  "selected_messages": [
+    {
+      "name": ".SNKProto.CmdColorVariant",
+      "field_count": 2,
+      "metadata_sha256": "fbf06683f6de555aa420b4d80741a96263e0414959ac5b0453b41c13a0abb175"
+    },
+    {
+      "name": ".SNKProto.CmdShowLumiCommon",
+      "field_count": 8,
+      "metadata_sha256": "015b7a51350eeae334b7e07d38be5b96eda3160efbb7aebec959c1d82033faef"
+    },
+    {
+      "name": ".SNKProto.CmdGameInfo",
+      "field_count": 17,
+      "metadata_sha256": "e03df2c022cf78a1bd3bddf6a0ef2ba2d48ec1d4ce8aebbce109d5ce80513f8f"
+    },
+    {
+      "name": ".SNKProto.ReqProto",
+      "field_count": 4,
+      "metadata_sha256": "ce3220e7182cc3feb73f6b9e498198759fe257ddd2b3ee48bee7406802f9d5fb"
+    },
+    {
+      "name": ".SNKProto.RspProto",
+      "field_count": 8,
+      "metadata_sha256": "1488d65c68d8b19a56ef7b24425e66f25e0156c2bddd94484eb3a4682ccbc3f3"
+    },
+    {
+      "name": ".SNKProto.CmdLoginAuthParamDev",
+      "field_count": 1,
+      "metadata_sha256": "64358283418ec76add764e941b1584a3b38221b1a83a0ab88e6b9591821c677c"
+    },
+    {
+      "name": ".SNKProto.CmdLoginAuthParamBILI",
+      "field_count": 5,
+      "metadata_sha256": "b4ff7ebcef9b749d7838148dca2ed67d7e273d288b9fe02f5b0fa57fccb78275"
+    },
+    {
+      "name": ".SNKProto.CmdSession",
+      "field_count": 2,
+      "metadata_sha256": "d44c815ffc496d5c286f3792584238ffdc6d6eae16b179100abb782e05c6c6e7"
+    },
+    {
+      "name": ".SNKProto.Cmd_Net_LumiLogin_Req",
+      "field_count": 10,
+      "metadata_sha256": "ac695ff5240b786efd663d98a9a134c87d8e2941abbd4f69087e0a335a8f1aaa"
+    },
+    {
+      "name": ".SNKProto.Cmd_Net_LumiLogin_Ack",
+      "field_count": 4,
+      "metadata_sha256": "799e2979486823f99a56bffd1dcadbf738b7d49e1c86eccad547e8a7b95a4b85"
+    },
+    {
+      "name": ".SNKProto.Cmd_Role_EnterGame_Req",
+      "field_count": 15,
+      "metadata_sha256": "88b7b7994eee73b6220604c3375ed407da6538b540f4ce50168660cbb13bcccd"
+    },
+    {
+      "name": ".SNKProto.Cmd_Role_EnterGame_Ack",
+      "field_count": 7,
+      "metadata_sha256": "68ba0bd92b5fb778f35a2d4ee11b10a8f64edcbe48b58b501b10daee02a866db"
+    },
+    {
+      "name": ".SNKProto.Cmd_Notify_LoginEnd",
+      "field_count": 3,
+      "metadata_sha256": "e2c76ac5aca8aea23a0d41c46c6e19bf796ce1965c54c87c40b990f54e971ae8"
+    },
+    {
+      "name": ".SNKProto.CmdSystemShopItemInfo",
+      "field_count": 6,
+      "metadata_sha256": "49b1c12b410e804b7e24bbf9d403fbb52dc1ec76a4cf1c840a722d1b014d8445"
+    },
+    {
+      "name": ".SNKProto.Cmd_SystemShop_QueryItemPrice_Req",
+      "field_count": 2,
+      "metadata_sha256": "927bf14a153dfee7e9d06593e46c6e32ab787f7865d5e45ac43f42369ea3ac29"
+    },
+    {
+      "name": ".SNKProto.Cmd_SystemShop_QueryItemPrice_Ack",
+      "field_count": 2,
+      "metadata_sha256": "b58cf7954fc577e70514f7dc7382c345e17c84d7b04c166f3b50e1baf041ee54"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Watch_Start_Req",
+      "field_count": 1,
+      "metadata_sha256": "8a9d67167953f753c29bae93a504dc133ea0cb0328573a0c5e8e8919e882156d"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Watch_Start_Ack",
+      "field_count": 2,
+      "metadata_sha256": "deb28a53d854e2a6a2cf30dc9c9f534fb4f3c9dd4699b83045e28351d100af0a"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Watch_Stop_Req",
+      "field_count": 1,
+      "metadata_sha256": "a111c5d57e83a415e6f1d906063403630072a9054871c197b4a4dbf66b539dd9"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Watch_Stop_Ack",
+      "field_count": 0,
+      "metadata_sha256": "0f5768af39d31f635b0b4bd95dec2536df2a3cf5e0b79b9033fe5e4ecbc527d0"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Buy_Req",
+      "field_count": 3,
+      "metadata_sha256": "a1f9d6092f4b15a0fc0e782598db39f2ef4b3fd87aab1cf1a5eeb962781f18f2"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_Buy_Ack",
+      "field_count": 3,
+      "metadata_sha256": "deba2d31abe02889840789e69cc8280639eb742d3ed8e995ea4741889d1f584a"
+    },
+    {
+      "name": ".SNKProto.CmdAuctionOpLog",
+      "field_count": 3,
+      "metadata_sha256": "af0c94593c3730b28648119d51713558461b780e46b96508028cccca739ace6d"
+    },
+    {
+      "name": ".SNKProto.CmdAuctionLumiOne",
+      "field_count": 15,
+      "metadata_sha256": "c745933c7c7f96f4a4a71464372bfb3c2c8b5e75e6c18acd14f07c61fa7806f9"
+    },
+    {
+      "name": ".SNKProto.CmdAuctionLumiBrief",
+      "field_count": 7,
+      "metadata_sha256": "1eebc5f82e1df85b5ea89ecbd9430f532effd09260351f59d3824c6cc4d73920"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_QueryLumiDetail_Req",
+      "field_count": 6,
+      "metadata_sha256": "e08b29ff7f4b50fccda3241433e55cb3010fa177dd5d0860e1a1d49c3ee95d61"
+    },
+    {
+      "name": ".SNKProto.Cmd_Market_Auction_QueryLumiDetail_Ack",
+      "field_count": 8,
+      "metadata_sha256": "377b19f8f86ff0cc59a99d9ea3f35a52d3fbd9105f0a3756790f879cdb652868"
+    },
+    {
+      "name": ".SNKProto.Cmd_Heartbeat_Req",
+      "field_count": 0,
+      "metadata_sha256": "fc6640eb5d3317aab31fff75294f0205b8008ba95119cd71753ddb09f68c0b86"
+    },
+    {
+      "name": ".SNKProto.Cmd_Heartbeat_Ack",
+      "field_count": 1,
+      "metadata_sha256": "5dbd71749f478b3cdfcff88117b4cc3364fcf333d21ccc81474d72b6235c632e"
+    }
+  ],
+  "selected_message_metadata_matches_source": true,
+  "file_imports_and_custom_extensions_preserved": true,
+  "target_code_executed": false,
+  "network_requests_sent": false,
+  "credentials_or_dlls_exported": false,
+  "base_message_metadata_preserved": true,
+  "purchase_source_evidence": "artifacts/rumi/pet-catalog/auction-purchase-source.sanitized.json",
+  "purchase_source_evidence_sha256": "d9666e9ba6deac637a48ec57258c3a35a7633882d206caf1e01ca600b5c4343f",
+  "additional_verified_versions": [
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}

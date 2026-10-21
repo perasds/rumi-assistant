@@ -1,0 +1,2981 @@
+{
+  "schema_version": 1,
+  "source": {
+    "client_version": "1.5.3",
+    "hot_version": 64,
+    "config_report_sha256": "7ccc1a15a461f1233eb9626e64d3133554056b588be0c42ed8eead0a8078539d",
+    "pet_report_sha256": "2754c8adbef7e7c2b093e2c1d9df51d0c91d9d513731ff6072d0d3b724ea6394"
+  },
+  "buildings": [
+    {
+      "building_id": "10101",
+      "architecture_type": 3,
+      "work_type_id": 1,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "1"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10102",
+      "architecture_type": 2,
+      "work_type_id": 2,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 400,
+          "recipe_ids": [
+            "7"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 600,
+          "recipe_ids": [
+            "7"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 800,
+          "recipe_ids": [
+            "7"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 1000,
+          "recipe_ids": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10103",
+      "architecture_type": 2,
+      "work_type_id": 4,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "8"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "8"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "8"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10104",
+      "architecture_type": 12,
+      "work_type_id": 3,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "9"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "9",
+            "26"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "9",
+            "26",
+            "44"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "9",
+            "26",
+            "44",
+            "27"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10105",
+      "architecture_type": 3,
+      "work_type_id": 5,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "11"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "11",
+            "28"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "11",
+            "28",
+            "54"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "11",
+            "28",
+            "54",
+            "32"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10106",
+      "architecture_type": 2,
+      "work_type_id": 4,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 120,
+          "recipe_ids": [
+            "43"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 180,
+          "recipe_ids": [
+            "43"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 240,
+          "recipe_ids": [
+            "43"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 300,
+          "recipe_ids": [
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10107",
+      "architecture_type": 2,
+      "work_type_id": 9,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "17"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "17"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "17"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10108",
+      "architecture_type": 2,
+      "work_type_id": 7,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 100,
+          "recipe_ids": [
+            "16"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 150,
+          "recipe_ids": [
+            "16"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 200,
+          "recipe_ids": [
+            "16"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 250,
+          "recipe_ids": [
+            "16"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10109",
+      "architecture_type": 3,
+      "work_type_id": 1,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 60,
+          "recipe_ids": [
+            "50"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 90,
+          "recipe_ids": [
+            "50",
+            "51"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 120,
+          "recipe_ids": [
+            "50",
+            "51",
+            "52"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 150,
+          "recipe_ids": [
+            "50",
+            "51",
+            "52"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10110",
+      "architecture_type": 3,
+      "work_type_id": 8,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 5,
+          "recipe_ids": [
+            "4"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 10,
+          "recipe_ids": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 15,
+          "recipe_ids": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 20,
+          "recipe_ids": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10113",
+      "architecture_type": 3,
+      "work_type_id": 5,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 160,
+          "recipe_ids": [
+            "21"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 240,
+          "recipe_ids": [
+            "21"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 320,
+          "recipe_ids": [
+            "21"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 400,
+          "recipe_ids": [
+            "21"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10114",
+      "architecture_type": 2,
+      "work_type_id": 9,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 60,
+          "recipe_ids": [
+            "24"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 90,
+          "recipe_ids": [
+            "24"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 120,
+          "recipe_ids": [
+            "24"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 150,
+          "recipe_ids": [
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10115",
+      "architecture_type": 3,
+      "work_type_id": 5,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 40,
+          "recipe_ids": [
+            "22"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 60,
+          "recipe_ids": [
+            "22"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 80,
+          "recipe_ids": [
+            "22"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 100,
+          "recipe_ids": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10116",
+      "architecture_type": 2,
+      "work_type_id": 13,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 60,
+          "recipe_ids": [
+            "34"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 90,
+          "recipe_ids": [
+            "34"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 120,
+          "recipe_ids": [
+            "34"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 150,
+          "recipe_ids": [
+            "34"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10118",
+      "architecture_type": 3,
+      "work_type_id": 1,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 40,
+          "recipe_ids": [
+            "46"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 60,
+          "recipe_ids": [
+            "46",
+            "47"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 80,
+          "recipe_ids": [
+            "46",
+            "47",
+            "48"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 100,
+          "recipe_ids": [
+            "46",
+            "47",
+            "48"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10120",
+      "architecture_type": 3,
+      "work_type_id": 1,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 200,
+          "recipe_ids": [
+            "36"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 300,
+          "recipe_ids": [
+            "36",
+            "41"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 400,
+          "recipe_ids": [
+            "36",
+            "41",
+            "49"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 500,
+          "recipe_ids": [
+            "36",
+            "41",
+            "49",
+            "42"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10122",
+      "architecture_type": 3,
+      "work_type_id": 2,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 120,
+          "recipe_ids": [
+            "45"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 180,
+          "recipe_ids": [
+            "45"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 240,
+          "recipe_ids": [
+            "45"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 300,
+          "recipe_ids": [
+            "45"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10124",
+      "architecture_type": 2,
+      "work_type_id": 4,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 400,
+          "recipe_ids": [
+            "55"
+          ]
+        },
+        {
+          "level": 2,
+          "capacity": 600,
+          "recipe_ids": [
+            "55"
+          ]
+        },
+        {
+          "level": 3,
+          "capacity": 800,
+          "recipe_ids": [
+            "55"
+          ]
+        },
+        {
+          "level": 4,
+          "capacity": 1000,
+          "recipe_ids": [
+            "55"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10125",
+      "architecture_type": 19,
+      "work_type_id": 3,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 1000,
+          "recipe_ids": [
+            "19"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10130",
+      "architecture_type": 19,
+      "work_type_id": 15,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 1000,
+          "recipe_ids": [
+            "56"
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10206",
+      "architecture_type": 2,
+      "work_type_id": 15,
+      "levels": [
+        {
+          "level": 1,
+          "capacity": 50,
+          "recipe_ids": [
+            "109"
+          ]
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "1",
+      "volume": 1,
+      "work_amount": 30
+    },
+    {
+      "recipe_id": "2",
+      "volume": 1,
+      "work_amount": 150
+    },
+    {
+      "recipe_id": "3",
+      "volume": 1,
+      "work_amount": 600
+    },
+    {
+      "recipe_id": "4",
+      "volume": 1,
+      "work_amount": 21600
+    },
+    {
+      "recipe_id": "5",
+      "volume": 1,
+      "work_amount": 120000
+    },
+    {
+      "recipe_id": "7",
+      "volume": 1,
+      "work_amount": 60
+    },
+    {
+      "recipe_id": "8",
+      "volume": 1,
+      "work_amount": 300
+    },
+    {
+      "recipe_id": "9",
+      "volume": 1,
+      "work_amount": 36
+    },
+    {
+      "recipe_id": "11",
+      "volume": 1,
+      "work_amount": 48
+    },
+    {
+      "recipe_id": "16",
+      "volume": 1,
+      "work_amount": 600
+    },
+    {
+      "recipe_id": "17",
+      "volume": 1,
+      "work_amount": 240
+    },
+    {
+      "recipe_id": "19",
+      "volume": 1,
+      "work_amount": 200
+    },
+    {
+      "recipe_id": "21",
+      "volume": 1,
+      "work_amount": 360
+    },
+    {
+      "recipe_id": "22",
+      "volume": 1,
+      "work_amount": 3600
+    },
+    {
+      "recipe_id": "24",
+      "volume": 1,
+      "work_amount": 1500
+    },
+    {
+      "recipe_id": "26",
+      "volume": 1,
+      "work_amount": 180
+    },
+    {
+      "recipe_id": "27",
+      "volume": 1,
+      "work_amount": 1200
+    },
+    {
+      "recipe_id": "28",
+      "volume": 1,
+      "work_amount": 96
+    },
+    {
+      "recipe_id": "32",
+      "volume": 1,
+      "work_amount": 900
+    },
+    {
+      "recipe_id": "34",
+      "volume": 1,
+      "work_amount": 1080
+    },
+    {
+      "recipe_id": "36",
+      "volume": 1,
+      "work_amount": 72
+    },
+    {
+      "recipe_id": "41",
+      "volume": 1,
+      "work_amount": 480
+    },
+    {
+      "recipe_id": "42",
+      "volume": 1,
+      "work_amount": 960
+    },
+    {
+      "recipe_id": "43",
+      "volume": 1,
+      "work_amount": 600
+    },
+    {
+      "recipe_id": "44",
+      "volume": 1,
+      "work_amount": 540
+    },
+    {
+      "recipe_id": "45",
+      "volume": 1,
+      "work_amount": 300
+    },
+    {
+      "recipe_id": "46",
+      "volume": 1,
+      "work_amount": 750
+    },
+    {
+      "recipe_id": "47",
+      "volume": 1,
+      "work_amount": 1200
+    },
+    {
+      "recipe_id": "48",
+      "volume": 1,
+      "work_amount": 3600
+    },
+    {
+      "recipe_id": "49",
+      "volume": 1,
+      "work_amount": 720
+    },
+    {
+      "recipe_id": "50",
+      "volume": 1,
+      "work_amount": 480
+    },
+    {
+      "recipe_id": "51",
+      "volume": 1,
+      "work_amount": 720
+    },
+    {
+      "recipe_id": "52",
+      "volume": 1,
+      "work_amount": 900
+    },
+    {
+      "recipe_id": "54",
+      "volume": 1,
+      "work_amount": 300
+    },
+    {
+      "recipe_id": "55",
+      "volume": 1,
+      "work_amount": 105
+    },
+    {
+      "recipe_id": "56",
+      "volume": 1,
+      "work_amount": 250
+    },
+    {
+      "recipe_id": "109",
+      "volume": 1,
+      "work_amount": 100
+    }
+  ],
+  "pets": [
+    {
+      "pet_id": "100101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "100501",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "100601",
+      "work_abilities": [
+        {
+          "work_type_id": 7,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "100701",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "100801",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "100901",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "101001",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "101101",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "101201",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "101301",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "101601",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "101701",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "101801",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "101901",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "102001",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "102004",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "102101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102102",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102103",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102201",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102301",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102401",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102404",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102501",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "102601",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102602",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102701",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "102801",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "102901",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103201",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103301",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103401",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103501",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103601",
+      "work_abilities": [
+        {
+          "work_type_id": 13,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103701",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103704",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103801",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103804",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "103901",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104101",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104201",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104301",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104401",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104501",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104601",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104701",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104801",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "104901",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105001",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105101",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105201",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "105401",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105501",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105504",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105601",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "105701",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "105801",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "105804",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "106101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106104",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106201",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "106202",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "106301",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106401",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106404",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106601",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "106901",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "107001",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 2
+        }
+      ]
+    },
+    {
+      "pet_id": "107801",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "107901",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108001",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "108301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "108401",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108501",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108601",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108701",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108704",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108801",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "108901",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109001",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109101",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109201",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109401",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109501",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109601",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109701",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109801",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "109901",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "110001",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "110101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "110201",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "110501",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "110601",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "110801",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "111001",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111004",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111201",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111204",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111501",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111601",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111701",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "111801",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112001",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112101",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112201",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112301",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112401",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112501",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112801",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "112901",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113101",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113301",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113601",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113701",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113801",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113804",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113901",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "113904",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114001",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114101",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114201",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114202",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114301",
+      "work_abilities": [
+        {
+          "work_type_id": 15,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114401",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114501",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114601",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114701",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114801",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114901",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "114904",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115001",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115101",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115204",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115301",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115501",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115601",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115701",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115801",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "115901",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "116001",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "116501",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "116601",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "116701",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "116801",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "116901",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "117501",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "118101",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "118201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "118204",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "118301",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "118901",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119101",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "119201",
+      "work_abilities": [
+        {
+          "work_type_id": 15,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119204",
+      "work_abilities": [
+        {
+          "work_type_id": 15,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119301",
+      "work_abilities": [
+        {
+          "work_type_id": 15,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119601",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119701",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119801",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "119901",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120501",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120601",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120701",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120704",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120801",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120901",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120902",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "120904",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "121001",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "121004",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "121101",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "121201",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "121301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "121304",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "121401",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "122301",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123101",
+      "work_abilities": [
+        {
+          "work_type_id": 10,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123201",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123401",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123404",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123801",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "123901",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "124001",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "124301",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "124401",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125001",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125002",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "125101",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125301",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125401",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125501",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125801",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125804",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "125901",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "126301",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "126304",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "127001",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "127101",
+      "work_abilities": [
+        {
+          "work_type_id": 5,
+          "level": 1
+        },
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "127301",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "130001",
+      "work_abilities": [
+        {
+          "work_type_id": 9,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "132301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "132401",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "132501",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "133801",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "133901",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "134001",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "135901",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "136101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "136301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "136901",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "139001",
+      "work_abilities": [
+        {
+          "work_type_id": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "139101",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "139201",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "139301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "139304",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "139801",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "141301",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "141401",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "147101",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "147301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "147401",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "147501",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "147601",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "147701",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "147801",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "1000101",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000301",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000401",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000501",
+      "work_abilities": [
+        {
+          "work_type_id": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000502",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000601",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "1000701",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "1000801",
+      "work_abilities": [
+        {
+          "work_type_id": 6,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1000902",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1003201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1003301",
+      "work_abilities": [
+        {
+          "work_type_id": 15,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1003401",
+      "work_abilities": [
+        {
+          "work_type_id": 8,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1003501",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1003601",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1004101",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "1004201",
+      "work_abilities": [
+        {
+          "work_type_id": 1,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "pet_id": "1004301",
+      "work_abilities": []
+    },
+    {
+      "pet_id": "1004302",
+      "work_abilities": [
+        {
+          "work_type_id": 4,
+          "level": 1
+        }
+      ]
+    }
+  ]
+}

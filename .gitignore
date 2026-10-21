@@ -1,0 +1,43 @@
+# Local credentials and personal data
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+runtime/
+**/runtime/
+*.sqlite*
+*.db
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+# Dependencies, build outputs and test artifacts
+.venv/
+**/node_modules/
+frontend/dist/
+frontend/dist-book/
+**/__pycache__/
+**/*.pyc
+**/*.egg-info/
+**/.pytest*/
+**/*.tsbuildinfo
+**/test-results/
+**/playwright-report/
+outputs/
+# User-supplied original materials and third-party art
+samples/
+artifacts/
+rea/
+tools/
+*.apk
+*.aab
+*.dll
+*.so
+*.har
+*.pcap
+*.pcapng
+data/**/images/
+external/

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "verified_client_version": "1.5.3",
+  "verified_hot_version": 62,
+  "verified_hot_versions": [62, 64, 65, 69, 71, 72],
+  "additional_verified_versions": [
+    {
+      "hot_version": 64,
+      "gold_item_id": 10001,
+      "source_game_sha256": "770f11ce26df555e7212a456066e9ddd345b164c9b87f7622b179859fb8bd3b4",
+      "source_catalog_sha256": "5c7956681b33766babb63cd43fbed4f11668f47f98a7391e1a472263e18a6e81",
+      "source_vib_bundle_sha256": "033103f0ddaf02c6c83f235737aaebd713ce97bf3aa9e00e2f8477188b5e546e",
+      "source_vib_normal_sha256": "7f4984247064c82bf5b95539397d2480ec2ebcfdcd7f6c5e8f451a043e06639a",
+      "gold_methods_semantically_unchanged": true,
+      "gold_item_has_no_alias": true,
+      "pachinko_table": {
+        "sha256": "5d82455f4adfb7c8343b6f5ee4e1a44fd6588f1eac3df6477970885ea73e11ed",
+        "rows": 3,
+        "strict_eof": true,
+        "all_target_item_ids": [49001, 49002, 49003],
+        "new_fields": ["ExtreShowStage:int", "RareReward:list<ASR>", "NormalReward:list<ASR>"]
+      },
+      "tables_evidence_sha256": "7d65a45c421b154fe62194cabdf118b9fac1bacae1b79f5c1487e9f3dc19ddeb",
+      "verification_report": "docs/gold-hot64-verification.json"
+    },
+    {
+      "hot_version": 65,
+      "gold_item_id": 10001,
+      "source_game_sha256": "ab029ae5433cbaa8b214a290387b40ae762a154cbc04096a26c886eba4eab4b3",
+      "source_catalog_sha256": "b0f474de9795fe81b842b2f495cb8679531e14fe31cd0698df06b605af19343a",
+      "source_vib_bundle_sha256": "2fee3ffbc597ae35adfbe9a49651f848893f2cd9ca7bf6acd9a4041c7a3e60dd",
+      "source_vib_normal_sha256": "4588cea6d5a101579066e6dcf7dfdb897512b731d7d91f0d3e2da180a2c98914",
+      "gold_methods_semantically_unchanged": true,
+      "gold_wire_definitions_unchanged": true,
+      "gold_normalization_tables_unchanged": true,
+      "gold_item_has_no_alias": true,
+      "verification_report": "docs/gold-hot65-verification.public.json",
+      "verification_report_sha256": "98d4c571742c05e277fbae58718db04cd2ae407d40aae73e3d00650156d936c8"
+    },
+    {
+      "hot_version": 69,
+      "gold_item_id": 10001,
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "9b0766717a442faa4cb9f489fb49db6b8b1342a815344fba10a436622c082cb7",
+      "source_vib_bundle_sha256": "88b1866f44da9609eb4a9134c10c6725149c1686748af180eec51bac51c377fe",
+      "source_vib_normal_sha256": "307a8fdea133349106c8a0e608d4d0736a54153052ece9509702ca6973142797",
+      "gold_consumed_contract_compatible": true,
+      "gold_wire_consumed_fields_unchanged": true,
+      "gold_normalization_for_item_10001_unchanged": true,
+      "gold_item_has_no_alias": true,
+      "verification_report": "docs/hot69-runtime-compatibility.public.json",
+      "verification_report_sha256": "f3b79d1ea8d2da635f90031a0161861f65cb5b0341502264d7bbafbd6bce6101"
+    },
+    {
+      "hot_version": 71,
+      "gold_item_id": 10001,
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "5ae75e7d91edf555f5776fa5eb7089162f5cc5b2918774e74d28610ca6f8cf98",
+      "source_vib_bundle_sha256": "d9d374dd6602d52dafeabf5a2ab722d12a7eb61c588091beda639a46c1937dc8",
+      "gold_consumed_contract_compatible": true,
+      "gold_wire_consumed_fields_unchanged": true,
+      "gold_normalization_for_item_10001_unchanged": true,
+      "gold_item_has_no_alias": true,
+      "verification_report": "docs/gold-hot71-verification.public.json",
+      "verification_report_sha256": "8ee895929acee4096b1489c07d95acf83ed90f610ec32f43595564c8aefddca9"
+    },
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ],
+  "gold_item_id": 10001,
+  "source_game_sha256": "3ba755a6360e3cd8ce36d6e17b86545158a01641a0bdf9b99985c5b09f215431",
+  "source_vib_bundle_sha256": "d6811f5a660d95dfb9779399060f9be23a1f516539f5e59962795301ebca37ad",
+  "source_vib_normal_sha256": "7dd3cf1e234d1384a089771765e414a68f405bb4f4536f43e6c51fe4ae0aa888",
+  "gold_getter": {
+    "method": "Player.get_GoldNum",
+    "token": "0x600070a",
+    "method_body_sha256": "c28a71b24c2a872b55e9fdec84a64bd4ad41abd201ea9d48586a35a4d290dacd",
+    "calls": "Player.GetItemCount(10001)"
+  },
+  "normalization": {
+    "method": "UIUtil.GetItemUseId",
+    "token": "0x600c4c7",
+    "method_body_sha256": "47b8353d5feaafca9a2842a76f10d94bb7953efd06329a83b38c0d128d8e6722",
+    "source_evidence": "artifacts/rumi/pet-catalog/profile-source-cil.sanitized.json",
+    "all_dynamic_branches": {
+      "9": "ActCakeOpen.CakeItem",
+      "11": "ActPachinkoOpen.PachinkoItem",
+      "17": "ActFightDragonOpen.Item",
+      "21": "FarmingSystemData.ActivityItem.Item"
+    },
+    "no_item_use_entry_returns_original_id": true,
+    "other_item_use_types_return_original_id": true,
+    "item_10001_has_no_entry": true,
+    "other_item_ids_can_alias_to_10001_in_verified_tables": false
+  },
+  "decoding": {
+    "method": "RAM-only source-ordered Luban reads; every selected table consumed to exact EOF",
+    "asr_constructor_token": "0x601a376",
+    "asr_constructor_sha256": "4d27922d1607716d8088bfbbc7633ac8cd102d57718b00e9a0374204e4bfb68a",
+    "asr_fields": ["Type:int", "Id:int", "Count:int"],
+    "item_use_constructor_token": "0x601a784",
+    "item_use_constructor_sha256": "ffd1075138596717e3ab077abd70f15cab5f79943799149210d22399a8550167",
+    "item_use_fields": ["UseId:int", "Type:int", "Param1:list<ASR>", "Param2:list<int>", "Param3:list<string>"]
+  },
+  "tables": [
+    {
+      "resource": "ItemUse",
+      "sha256": "3366bbe320635d1f255a9f30832ab4779f17685cf8982dde132f726aa90daa62",
+      "rows": 246,
+      "strict_eof": true,
+      "item_10001_rows": [],
+      "all_dynamic_use_ids_by_type": {"9": [43000], "11": [49000], "17": [47000], "21": [55000]}
+    },
+    {
+      "resource": "ActCakeOpen",
+      "sha256": "36ef6c95a00c844654e4c139bc2d0ab18fe3372c3337268b673f3f16cd54fa04",
+      "rows": 3,
+      "strict_eof": true,
+      "constructor_token": "0x601a14e",
+      "constructor_sha256": "ba7525591c46edf138cc8c1ecfc40687bc39c245d1d0990974709ad2d251dc26",
+      "all_target_item_ids": [43001, 43002, 43003]
+    },
+    {
+      "resource": "ActPachinkoOpen",
+      "sha256": "f6ccf710b0c828b80188f301104246e7229c4620c93d06206de24f27597f81cf",
+      "rows": 3,
+      "strict_eof": true,
+      "constructor_token": "0x601a256",
+      "constructor_sha256": "ca3998e02ffc4bf2a9afba03d67ce103e3536de69bac12bb58db76cdd210e12c",
+      "all_target_item_ids": [49001, 49002, 49003]
+    },
+    {
+      "resource": "ActFightDragonOpen",
+      "sha256": "90861265dbd0cbc59514b65882e81bcd9a5b9c641c832abaff7d9041e7a1ac32",
+      "rows": 2,
+      "strict_eof": true,
+      "constructor_token": "0x601a202",
+      "constructor_sha256": "9b047c4033bf9525681123c77c855930347bea3691536dace26860de5b82a076",
+      "all_target_item_ids": [47001, 47002]
+    },
+    {
+      "resource": "ActFarm",
+      "sha256": "5059fb720dc0578e42a1b23758568b999ca877b874b470ebacbc8da143c5e3e0",
+      "rows": 2,
+      "strict_eof": true,
+      "constructor_token": "0x601a1c0",
+      "constructor_sha256": "0a513844fe774af13871a8e4a6fbcc7e294182dc4b9fc524a7d74da1bf63e83f",
+      "all_target_item_ids": [55001, 55002]
+    }
+  ],
+  "updates": {
+    "initial_command": 2941,
+    "delta_command": 2942,
+    "combined_command": 2016,
+    "change_enum": "ERepeatChangeType",
+    "NEW": "1: add only a previously absent normalized item ID/UID pair",
+    "DEL": "2: remove the matching normalized item ID/UID pair",
+    "MOD": "3: replace the matching item row; count is absolute",
+    "source_evidence": "artifacts/rumi/pet-catalog/profile-item-state-cil.sanitized.json",
+    "receive_update_token": "0x6000f79",
+    "initial_start_token": "0x6000f78"
+  },
+  "limitations": [
+    "This normalization proof applies only to the recorded fixed public resource version.",
+    "Server item delivery and freshness must be established per live session; static tables are not an account balance.",
+    "Malformed, truncated, unsupported or overflowing account updates invalidate the tracked balance until a new full snapshot."
+  ],
+  "target_execution": false,
+  "network_requests_sent": false,
+  "private_values_exported": false,
+  "plaintext_tables_persisted": false
+}

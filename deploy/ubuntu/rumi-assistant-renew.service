@@ -1,0 +1,10 @@
+[Unit]
+Description=Renew Rumi Assistant IP certificate
+Wants=network-online.target
+After=network-online.target nginx.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/rumi-assistant/certbot-venv/bin/certbot renew --non-interactive --quiet --cert-name example.com --config-dir /opt/rumi-assistant/tls/config --work-dir /opt/rumi-assistant/tls/work --logs-dir /opt/rumi-assistant/tls/logs
+TimeoutStartSec=10min
+UMask=0077

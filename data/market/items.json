@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "game_package": "com.bilibili.lumi.cn",
+  "apk_version": "1.5.3",
+  "source": "evidence/item-config.public.json; evidence/order-rewards.public.json",
+  "items": [
+    {
+      "config_id": 10031,
+      "item_id": "10031",
+      "name": "噜咪卡",
+      "name_verified": true,
+      "image_path": "images/10031.png",
+      "image_sha256": "6c3c0998fe943b5ef57d652c7fefc7192c76ce88c6193191e787c17b1f967d54",
+      "quality": 1,
+      "configuration_name_key": "Item_10031",
+      "configuration_atlas": "IconItem",
+      "configuration_icon": "Item_10031",
+      "source": "Config.Table.Item.Key1/Name/Atlas/Icon, MultilingualCN.Id/Data and exact IconItem SpriteAtlas membership; see evidence/item-config.public.json#10031"
+    },
+    {
+      "config_id": 10032,
+      "item_id": "10032",
+      "name": "强化噜咪卡",
+      "name_verified": true,
+      "image_path": "images/10032.png",
+      "image_sha256": "6820a8a54214579960ad4e5f063bacf112ffb8d374d9c6d9b52143ecbb4a150b",
+      "quality": 2,
+      "configuration_name_key": "Item_10032",
+      "configuration_atlas": "IconItem",
+      "configuration_icon": "Item_10032",
+      "source": "Config.Table.Item.Key1/Name/Atlas/Icon, MultilingualCN.Id/Data and exact IconItem SpriteAtlas membership; see evidence/item-config.public.json#10032"
+    },
+    {
+      "config_id": 10033,
+      "item_id": "10033",
+      "name": "精致噜咪卡",
+      "name_verified": true,
+      "image_path": "images/10033.png",
+      "image_sha256": "e6db460a53af2ceab2b244f549ca5584b4da11a4e6a090e80cc29ae5c9b36e2e",
+      "quality": 3,
+      "configuration_name_key": "Item_10033",
+      "configuration_atlas": "IconItem",
+      "configuration_icon": "Item_10033",
+      "source": "Config.Table.Item.Key1/Name/Atlas/Icon, MultilingualCN.Id/Data and exact IconItem SpriteAtlas membership; see evidence/item-config.public.json#10033"
+    },
+    {
+      "config_id": 10034,
+      "item_id": "10034",
+      "name": "史诗噜咪卡",
+      "name_verified": true,
+      "image_path": "images/10034.png",
+      "image_sha256": "dd2a40a081f46c65a6a478fd22eac1ad4b9ec22aebff9fb9cdb7925c6e118fdd",
+      "quality": 4,
+      "configuration_name_key": "Item_10034",
+      "configuration_atlas": "IconItem",
+      "configuration_icon": "Item_10034",
+      "source": "Config.Table.Item.Key1/Name/Atlas/Icon, MultilingualCN.Id/Data and exact IconItem SpriteAtlas membership; see evidence/item-config.public.json#10034"
+    },
+    {
+      "config_id": 10035,
+      "item_id": "10035",
+      "name": "传奇噜咪卡",
+      "name_verified": true,
+      "image_path": "images/10035.png",
+      "image_sha256": "c171a22e526aa902abb1802e06ac7988945a6b006d64e2efd407525fe4420d0d",
+      "quality": 5,
+      "configuration_name_key": "Item_10035",
+      "configuration_atlas": "IconItem",
+      "configuration_icon": "Item_10035",
+      "source": "Config.Table.Item.Key1/Name/Atlas/Icon, MultilingualCN.Id/Data and exact IconItem SpriteAtlas membership; see evidence/item-config.public.json#10035"
+    },
+    {
+      "config_id": 10001,
+      "item_id": "10001",
+      "name": "金币",
+      "name_verified": true,
+      "configuration_name_key": "Item_10001",
+      "source": "Config.Table.Item.Key1/Name joined to MultilingualCN.Id/Data; see evidence/order-rewards.public.json#10001"
+    },
+    {
+      "config_id": 10004,
+      "item_id": "10004",
+      "name": "体力",
+      "name_verified": true,
+      "configuration_name_key": "Item_10004",
+      "source": "Config.Table.Item.Key1/Name joined to MultilingualCN.Id/Data; see evidence/order-rewards.public.json#10004"
+    },
+    {
+      "config_id": 54001,
+      "item_id": "54001",
+      "name": "罐头",
+      "name_verified": true,
+      "configuration_name_key": "Item_54001",
+      "source": "Config.Table.Item.Key1/Name joined to MultilingualCN.Id/Data; see evidence/order-rewards.public.json#54001"
+    },
+    {
+      "config_id": 54002,
+      "item_id": "54002",
+      "name": "公会罐头",
+      "name_verified": true,
+      "configuration_name_key": "Item_54002",
+      "source": "Config.Table.Item.Key1/Name joined to MultilingualCN.Id/Data; see evidence/order-rewards.public.json#54002"
+    }
+  ]
+}

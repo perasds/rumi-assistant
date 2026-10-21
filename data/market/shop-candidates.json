@@ -1,0 +1,2561 @@
+{
+  "schema_version": 1,
+  "app_version": "1.5.3",
+  "classification": "Static read-only query candidates; never live price, stock or purchase eligibility.",
+  "source_game_sha256": "3ba755a6360e3cd8ce36d6e17b86545158a01641a0bdf9b99985c5b09f215431",
+  "source_evidence": [
+    {
+      "path": "artifacts/rumi/pet-catalog/market-price-candidates.public.json",
+      "sha256": "82e23d9554451baf5152aa9412e841777bf442721977ff378f0614c3d0dfcb53"
+    },
+    {
+      "path": "artifacts/rumi/pet-catalog/pet-config.public.json",
+      "sha256": "e6cca45dbec57acdb9303128194cb99e6dd87e3142b032608988946b590c9227"
+    },
+    {
+      "path": "rumi-market/data/pets/names.json",
+      "sha256": "121082835ad69eee5433cab702d3586a1f79b202fcc2e774675d862de5ba39b1"
+    },
+    {
+      "path": "rumi-market/data/pets/catalog.json",
+      "sha256": "890fa7988b7a2c3ba80f84454bdde80c84bdacb889f9d2c5fad13536720d533d"
+    },
+    {
+      "path": "artifacts/rumi/pet-catalog/market-buy-eligibility.sanitized.json",
+      "sha256": "729e2188a95ab17325bf12fd23fd188cd2921ade0fc958116b644e30626cf95c"
+    },
+    {
+      "path": "rumi-market/data/pets/evidence/pet-config-names.public.json",
+      "sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232"
+    }
+  ],
+  "pet_join": "Exact MarketPrice.Id -> public Lumi.config_id -> explicit public pet_id/name; confirmed UI linkage; no numeric ID transform.",
+  "image_path_base": "data/pets",
+  "fresh_request_price": {
+    "value": 0,
+    "meaning": "CLR Int32 new-object default used by reviewed normal/item request builders; not a market quote.",
+    "field": {
+      "owner": "MarketSystemShop",
+      "name": "Price",
+      "token": "0x400078d",
+      "signature": "0608"
+    },
+    "constructor": {
+      "owner": "MarketSystemShop",
+      "name": ".ctor",
+      "token": "0x6001146",
+      "method_body_sha256": "b2c0bf4e018fca34e114ce0087a8389e9151e3cd2b5cdc20b5a4b1c0d9cb8d49"
+    },
+    "request_builders": [
+      {
+        "owner": "TradeBiddingNormalSubViewController",
+        "name": "_RequestShopItemPrice",
+        "token": "0x6007799",
+        "method_body_sha256": "c1278bd54fc9fbf1ac0d81aa699e221f25a9ee0bff79a397399ddcb4bbfcb66e",
+        "initialized_fields": [
+          "Id",
+          "Quality",
+          "Type",
+          "RType"
+        ]
+      },
+      {
+        "owner": "TradeBiddingItemSubViewController",
+        "name": "QueryAndOpenBuyView",
+        "token": "0x6007772",
+        "method_body_sha256": "aa8405182130581ff63757ae64d5501995c8f0a646022bc87174a023836590bf",
+        "initialized_fields": [
+          "Id",
+          "RType",
+          "Quality"
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "normal_pairs": 304,
+    "normal_pet_ids": 152,
+    "items": 5
+  },
+  "normal_pets": [
+    {
+      "config_id": 100101,
+      "quality": 5,
+      "pet_id": "100101",
+      "name": "卡皮巴拉",
+      "image_path": "images/by-id/100101.png",
+      "image_sha256": "9b33ca622eaeb5e76156151d3359b390ac93bb13ee6fa8458388480a421dad90"
+    },
+    {
+      "config_id": 100501,
+      "quality": 5,
+      "pet_id": "100501",
+      "name": "多肉猫",
+      "image_path": "images/by-id/100501.png",
+      "image_sha256": "95179d71cda37763cc62a1ae375b52af4769d5fe6a5331e7b6b02edafc25625d"
+    },
+    {
+      "config_id": 100601,
+      "quality": 5,
+      "pet_id": "100601",
+      "name": "咕咕鸡",
+      "image_path": "images/by-id/100601.png",
+      "image_sha256": "22a0809f9a637cbbc053bdc7492539d17437cc35f281ad19a9339be09e5a560a"
+    },
+    {
+      "config_id": 100701,
+      "quality": 5,
+      "pet_id": "100701",
+      "name": "炸弹鸡",
+      "image_path": "images/by-id/100701.png",
+      "image_sha256": "73707cedffed67fe335fca431fb0afedde23d44d6d28d487647ddc159d643ac9"
+    },
+    {
+      "config_id": 100801,
+      "quality": 5,
+      "pet_id": "100801",
+      "name": "练习鸡",
+      "image_path": "images/by-id/100801.png",
+      "image_sha256": "220c3eeb965f853ed5520a65d85725c5e7f0fd624d3c6211b6b2935e64960bfe"
+    },
+    {
+      "config_id": 100901,
+      "quality": 5,
+      "pet_id": "100901",
+      "name": "香菇鸡",
+      "image_path": "images/by-id/100901.png",
+      "image_sha256": "18c29434a3a3cb6ffd9fabc545c9a006646f21775fdd8e41aeb62f630a153330"
+    },
+    {
+      "config_id": 101001,
+      "quality": 5,
+      "pet_id": "101001",
+      "name": "小菜鸡",
+      "image_path": "images/by-id/101001.png",
+      "image_sha256": "2c1c477c7cbf93bc55fa2f9567f17638de57fa2a7da984af7a81ed7d1f644b4b"
+    },
+    {
+      "config_id": 101101,
+      "quality": 5,
+      "pet_id": "101101",
+      "name": "柴火熊",
+      "image_path": "images/by-id/101101.png",
+      "image_sha256": "1c6022f811d1c509c7455c3ddaabdcb035183f0f89415402c8871cdb6e8b67fd"
+    },
+    {
+      "config_id": 101201,
+      "quality": 5,
+      "pet_id": "101201",
+      "name": "火猫",
+      "image_path": "images/by-id/101201.png",
+      "image_sha256": "0e283f63559db574bfa3e58ec37ad014bc3979c3e188dbe08c6d3809255bc832"
+    },
+    {
+      "config_id": 101301,
+      "quality": 5,
+      "pet_id": "101301",
+      "name": "好运鸟",
+      "image_path": "images/by-id/101301.png",
+      "image_sha256": "29bf49c08ea02b512b66adb2a2148a0beced2cad24718754bc06124302e632d6"
+    },
+    {
+      "config_id": 101601,
+      "quality": 5,
+      "pet_id": "101601",
+      "name": "火龙",
+      "image_path": "images/by-id/101601.png",
+      "image_sha256": "46b1f42578ba243a9de38d0d0659757f9427f7a3a015798c01753be918e08761"
+    },
+    {
+      "config_id": 101801,
+      "quality": 5,
+      "pet_id": "101801",
+      "name": "飞叶鼠",
+      "image_path": "images/by-id/101801.png",
+      "image_sha256": "9f0edc93ffef00b2b489f2b3e3e322dd8ab520cb82c7189e70edd9405159062f"
+    },
+    {
+      "config_id": 101901,
+      "quality": 5,
+      "pet_id": "101901",
+      "name": "小鹿晶晶",
+      "image_path": "images/by-id/101901.png",
+      "image_sha256": "f457ce658ac6088ae22635489e9ca0362b56c1e1886b76d81d4301633443b263"
+    },
+    {
+      "config_id": 102001,
+      "quality": 5,
+      "pet_id": "102001",
+      "name": "冰川鹿",
+      "image_path": "images/by-id/102001.png",
+      "image_sha256": "bee43d2d0ddf84f7ddcc764262c70c2fb7eb10af84ef31144098a595e5a4fcda"
+    },
+    {
+      "config_id": 102201,
+      "quality": 5,
+      "pet_id": "102201",
+      "name": "小马嘟嘟",
+      "image_path": "images/by-id/102201.png",
+      "image_sha256": "8b49a6ee1ab0f847574a87d42acac9e8ef7421d9823957ca94c94627d43eec39"
+    },
+    {
+      "config_id": 102301,
+      "quality": 5,
+      "pet_id": "102301",
+      "name": "独角兽",
+      "image_path": "images/by-id/102301.png",
+      "image_sha256": "4090fa1e4cb95bbaf47d2a780c83b9a71df119be7ab82a20bbcff082f90ce286"
+    },
+    {
+      "config_id": 102401,
+      "quality": 5,
+      "pet_id": "102401",
+      "name": "金刚狼",
+      "image_path": "images/by-id/102401.png",
+      "image_sha256": "3ab5fc6c1fc7771701482697fd259466e56e44f5f2b21021dcea6f8b8ccb9cb3"
+    },
+    {
+      "config_id": 102501,
+      "quality": 5,
+      "pet_id": "102501",
+      "name": "发奋仓鼠",
+      "image_path": "images/by-id/102501.png",
+      "image_sha256": "2a69524a4779ddccbaeacf13afc7387b84605f9bbce668cd75045e706df9a496"
+    },
+    {
+      "config_id": 102601,
+      "quality": 5,
+      "pet_id": "102601",
+      "name": "筋肉狗",
+      "image_path": "images/by-id/102601.png",
+      "image_sha256": "b0aaf77c670e5318c84ed9b813e183992977fc970a7f57a77d5bc608426af441"
+    },
+    {
+      "config_id": 102701,
+      "quality": 5,
+      "pet_id": "102701",
+      "name": "筋肉鹅",
+      "image_path": "images/by-id/102701.png",
+      "image_sha256": "5880ba2c625854a82ad045cd2a270bd65df7cf83982aca68f6d634502cbc0868"
+    },
+    {
+      "config_id": 102801,
+      "quality": 5,
+      "pet_id": "102801",
+      "name": "传话蛙",
+      "image_path": "images/by-id/102801.png",
+      "image_sha256": "0309f9b032ac4c8ded8a04eeea0ef91a9ad432020dab34b6deceac5612e22c55"
+    },
+    {
+      "config_id": 102901,
+      "quality": 5,
+      "pet_id": "102901",
+      "name": "淘淘",
+      "image_path": "images/by-id/102901.png",
+      "image_sha256": "bf0e8eb978b6c95991e6800067d801841ce54c6521d944abdd62b9253512c649"
+    },
+    {
+      "config_id": 103201,
+      "quality": 5,
+      "pet_id": "103201",
+      "name": "水母花花",
+      "image_path": "images/by-id/103201.png",
+      "image_sha256": "4948789d073fca656bed33ec65ea82f36608b78cc9a04dbedd6547ca02236e8d"
+    },
+    {
+      "config_id": 103301,
+      "quality": 5,
+      "pet_id": "103301",
+      "name": "企鹅秋秋",
+      "image_path": "images/by-id/103301.png",
+      "image_sha256": "137a537132dbbbcacf988d9e80296a3309766d2e1373472b27cbee75d5664b29"
+    },
+    {
+      "config_id": 103401,
+      "quality": 5,
+      "pet_id": "103401",
+      "name": "小火狐",
+      "image_path": "images/by-id/103401.png",
+      "image_sha256": "280558ae0e090d19f17578c41bb6520b4efee7fc860d104f28f9a2e648c8ca22"
+    },
+    {
+      "config_id": 103501,
+      "quality": 5,
+      "pet_id": "103501",
+      "name": "软脚虾",
+      "image_path": "images/by-id/103501.png",
+      "image_sha256": "52c9622451fea22910830c38fb2493a922fedfbf71293b2f57ff12c018be90e1"
+    },
+    {
+      "config_id": 103601,
+      "quality": 5,
+      "pet_id": "103601",
+      "name": "奶牛哞哞",
+      "image_path": "images/by-id/103601.png",
+      "image_sha256": "9eacc8057de759fb0c5be9d7b8d3bd5372f6e887149c0e29567f875313a20a11"
+    },
+    {
+      "config_id": 103701,
+      "quality": 5,
+      "pet_id": "103701",
+      "name": "呐喊君",
+      "image_path": "images/by-id/103701.png",
+      "image_sha256": "03c4ed856adbe0fe69b9a53046447c2545d58c255b952402f40e0963d8d8b743"
+    },
+    {
+      "config_id": 103801,
+      "quality": 5,
+      "pet_id": "103801",
+      "name": "黄风大圣",
+      "image_path": "images/by-id/103801.png",
+      "image_sha256": "d13af2ab50b46789cc519343cae4fbf11ab2f85033e6228e981ebc545d49fda8"
+    },
+    {
+      "config_id": 103901,
+      "quality": 5,
+      "pet_id": "103901",
+      "name": "食梦貘",
+      "image_path": "images/by-id/103901.png",
+      "image_sha256": "891b3e0774f98155aaaffbb69dc4ceeef8208f90122481f53a61d364b2947a78"
+    },
+    {
+      "config_id": 104101,
+      "quality": 5,
+      "pet_id": "104101",
+      "name": "小钢狼",
+      "image_path": "images/by-id/104101.png",
+      "image_sha256": "6322b6dc26b115e9e350aa6370b204c790359e3e4db3bb2a49f6c2fbff3b0ab4"
+    },
+    {
+      "config_id": 104201,
+      "quality": 5,
+      "pet_id": "104201",
+      "name": "土犀犀",
+      "image_path": "images/by-id/104201.png",
+      "image_sha256": "29180ada277ff7390b4c728a65f22a9e4bee5fd2c914169bbceaf40c1508e779"
+    },
+    {
+      "config_id": 104301,
+      "quality": 5,
+      "pet_id": "104301",
+      "name": "火马墩墩",
+      "image_path": "images/by-id/104301.png",
+      "image_sha256": "cb26deb493d9c0ec8dd34c4099bb51b8fe8a73945ede1ed75f48b1f23a07f7ed"
+    },
+    {
+      "config_id": 104401,
+      "quality": 5,
+      "pet_id": "104401",
+      "name": "地鼠方方",
+      "image_path": "images/by-id/104401.png",
+      "image_sha256": "373d6389c7bc6fde15ec88ac1557ee9e814cf79d47612487a72ea8650634f8fe"
+    },
+    {
+      "config_id": 104501,
+      "quality": 5,
+      "pet_id": "104501",
+      "name": "火莱姆",
+      "image_path": "images/by-id/104501.png",
+      "image_sha256": "890b1a8a3d69044fca1dbe479d01a674273da2fa71731f7c4a0702fed2ff0c37"
+    },
+    {
+      "config_id": 104601,
+      "quality": 5,
+      "pet_id": "104601",
+      "name": "水莱姆",
+      "image_path": "images/by-id/104601.png",
+      "image_sha256": "f2097c1d4efc3ae22074f9d0eb80a247642f56d9001f590de10cbd8de50ddb43"
+    },
+    {
+      "config_id": 104701,
+      "quality": 5,
+      "pet_id": "104701",
+      "name": "冰莱姆",
+      "image_path": "images/by-id/104701.png",
+      "image_sha256": "e8655fb64ff0895e8edd838706fb84194df4a67c65d4842854fe0e35b7828f83"
+    },
+    {
+      "config_id": 104801,
+      "quality": 5,
+      "pet_id": "104801",
+      "name": "草莱姆",
+      "image_path": "images/by-id/104801.png",
+      "image_sha256": "7d2834ddcabf9b706a9047ede96dfb5e2b33b698985fcb5ca5f2be4768106f16"
+    },
+    {
+      "config_id": 104901,
+      "quality": 5,
+      "pet_id": "104901",
+      "name": "电莱姆",
+      "image_path": "images/by-id/104901.png",
+      "image_sha256": "a352ee0662273c9a28ef6f5cc922493f41bd120173e337836ee2b4f80000a5f1"
+    },
+    {
+      "config_id": 105001,
+      "quality": 5,
+      "pet_id": "105001",
+      "name": "土莱姆",
+      "image_path": "images/by-id/105001.png",
+      "image_sha256": "94dcfd77dc4da9306cc2c3646ef32fec67ffb770991257943785558c6d10d28c"
+    },
+    {
+      "config_id": 105101,
+      "quality": 5,
+      "pet_id": "105101",
+      "name": "暗莱姆",
+      "image_path": "images/by-id/105101.png",
+      "image_sha256": "82f595977b0d679edb35e2c38d55b5875d0cf79336d26952256322badb6e48b2"
+    },
+    {
+      "config_id": 105201,
+      "quality": 5,
+      "pet_id": "105201",
+      "name": "光莱姆",
+      "image_path": "images/by-id/105201.png",
+      "image_sha256": "c7e21392917f50c730ce218ff7482d55af4e9b97ab1a7a70bdd71e798133501f"
+    },
+    {
+      "config_id": 105401,
+      "quality": 5,
+      "pet_id": "105401",
+      "name": "怪盗蝠",
+      "image_path": "images/by-id/105401.png",
+      "image_sha256": "7e3807cd7625a39b54ce3c6957cded97d7272f7af142bf726b1b04ed6dfaee6c"
+    },
+    {
+      "config_id": 105501,
+      "quality": 5,
+      "pet_id": "105501",
+      "name": "闪电狗",
+      "image_path": "images/by-id/105501.png",
+      "image_sha256": "4fe449056cb08e1e4abbcbffbf059e0ea8bef7e511b9293e47798fc0ecc5cc53"
+    },
+    {
+      "config_id": 105601,
+      "quality": 5,
+      "pet_id": "105601",
+      "name": "小蜜蜜",
+      "image_path": "images/by-id/105601.png",
+      "image_sha256": "04f882c62b12471c9cc362f069ba7f1c3898af3dc1db867c46d1f61b5acdbd07"
+    },
+    {
+      "config_id": 105701,
+      "quality": 5,
+      "pet_id": "105701",
+      "name": "盼盼",
+      "image_path": "images/by-id/105701.png",
+      "image_sha256": "87fdb634b4728d30098907bee7e6259634b59bd12f05d16e6fe81cad3223461a"
+    },
+    {
+      "config_id": 106101,
+      "quality": 5,
+      "pet_id": "106101",
+      "name": "月兔",
+      "image_path": "images/by-id/106101.png",
+      "image_sha256": "b93aeffa792aa3eddb41817aa4281a2b0c472ea9b1bb401e90c05bd9817b3beb"
+    },
+    {
+      "config_id": 106201,
+      "quality": 5,
+      "pet_id": "106201",
+      "name": "只鼬",
+      "image_path": "images/by-id/106201.png",
+      "image_sha256": "f04e500e4067dbffb0b3d57cbc8b86d75356f8371be27628c9dcbe89009157b4"
+    },
+    {
+      "config_id": 106301,
+      "quality": 5,
+      "pet_id": "106301",
+      "name": "狮鹫宝宝",
+      "image_path": "images/by-id/106301.png",
+      "image_sha256": "304e71b2c297aed0ae6162026a50ec9306176fac8b7b4d6c8f291762856dfddd"
+    },
+    {
+      "config_id": 106401,
+      "quality": 5,
+      "pet_id": "106401",
+      "name": "英俊狮鹫",
+      "image_path": "images/by-id/106401.png",
+      "image_sha256": "99404a4247fc3563997357d9bb6bc471df7df784f2ba2d793ad44143d769eeb3"
+    },
+    {
+      "config_id": 106601,
+      "quality": 5,
+      "pet_id": "106601",
+      "name": "美团团",
+      "image_path": "images/by-id/106601.png",
+      "image_sha256": "7bff20378449ace80e16c890f0512d4d51ca470bac50e9f639ef7d27a6fbe999"
+    },
+    {
+      "config_id": 106901,
+      "quality": 5,
+      "pet_id": "106901",
+      "name": "雨鳍猫鲨",
+      "image_path": "images/by-id/106901.png",
+      "image_sha256": "0ab6b4c1015d02afaf5649c3545c5de8074c8da3703425061d64d793ca47392b"
+    },
+    {
+      "config_id": 107001,
+      "quality": 5,
+      "pet_id": "107001",
+      "name": "迷梦猫鲨",
+      "image_path": "images/by-id/107001.png",
+      "image_sha256": "c68125c315c0d9d9ae28f6cf64f728edf28a868542e45840e0bdaefda1b0442a"
+    },
+    {
+      "config_id": 107801,
+      "quality": 5,
+      "pet_id": "107801",
+      "name": "筋肉虎",
+      "image_path": "images/by-id/107801.png",
+      "image_sha256": "0b05ef832df3a9e0f5c920eab830934cd60a3e1137220f27eaad8518957f37d8"
+    },
+    {
+      "config_id": 107901,
+      "quality": 5,
+      "pet_id": "107901",
+      "name": "火龙宝宝",
+      "image_path": "images/by-id/107901.png",
+      "image_sha256": "3c954ce572483579af486741bd89b638e5325dcc269143df696b6c2aaf3cc939"
+    },
+    {
+      "config_id": 108401,
+      "quality": 5,
+      "pet_id": "108401",
+      "name": "小火喵",
+      "image_path": "images/by-id/108401.png",
+      "image_sha256": "5df7865c8aeb89e0a7ed797e55c9bc3345f7421dfb9d3e68414fe7cb2b34b2aa"
+    },
+    {
+      "config_id": 108501,
+      "quality": 5,
+      "pet_id": "108501",
+      "name": "小叶鼠",
+      "image_path": "images/by-id/108501.png",
+      "image_sha256": "18e061ee586841e960a9785e5d180e2015611460b4629fd160682f9aa4120d6e"
+    },
+    {
+      "config_id": 108601,
+      "quality": 5,
+      "pet_id": "108601",
+      "name": "水母贝贝",
+      "image_path": "images/by-id/108601.png",
+      "image_sha256": "e4cc46f101de53dc5bf96d3bf34147d3f1174f96826dfd144c52125cd56b77ac"
+    },
+    {
+      "config_id": 108701,
+      "quality": 5,
+      "pet_id": "108701",
+      "name": "响尾眼镜蛇",
+      "image_path": "images/by-id/108701.png",
+      "image_sha256": "465c6a95f525c17c4535ec192ed9fde41e724aca57895a9afce3a6bb0946c9ef"
+    },
+    {
+      "config_id": 108801,
+      "quality": 5,
+      "pet_id": "108801",
+      "name": "石猩猩",
+      "image_path": "images/by-id/108801.png",
+      "image_sha256": "fc459ad428933b3d108a461a0d09bfcf562525fbc96c5f299114cb106fc42e20"
+    },
+    {
+      "config_id": 108901,
+      "quality": 5,
+      "pet_id": "108901",
+      "name": "花牌孔雀",
+      "image_path": "images/by-id/108901.png",
+      "image_sha256": "2cf0a69ba8003810e3cb023169e958e5456934acda0f3fa2d4e4531c916354bc"
+    },
+    {
+      "config_id": 109401,
+      "quality": 5,
+      "pet_id": "109401",
+      "name": "火炎莱姆",
+      "image_path": "images/by-id/109401.png",
+      "image_sha256": "028b60a2bb8243c3dd5f01a6809969f4a0df8bc5df98d762b275277762fa0ad4"
+    },
+    {
+      "config_id": 109501,
+      "quality": 5,
+      "pet_id": "109501",
+      "name": "水鳍莱姆",
+      "image_path": "images/by-id/109501.png",
+      "image_sha256": "aaa16f031f092d3faa0ef90ddedff578a114a990daeab0a106248de54bb44bad"
+    },
+    {
+      "config_id": 109601,
+      "quality": 5,
+      "pet_id": "109601",
+      "name": "冰晶莱姆",
+      "image_path": "images/by-id/109601.png",
+      "image_sha256": "245a1dd972905d86a37b601a36bfbf6a5130d65de2aa8b96e52cae2137ba837b"
+    },
+    {
+      "config_id": 109701,
+      "quality": 5,
+      "pet_id": "109701",
+      "name": "草冠莱姆",
+      "image_path": "images/by-id/109701.png",
+      "image_sha256": "941701b6ffa844cfbf7334961368a14d69cfa70f754f09bf2d7c2e22a9238293"
+    },
+    {
+      "config_id": 109801,
+      "quality": 5,
+      "pet_id": "109801",
+      "name": "电鸣莱姆",
+      "image_path": "images/by-id/109801.png",
+      "image_sha256": "b11479e9d139808c75d61fcc44ab3f8b14cd2e316b0cd57e024f203072a05a58"
+    },
+    {
+      "config_id": 109901,
+      "quality": 5,
+      "pet_id": "109901",
+      "name": "土脉莱姆",
+      "image_path": "images/by-id/109901.png",
+      "image_sha256": "2da61bbefc6c59953aa39fb284d5ce3e675a6712405747743dd6a90ce841dd7b"
+    },
+    {
+      "config_id": 110501,
+      "quality": 5,
+      "pet_id": "110501",
+      "name": "猫鲨",
+      "image_path": "images/by-id/110501.png",
+      "image_sha256": "14e871aee5704f0f395079ac4aba897fd90c3458d8d3c5dc46671e7c6fc4df37"
+    },
+    {
+      "config_id": 110601,
+      "quality": 5,
+      "pet_id": "110601",
+      "name": "叶刃猫鲨",
+      "image_path": "images/by-id/110601.png",
+      "image_sha256": "3492a6ae328c8340bb04b34823345b49e2023d48ed4bc621e7f5cb4de2c7b9d2"
+    },
+    {
+      "config_id": 110801,
+      "quality": 5,
+      "pet_id": "110801",
+      "name": "喵鲨",
+      "image_path": "images/by-id/110801.png",
+      "image_sha256": "65c2ca028785f49ffc2914b7e30e92fa56830cb2e55ba647f5617a10999bb6a5"
+    },
+    {
+      "config_id": 111501,
+      "quality": 5,
+      "pet_id": "111501",
+      "name": "炽焰猫鲨",
+      "image_path": "images/by-id/111501.png",
+      "image_sha256": "af8f4f1227eb9c2a1fd3b15deb25ba60a7dc9e8ec9aee7377babb6650c8a6a71"
+    },
+    {
+      "config_id": 111601,
+      "quality": 5,
+      "pet_id": "111601",
+      "name": "霹雳猫鲨",
+      "image_path": "images/by-id/111601.png",
+      "image_sha256": "b93b86c9945ace33d9af1cd04baffcf1fe402fff5c3a207cd7095912cc933eb0"
+    },
+    {
+      "config_id": 111701,
+      "quality": 5,
+      "pet_id": "111701",
+      "name": "飞行猫鲨",
+      "image_path": "images/by-id/111701.png",
+      "image_sha256": "b89570372db840e990789b6fe2195b844d32eb486831386746a59616462960ff"
+    },
+    {
+      "config_id": 111801,
+      "quality": 5,
+      "pet_id": "111801",
+      "name": "许愿灯象",
+      "image_path": "images/by-id/111801.png",
+      "image_sha256": "97ffb94309985cc531ed21e60b118e10388771c291736a07fc487cc97d31e032"
+    },
+    {
+      "config_id": 112001,
+      "quality": 5,
+      "pet_id": "112001",
+      "name": "水龙宝宝",
+      "image_path": "images/by-id/112001.png",
+      "image_sha256": "ae27d7640701d5e242b7cf66949eb9c7d06ae233dc67f58af0576cc4290bce35"
+    },
+    {
+      "config_id": 112101,
+      "quality": 5,
+      "pet_id": "112101",
+      "name": "只鼬宝宝",
+      "image_path": "images/by-id/112101.png",
+      "image_sha256": "797614f6ac2d38b2a739e32c6e0dfa7a40555955e6d4de3a9bc71e06657842ba"
+    },
+    {
+      "config_id": 112301,
+      "quality": 5,
+      "pet_id": "112301",
+      "name": "吓吓团",
+      "image_path": "images/by-id/112301.png",
+      "image_sha256": "5c87c6e498ce46777ac12a201c6f2fbb60ee26217586de6edf65e53aefdad3e8"
+    },
+    {
+      "config_id": 112401,
+      "quality": 5,
+      "pet_id": "112401",
+      "name": "喷喷蟹",
+      "image_path": "images/by-id/112401.png",
+      "image_sha256": "5c36bac2c32cec1cdb7ef4ab5f83efb6112b147e173762eb1e064a19282c5535"
+    },
+    {
+      "config_id": 112501,
+      "quality": 5,
+      "pet_id": "112501",
+      "name": "石角龟",
+      "image_path": "images/by-id/112501.png",
+      "image_sha256": "96f207a75abf4d1650823b76332e963e75c57ef5cd90bc70dca2f5e3a37e56a7"
+    },
+    {
+      "config_id": 112801,
+      "quality": 5,
+      "pet_id": "112801",
+      "name": "草龙宝宝",
+      "image_path": "images/by-id/112801.png",
+      "image_sha256": "68d9f8e85e7ae8f96eaf6170fd7699aadb6d66f9395f98a55d55f1e2603f3cda"
+    },
+    {
+      "config_id": 112901,
+      "quality": 5,
+      "pet_id": "112901",
+      "name": "刺啦汪",
+      "image_path": "images/by-id/112901.png",
+      "image_sha256": "b549fef284be96acb8a2930dced283ea67b6bea0377ff2fd409e4d89d352b3bc"
+    },
+    {
+      "config_id": 113101,
+      "quality": 5,
+      "pet_id": "113101",
+      "name": "炽焰马",
+      "image_path": "images/by-id/113101.png",
+      "image_sha256": "f2a1b13b04353155f53a3018d8f9f64375d4ebff9130e569223fc63f1ee6802c"
+    },
+    {
+      "config_id": 113301,
+      "quality": 5,
+      "pet_id": "113301",
+      "name": "球蝌蚪",
+      "image_path": "images/by-id/113301.png",
+      "image_sha256": "1d96226699c810c8ab7ea09f5f0d390f5609041b91ac7db1776ff1c5c486743b"
+    },
+    {
+      "config_id": 113601,
+      "quality": 5,
+      "pet_id": "113601",
+      "name": "云朵毛毛",
+      "image_path": "images/by-id/113601.png",
+      "image_sha256": "822a24cd6d949bea78f13af20444f87d463dedc07894ba8cf52678e1cc60d4be"
+    },
+    {
+      "config_id": 114001,
+      "quality": 5,
+      "pet_id": "114001",
+      "name": "冰狼崽",
+      "image_path": "images/by-id/114001.png",
+      "image_sha256": "6c4d343247df041e40dfdb324d05ac3d6bda5acdd1c0372ab5ee1fe2d6fb7880"
+    },
+    {
+      "config_id": 114101,
+      "quality": 5,
+      "pet_id": "114101",
+      "name": "冰晶狼",
+      "image_path": "images/by-id/114101.png",
+      "image_sha256": "ae14daa61cd01b4ddafc7200a0cc19614425761b4aaaca7deb0851dbba82d97b"
+    },
+    {
+      "config_id": 114301,
+      "quality": 5,
+      "pet_id": "114301",
+      "name": "海宝宝",
+      "image_path": "images/by-id/114301.png",
+      "image_sha256": "789a06258c58eaf316c432b86c88ed87cc7478e2fdb986c751bfcdf574d4384e"
+    },
+    {
+      "config_id": 114401,
+      "quality": 5,
+      "pet_id": "114401",
+      "name": "晴天娃娃",
+      "image_path": "images/by-id/114401.png",
+      "image_sha256": "1e7f53ff5d22c0876b04d4b5621b83d53c80404bf6d87e52dcaee4ac3a3a6cf5"
+    },
+    {
+      "config_id": 114501,
+      "quality": 5,
+      "pet_id": "114501",
+      "name": "晴天精灵",
+      "image_path": "images/by-id/114501.png",
+      "image_sha256": "00b234de3ac23633c25844902399309b656d73c3f8c093a4de56cdad07fcc390"
+    },
+    {
+      "config_id": 114701,
+      "quality": 5,
+      "pet_id": "114701",
+      "name": "光兔宝",
+      "image_path": "images/by-id/114701.png",
+      "image_sha256": "56761d7cc50dfe35969522ee3042894beb97501b5f7eb1ed4a32a506afd14207"
+    },
+    {
+      "config_id": 114801,
+      "quality": 5,
+      "pet_id": "114801",
+      "name": "光兔",
+      "image_path": "images/by-id/114801.png",
+      "image_sha256": "8931d59997352d9268f2ee65640f85dfdf0072f1ebe30a32efe6a559b881e2d9"
+    },
+    {
+      "config_id": 115001,
+      "quality": 5,
+      "pet_id": "115001",
+      "name": "暗兔宝",
+      "image_path": "images/by-id/115001.png",
+      "image_sha256": "dd2ce7593fd833768b589883158eacd5e2ada1df3dbb5312f582d537854b8644"
+    },
+    {
+      "config_id": 115101,
+      "quality": 5,
+      "pet_id": "115101",
+      "name": "暗兔",
+      "image_path": "images/by-id/115101.png",
+      "image_sha256": "fb4bb0907b9f2eb5e3bb7f9da54e71d902b6577ec81361c6a8fdc4f501073b7c"
+    },
+    {
+      "config_id": 115301,
+      "quality": 5,
+      "pet_id": "115301",
+      "name": "口哨鸦",
+      "image_path": "images/by-id/115301.png",
+      "image_sha256": "a5ad341af1dc39789c12ee113f79bacc075845ede48fa12eccca5f3e9eb781ca"
+    },
+    {
+      "config_id": 115501,
+      "quality": 5,
+      "pet_id": "115501",
+      "name": "宝剑海獭",
+      "image_path": "images/by-id/115501.png",
+      "image_sha256": "3a63028f3d419ffb822e6b66d30c3e5cf43a428605b8336575bac7b27bf2daf3"
+    },
+    {
+      "config_id": 115601,
+      "quality": 5,
+      "pet_id": "115601",
+      "name": "蓝拳海獭",
+      "image_path": "images/by-id/115601.png",
+      "image_sha256": "1e6370e1a8a73c135c6bd8c10a51f445c5309d920ad3b4823472800dfe2acb3c"
+    },
+    {
+      "config_id": 115701,
+      "quality": 5,
+      "pet_id": "115701",
+      "name": "粉拳海獭",
+      "image_path": "images/by-id/115701.png",
+      "image_sha256": "520520dcbb7860f61c0efbbf66b2a51422e7121c02ea8887719457a77b26d164"
+    },
+    {
+      "config_id": 115801,
+      "quality": 5,
+      "pet_id": "115801",
+      "name": "战甲海獭",
+      "image_path": "images/by-id/115801.png",
+      "image_sha256": "9d8686981a70a686ee58fab4a56ac92e4ce92f613adcabf2c34efa5a6f627784"
+    },
+    {
+      "config_id": 115901,
+      "quality": 5,
+      "pet_id": "115901",
+      "name": "钢盔海獭",
+      "image_path": "images/by-id/115901.png",
+      "image_sha256": "74c537f584953b53a734e5cc56a3c847028a18a91d4023df750937f467b3d4b2"
+    },
+    {
+      "config_id": 116501,
+      "quality": 5,
+      "pet_id": "116501",
+      "name": "噼啪蛋",
+      "image_path": "images/by-id/116501.png",
+      "image_sha256": "ff93d71da095fa0db61a02778d519ad4d0eff86c511e9e6f1407773c0ca231d1"
+    },
+    {
+      "config_id": 116601,
+      "quality": 5,
+      "pet_id": "116601",
+      "name": "招财猫",
+      "image_path": "images/by-id/116601.png",
+      "image_sha256": "a3ef883ad82403b4746ce14a3527833d232ae962d6979dd7df5fa5ed9f6018c9"
+    },
+    {
+      "config_id": 116701,
+      "quality": 5,
+      "pet_id": "116701",
+      "name": "甜梦",
+      "image_path": "images/by-id/116701.png",
+      "image_sha256": "ab147638dfe693f22416b04d49620b50dbf0a71e8de08bee957ceeedcf4b2005"
+    },
+    {
+      "config_id": 116801,
+      "quality": 5,
+      "pet_id": "116801",
+      "name": "梦游羊",
+      "image_path": "images/by-id/116801.png",
+      "image_sha256": "5dfc5adb77f261ff8161b383f06d5ca70b1cd5cfac84cd9d52a02ac7746bfc3b"
+    },
+    {
+      "config_id": 116901,
+      "quality": 5,
+      "pet_id": "116901",
+      "name": "呼呼兔",
+      "image_path": "images/by-id/116901.png",
+      "image_sha256": "23d5641e8b410ed13a512046a31b1c3b0e95e38da2c76cabd7f63eef70175c84"
+    },
+    {
+      "config_id": 117501,
+      "quality": 5,
+      "pet_id": "117501",
+      "name": "摸鱼雪貂",
+      "image_path": "images/by-id/117501.png",
+      "image_sha256": "275a9435e0e70e5d3c2e4ee77761a19872959445c12e03607cc0aced29b0e5e2"
+    },
+    {
+      "config_id": 118101,
+      "quality": 5,
+      "pet_id": "118101",
+      "name": "拳拳袋鼠",
+      "image_path": "images/by-id/118101.png",
+      "image_sha256": "4aba9ec19ad364fab721146182dba36d02092236ec75ded853a567f989ff2f64"
+    },
+    {
+      "config_id": 118201,
+      "quality": 5,
+      "pet_id": "118201",
+      "name": "搏击袋鼠",
+      "image_path": "images/by-id/118201.png",
+      "image_sha256": "d15c7c40700712d6cea3fb323de9535f85a92f478365b1da1b594dc373c8daa0"
+    },
+    {
+      "config_id": 118301,
+      "quality": 5,
+      "pet_id": "118301",
+      "name": "水龙",
+      "image_path": "images/by-id/118301.png",
+      "image_sha256": "7152baf61ac77142262c532dc14f1fbde90df8f67843777d46e525a79b698c72"
+    },
+    {
+      "config_id": 118901,
+      "quality": 5,
+      "pet_id": "118901",
+      "name": "草龙",
+      "image_path": "images/by-id/118901.png",
+      "image_sha256": "a125891c10873134eea608fca4a759c3a93c84c223fa06710c17f10211ea608e"
+    },
+    {
+      "config_id": 119101,
+      "quality": 5,
+      "pet_id": "119101",
+      "name": "公主蜂",
+      "image_path": "images/by-id/119101.png",
+      "image_sha256": "e9bb51e2292eead5c45833f60cd11343188572ffb54996cb3eff30c3848b3bef"
+    },
+    {
+      "config_id": 119201,
+      "quality": 5,
+      "pet_id": "119201",
+      "name": "海精灵",
+      "image_path": "images/by-id/119201.png",
+      "image_sha256": "d7f341acecffc40005e65127c54d7e0d52a0a8aa89800f20b7c35cd8692e4b60"
+    },
+    {
+      "config_id": 119601,
+      "quality": 5,
+      "pet_id": "119601",
+      "name": "水牛宝宝",
+      "image_path": "images/by-id/119601.png",
+      "image_sha256": "88dbfbc1d6454fd0e8952428e66b6d1282e2acae1d3138074617819bc92adfb4"
+    },
+    {
+      "config_id": 119701,
+      "quality": 5,
+      "pet_id": "119701",
+      "name": "莽莽水牛",
+      "image_path": "images/by-id/119701.png",
+      "image_sha256": "498dff1184083a0872073789528cf44ed95cd14657f18618383957b9c1bf65b0"
+    },
+    {
+      "config_id": 119801,
+      "quality": 5,
+      "pet_id": "119801",
+      "name": "小树仔",
+      "image_path": "images/by-id/119801.png",
+      "image_sha256": "079d899c76cee2b987d089303b63fbda821e1c1058479328d121d25307eb9240"
+    },
+    {
+      "config_id": 119901,
+      "quality": 5,
+      "pet_id": "119901",
+      "name": "鱼雷鲨",
+      "image_path": "images/by-id/119901.png",
+      "image_sha256": "64ade9752d2955dcb9b65ee7b6bf1b98b52c55d6367d4d5bc52c00ff9e2bd092"
+    },
+    {
+      "config_id": 120501,
+      "quality": 5,
+      "pet_id": "120501",
+      "name": "苞玉米",
+      "image_path": "images/by-id/120501.png",
+      "image_sha256": "4a747a73857d945b75acdc4f8a083a8d5b565b93b13bcaf098d30070f91acde7"
+    },
+    {
+      "config_id": 120601,
+      "quality": 5,
+      "pet_id": "120601",
+      "name": "拿铁刺客",
+      "image_path": "images/by-id/120601.png",
+      "image_sha256": "3359b75d6e88d94de88cced63c00b2a2e57001c429a1b511adb89a1839cc0df9"
+    },
+    {
+      "config_id": 120701,
+      "quality": 5,
+      "pet_id": "120701",
+      "name": "起舞鸭",
+      "image_path": "images/by-id/120701.png",
+      "image_sha256": "ceadc9ead59076a8f6a028ff4072a21aefa784f6e6b6ace38e5b7874ec1f0de2"
+    },
+    {
+      "config_id": 120801,
+      "quality": 5,
+      "pet_id": "120801",
+      "name": "含苞",
+      "image_path": "images/by-id/120801.png",
+      "image_sha256": "011a2ecd2b583329bbbfd060586746debce41e414f7d94715aec7e067fda4d38"
+    },
+    {
+      "config_id": 120901,
+      "quality": 5,
+      "pet_id": "120901",
+      "name": "绽放",
+      "image_path": "images/by-id/120901.png",
+      "image_sha256": "b7422cf0ea231fa11c3bf9df7094af561f30e2cb6917cf82396dd1057fc8b65a"
+    },
+    {
+      "config_id": 121001,
+      "quality": 5,
+      "pet_id": "121001",
+      "name": "战螂",
+      "image_path": "images/by-id/121001.png",
+      "image_sha256": "31cf321d5e569328cead6add9fe72939ada86dc0d22d5401857270c71ccfb6ae"
+    },
+    {
+      "config_id": 121101,
+      "quality": 5,
+      "pet_id": "121101",
+      "name": "战螂宝宝",
+      "image_path": "images/by-id/121101.png",
+      "image_sha256": "e42232d81d8d0b77991e0d163729a3e30494624040cab221e3b502e71740e5ef"
+    },
+    {
+      "config_id": 121201,
+      "quality": 5,
+      "pet_id": "121201",
+      "name": "火龙果",
+      "image_path": "images/by-id/121201.png",
+      "image_sha256": "66872908f8a8737fa8acdd62ccc2a84b00d39080456641142fd97e19731bea3d"
+    },
+    {
+      "config_id": 122301,
+      "quality": 5,
+      "pet_id": "122301",
+      "name": "陆行鸟",
+      "image_path": "images/by-id/122301.png",
+      "image_sha256": "0bc16a3006b58f5c73d4235b206969be5a5c950115d437b6ae121f2fdb3c4a0f"
+    },
+    {
+      "config_id": 123101,
+      "quality": 5,
+      "pet_id": "123101",
+      "name": "冰壳龟",
+      "image_path": "images/by-id/123101.png",
+      "image_sha256": "6e269fbeb53c94a1af3ec2c49cf72af130be1acf00a525cf2da9beec93902fa8"
+    },
+    {
+      "config_id": 123201,
+      "quality": 5,
+      "pet_id": "123201",
+      "name": "岩刺猫鲨",
+      "image_path": "images/by-id/123201.png",
+      "image_sha256": "ada6009ea6ad25a0506f73a11169d4fce09c8d4071d6c3805aa014e3528f31ea"
+    },
+    {
+      "config_id": 123401,
+      "quality": 5,
+      "pet_id": "123401",
+      "name": "头铁牛",
+      "image_path": "images/by-id/123401.png",
+      "image_sha256": "ae81a9944a1140f3d03d5b14b7497336613a08d630a47a8a6bf70ace1cf0b86a"
+    },
+    {
+      "config_id": 123801,
+      "quality": 5,
+      "pet_id": "123801",
+      "name": "螳螂虾",
+      "image_path": "images/by-id/123801.png",
+      "image_sha256": "e7500d70c5dc134cdaded984da9b600e909c0efdeb505df2e57c93b17eb9df8f"
+    },
+    {
+      "config_id": 123901,
+      "quality": 5,
+      "pet_id": "123901",
+      "name": "三彩鹿",
+      "image_path": "images/by-id/123901.png",
+      "image_sha256": "d6a2d8651851dfff336cad9d5316e9a4e1f6e3abe61d715ed96124e27f9721f0"
+    },
+    {
+      "config_id": 124001,
+      "quality": 5,
+      "pet_id": "124001",
+      "name": "六曜鹿",
+      "image_path": "images/by-id/124001.png",
+      "image_sha256": "ce86dd827acd08a764709f84c41e4242093aa921f464c3f1473e81f4758ae4a8"
+    },
+    {
+      "config_id": 124301,
+      "quality": 5,
+      "pet_id": "124301",
+      "name": "灵光鸟",
+      "image_path": "images/by-id/124301.png",
+      "image_sha256": "42f3798bbdf4a0fa76f2b05534550458d112ec95fa48d9d555c11bd169e3f4d9"
+    },
+    {
+      "config_id": 124401,
+      "quality": 5,
+      "pet_id": "124401",
+      "name": "灯光鱼",
+      "image_path": "images/by-id/124401.png",
+      "image_sha256": "9327f9bb39ffed0a07bcb6f6c7969e3115d47a254f5f3cd45e299c5dd459c47d"
+    },
+    {
+      "config_id": 125801,
+      "quality": 5,
+      "pet_id": "125801",
+      "name": "魔魔猪",
+      "image_path": "images/by-id/125801.png",
+      "image_sha256": "9b8a49b1a65ff8f9639d010ba1ed6b7a9ca15250458314ddeedf4202f7a8ae29"
+    },
+    {
+      "config_id": 125901,
+      "quality": 5,
+      "pet_id": "125901",
+      "name": "巨岩角龟",
+      "image_path": "images/by-id/125901.png",
+      "image_sha256": "46939f143f75bdb75f7b1471ab2eadf2cf9d169ea8f366c7b3585a9b59202989"
+    },
+    {
+      "config_id": 127001,
+      "quality": 5,
+      "pet_id": "127001",
+      "name": "食木沙鼠",
+      "image_path": "images/by-id/127001.png",
+      "image_sha256": "080273b61d126611e1915f69ca708aca5fb44c726edbe4f1cdd857af9a0b67ab"
+    },
+    {
+      "config_id": 127101,
+      "quality": 5,
+      "pet_id": "127101",
+      "name": "龙虾",
+      "image_path": "images/by-id/127101.png",
+      "image_sha256": "2ac3ced02881cdcf35d884ad410740852229e9c30ed6c4d5857bf2ff63416db5"
+    },
+    {
+      "config_id": 127301,
+      "quality": 5,
+      "pet_id": "127301",
+      "name": "铁甲土犀",
+      "image_path": "images/by-id/127301.png",
+      "image_sha256": "fd57f92a8caf7e6a8dbab39a653abd1dc41d67977b40d0ebd748e6c6b6d3b76b"
+    },
+    {
+      "config_id": 130001,
+      "quality": 5,
+      "pet_id": "130001",
+      "name": "石雕树懒",
+      "image_path": "images/by-id/130001.png",
+      "image_sha256": "fcf8569c848568e14e1e136b608ae3d02ca1e20e841d26aa3c997b3f06408f65"
+    },
+    {
+      "config_id": 132301,
+      "quality": 5,
+      "pet_id": "132301",
+      "name": "木秤鸟",
+      "image_path": "images/by-id/132301.png",
+      "image_sha256": "2d48d6c8c967e895decdc474cca6c129304faac7567f1832f4cb835e96cafe9d"
+    },
+    {
+      "config_id": 132401,
+      "quality": 5,
+      "pet_id": "132401",
+      "name": "衡星鸮",
+      "image_path": "images/by-id/132401.png",
+      "image_sha256": "4e206946fc6f303f7c55dca1731b711fa5a4376d7a20f0f799be3790bbcbaea8"
+    },
+    {
+      "config_id": 133801,
+      "quality": 5,
+      "pet_id": "133801",
+      "name": "钩尾蝎",
+      "image_path": "images/by-id/133801.png",
+      "image_sha256": "21a5c67a80ed4e01a7707fb671d6509e41de9994bfb9807cd78097bd7bdb3686"
+    },
+    {
+      "config_id": 133901,
+      "quality": 5,
+      "pet_id": "133901",
+      "name": "星影蝎",
+      "image_path": "images/by-id/133901.png",
+      "image_sha256": "d0a54423e127a4f08b18920742c8568316c074b4d08d345ae988f9e3c0c8c267"
+    },
+    {
+      "config_id": 135901,
+      "quality": 5,
+      "pet_id": "135901",
+      "name": "莓果羊驼",
+      "image_path": "images/by-id/135901.png",
+      "image_sha256": "0fc16d57573dcee81107da3e6dce807a25b8862bd010f53b031e8e13dceb3fc5"
+    },
+    {
+      "config_id": 136101,
+      "quality": 5,
+      "pet_id": "136101",
+      "name": "睡梦蟹",
+      "image_path": "images/by-id/136101.png",
+      "image_sha256": "a5d49a996f7fc1ff41c217315dcb29229d5a5936618827a16ed25d4286a0d963"
+    },
+    {
+      "config_id": 139801,
+      "quality": 5,
+      "pet_id": "139801",
+      "name": "松果猫头鹰",
+      "image_path": "images/by-id/139801.png",
+      "image_sha256": "d76be4d23a8850d82a1aeeddcdba76bba1ee958a3feeaedcb892627c6e879b82"
+    },
+    {
+      "config_id": 141301,
+      "quality": 5,
+      "pet_id": "141301",
+      "name": "冒险蜗牛",
+      "image_path": "images/by-id/141301.png",
+      "image_sha256": "ac99a433b88aa38280eccf2527e84e06c47ef872b6e04f3d90d08ae9880e2982"
+    },
+    {
+      "config_id": 141401,
+      "quality": 5,
+      "pet_id": "141401",
+      "name": "莓团团",
+      "image_path": "images/by-id/141401.png",
+      "image_sha256": "96408d4bd68631f51b75acf236145aaafeb998e4c8b8c929810155abb77dbb3c"
+    },
+    {
+      "config_id": 1000101,
+      "quality": 5,
+      "pet_id": "1000101",
+      "name": "蜜桃",
+      "image_path": "images/by-id/1000101.png",
+      "image_sha256": "a9eb3515008407a5523139c08cf5ba900a234c391045358ffc3cdc27f40b30c1"
+    },
+    {
+      "config_id": 1000201,
+      "quality": 5,
+      "pet_id": "1000201",
+      "name": "灰灰",
+      "image_path": "images/by-id/1000201.png",
+      "image_sha256": "cd15588b665146b29719305820bc740a703b98530691ad70a3091881452c1099"
+    },
+    {
+      "config_id": 1003201,
+      "quality": 5,
+      "pet_id": "1003201",
+      "name": "卡皮巴拉灰灰",
+      "image_path": "images/by-id/1003201.png",
+      "image_sha256": "7340e95705cc1c8943211eb4ca38e3995fb45830757822cde215a8446625d3bb"
+    },
+    {
+      "config_id": 1003301,
+      "quality": 5,
+      "pet_id": "1003301",
+      "name": "盼盼灰灰",
+      "image_path": "images/by-id/1003301.png",
+      "image_sha256": "a286c084b0e2d6b054a1f0019eef6afdea4dbffe813bd8d6386c3c3c61e0ae35"
+    },
+    {
+      "config_id": 1003401,
+      "quality": 5,
+      "pet_id": "1003401",
+      "name": "小蜜蜂蜜桃",
+      "image_path": "images/by-id/1003401.png",
+      "image_sha256": "25d70ec2a140f7718fda09fdf84a1be58d26a1b1811fb1fa5d78fe9e71d205d8"
+    },
+    {
+      "config_id": 100101,
+      "quality": 4,
+      "pet_id": "100101",
+      "name": "卡皮巴拉",
+      "image_path": "images/by-id/100101.png",
+      "image_sha256": "9b33ca622eaeb5e76156151d3359b390ac93bb13ee6fa8458388480a421dad90"
+    },
+    {
+      "config_id": 100501,
+      "quality": 4,
+      "pet_id": "100501",
+      "name": "多肉猫",
+      "image_path": "images/by-id/100501.png",
+      "image_sha256": "95179d71cda37763cc62a1ae375b52af4769d5fe6a5331e7b6b02edafc25625d"
+    },
+    {
+      "config_id": 100601,
+      "quality": 4,
+      "pet_id": "100601",
+      "name": "咕咕鸡",
+      "image_path": "images/by-id/100601.png",
+      "image_sha256": "22a0809f9a637cbbc053bdc7492539d17437cc35f281ad19a9339be09e5a560a"
+    },
+    {
+      "config_id": 100701,
+      "quality": 4,
+      "pet_id": "100701",
+      "name": "炸弹鸡",
+      "image_path": "images/by-id/100701.png",
+      "image_sha256": "73707cedffed67fe335fca431fb0afedde23d44d6d28d487647ddc159d643ac9"
+    },
+    {
+      "config_id": 100801,
+      "quality": 4,
+      "pet_id": "100801",
+      "name": "练习鸡",
+      "image_path": "images/by-id/100801.png",
+      "image_sha256": "220c3eeb965f853ed5520a65d85725c5e7f0fd624d3c6211b6b2935e64960bfe"
+    },
+    {
+      "config_id": 100901,
+      "quality": 4,
+      "pet_id": "100901",
+      "name": "香菇鸡",
+      "image_path": "images/by-id/100901.png",
+      "image_sha256": "18c29434a3a3cb6ffd9fabc545c9a006646f21775fdd8e41aeb62f630a153330"
+    },
+    {
+      "config_id": 101001,
+      "quality": 4,
+      "pet_id": "101001",
+      "name": "小菜鸡",
+      "image_path": "images/by-id/101001.png",
+      "image_sha256": "2c1c477c7cbf93bc55fa2f9567f17638de57fa2a7da984af7a81ed7d1f644b4b"
+    },
+    {
+      "config_id": 101101,
+      "quality": 4,
+      "pet_id": "101101",
+      "name": "柴火熊",
+      "image_path": "images/by-id/101101.png",
+      "image_sha256": "1c6022f811d1c509c7455c3ddaabdcb035183f0f89415402c8871cdb6e8b67fd"
+    },
+    {
+      "config_id": 101201,
+      "quality": 4,
+      "pet_id": "101201",
+      "name": "火猫",
+      "image_path": "images/by-id/101201.png",
+      "image_sha256": "0e283f63559db574bfa3e58ec37ad014bc3979c3e188dbe08c6d3809255bc832"
+    },
+    {
+      "config_id": 101301,
+      "quality": 4,
+      "pet_id": "101301",
+      "name": "好运鸟",
+      "image_path": "images/by-id/101301.png",
+      "image_sha256": "29bf49c08ea02b512b66adb2a2148a0beced2cad24718754bc06124302e632d6"
+    },
+    {
+      "config_id": 101601,
+      "quality": 4,
+      "pet_id": "101601",
+      "name": "火龙",
+      "image_path": "images/by-id/101601.png",
+      "image_sha256": "46b1f42578ba243a9de38d0d0659757f9427f7a3a015798c01753be918e08761"
+    },
+    {
+      "config_id": 101801,
+      "quality": 4,
+      "pet_id": "101801",
+      "name": "飞叶鼠",
+      "image_path": "images/by-id/101801.png",
+      "image_sha256": "9f0edc93ffef00b2b489f2b3e3e322dd8ab520cb82c7189e70edd9405159062f"
+    },
+    {
+      "config_id": 101901,
+      "quality": 4,
+      "pet_id": "101901",
+      "name": "小鹿晶晶",
+      "image_path": "images/by-id/101901.png",
+      "image_sha256": "f457ce658ac6088ae22635489e9ca0362b56c1e1886b76d81d4301633443b263"
+    },
+    {
+      "config_id": 102001,
+      "quality": 4,
+      "pet_id": "102001",
+      "name": "冰川鹿",
+      "image_path": "images/by-id/102001.png",
+      "image_sha256": "bee43d2d0ddf84f7ddcc764262c70c2fb7eb10af84ef31144098a595e5a4fcda"
+    },
+    {
+      "config_id": 102201,
+      "quality": 4,
+      "pet_id": "102201",
+      "name": "小马嘟嘟",
+      "image_path": "images/by-id/102201.png",
+      "image_sha256": "8b49a6ee1ab0f847574a87d42acac9e8ef7421d9823957ca94c94627d43eec39"
+    },
+    {
+      "config_id": 102301,
+      "quality": 4,
+      "pet_id": "102301",
+      "name": "独角兽",
+      "image_path": "images/by-id/102301.png",
+      "image_sha256": "4090fa1e4cb95bbaf47d2a780c83b9a71df119be7ab82a20bbcff082f90ce286"
+    },
+    {
+      "config_id": 102401,
+      "quality": 4,
+      "pet_id": "102401",
+      "name": "金刚狼",
+      "image_path": "images/by-id/102401.png",
+      "image_sha256": "3ab5fc6c1fc7771701482697fd259466e56e44f5f2b21021dcea6f8b8ccb9cb3"
+    },
+    {
+      "config_id": 102501,
+      "quality": 4,
+      "pet_id": "102501",
+      "name": "发奋仓鼠",
+      "image_path": "images/by-id/102501.png",
+      "image_sha256": "2a69524a4779ddccbaeacf13afc7387b84605f9bbce668cd75045e706df9a496"
+    },
+    {
+      "config_id": 102601,
+      "quality": 4,
+      "pet_id": "102601",
+      "name": "筋肉狗",
+      "image_path": "images/by-id/102601.png",
+      "image_sha256": "b0aaf77c670e5318c84ed9b813e183992977fc970a7f57a77d5bc608426af441"
+    },
+    {
+      "config_id": 102701,
+      "quality": 4,
+      "pet_id": "102701",
+      "name": "筋肉鹅",
+      "image_path": "images/by-id/102701.png",
+      "image_sha256": "5880ba2c625854a82ad045cd2a270bd65df7cf83982aca68f6d634502cbc0868"
+    },
+    {
+      "config_id": 102801,
+      "quality": 4,
+      "pet_id": "102801",
+      "name": "传话蛙",
+      "image_path": "images/by-id/102801.png",
+      "image_sha256": "0309f9b032ac4c8ded8a04eeea0ef91a9ad432020dab34b6deceac5612e22c55"
+    },
+    {
+      "config_id": 102901,
+      "quality": 4,
+      "pet_id": "102901",
+      "name": "淘淘",
+      "image_path": "images/by-id/102901.png",
+      "image_sha256": "bf0e8eb978b6c95991e6800067d801841ce54c6521d944abdd62b9253512c649"
+    },
+    {
+      "config_id": 103201,
+      "quality": 4,
+      "pet_id": "103201",
+      "name": "水母花花",
+      "image_path": "images/by-id/103201.png",
+      "image_sha256": "4948789d073fca656bed33ec65ea82f36608b78cc9a04dbedd6547ca02236e8d"
+    },
+    {
+      "config_id": 103301,
+      "quality": 4,
+      "pet_id": "103301",
+      "name": "企鹅秋秋",
+      "image_path": "images/by-id/103301.png",
+      "image_sha256": "137a537132dbbbcacf988d9e80296a3309766d2e1373472b27cbee75d5664b29"
+    },
+    {
+      "config_id": 103401,
+      "quality": 4,
+      "pet_id": "103401",
+      "name": "小火狐",
+      "image_path": "images/by-id/103401.png",
+      "image_sha256": "280558ae0e090d19f17578c41bb6520b4efee7fc860d104f28f9a2e648c8ca22"
+    },
+    {
+      "config_id": 103501,
+      "quality": 4,
+      "pet_id": "103501",
+      "name": "软脚虾",
+      "image_path": "images/by-id/103501.png",
+      "image_sha256": "52c9622451fea22910830c38fb2493a922fedfbf71293b2f57ff12c018be90e1"
+    },
+    {
+      "config_id": 103601,
+      "quality": 4,
+      "pet_id": "103601",
+      "name": "奶牛哞哞",
+      "image_path": "images/by-id/103601.png",
+      "image_sha256": "9eacc8057de759fb0c5be9d7b8d3bd5372f6e887149c0e29567f875313a20a11"
+    },
+    {
+      "config_id": 103701,
+      "quality": 4,
+      "pet_id": "103701",
+      "name": "呐喊君",
+      "image_path": "images/by-id/103701.png",
+      "image_sha256": "03c4ed856adbe0fe69b9a53046447c2545d58c255b952402f40e0963d8d8b743"
+    },
+    {
+      "config_id": 103801,
+      "quality": 4,
+      "pet_id": "103801",
+      "name": "黄风大圣",
+      "image_path": "images/by-id/103801.png",
+      "image_sha256": "d13af2ab50b46789cc519343cae4fbf11ab2f85033e6228e981ebc545d49fda8"
+    },
+    {
+      "config_id": 103901,
+      "quality": 4,
+      "pet_id": "103901",
+      "name": "食梦貘",
+      "image_path": "images/by-id/103901.png",
+      "image_sha256": "891b3e0774f98155aaaffbb69dc4ceeef8208f90122481f53a61d364b2947a78"
+    },
+    {
+      "config_id": 104101,
+      "quality": 4,
+      "pet_id": "104101",
+      "name": "小钢狼",
+      "image_path": "images/by-id/104101.png",
+      "image_sha256": "6322b6dc26b115e9e350aa6370b204c790359e3e4db3bb2a49f6c2fbff3b0ab4"
+    },
+    {
+      "config_id": 104201,
+      "quality": 4,
+      "pet_id": "104201",
+      "name": "土犀犀",
+      "image_path": "images/by-id/104201.png",
+      "image_sha256": "29180ada277ff7390b4c728a65f22a9e4bee5fd2c914169bbceaf40c1508e779"
+    },
+    {
+      "config_id": 104301,
+      "quality": 4,
+      "pet_id": "104301",
+      "name": "火马墩墩",
+      "image_path": "images/by-id/104301.png",
+      "image_sha256": "cb26deb493d9c0ec8dd34c4099bb51b8fe8a73945ede1ed75f48b1f23a07f7ed"
+    },
+    {
+      "config_id": 104401,
+      "quality": 4,
+      "pet_id": "104401",
+      "name": "地鼠方方",
+      "image_path": "images/by-id/104401.png",
+      "image_sha256": "373d6389c7bc6fde15ec88ac1557ee9e814cf79d47612487a72ea8650634f8fe"
+    },
+    {
+      "config_id": 104501,
+      "quality": 4,
+      "pet_id": "104501",
+      "name": "火莱姆",
+      "image_path": "images/by-id/104501.png",
+      "image_sha256": "890b1a8a3d69044fca1dbe479d01a674273da2fa71731f7c4a0702fed2ff0c37"
+    },
+    {
+      "config_id": 104601,
+      "quality": 4,
+      "pet_id": "104601",
+      "name": "水莱姆",
+      "image_path": "images/by-id/104601.png",
+      "image_sha256": "f2097c1d4efc3ae22074f9d0eb80a247642f56d9001f590de10cbd8de50ddb43"
+    },
+    {
+      "config_id": 104701,
+      "quality": 4,
+      "pet_id": "104701",
+      "name": "冰莱姆",
+      "image_path": "images/by-id/104701.png",
+      "image_sha256": "e8655fb64ff0895e8edd838706fb84194df4a67c65d4842854fe0e35b7828f83"
+    },
+    {
+      "config_id": 104801,
+      "quality": 4,
+      "pet_id": "104801",
+      "name": "草莱姆",
+      "image_path": "images/by-id/104801.png",
+      "image_sha256": "7d2834ddcabf9b706a9047ede96dfb5e2b33b698985fcb5ca5f2be4768106f16"
+    },
+    {
+      "config_id": 104901,
+      "quality": 4,
+      "pet_id": "104901",
+      "name": "电莱姆",
+      "image_path": "images/by-id/104901.png",
+      "image_sha256": "a352ee0662273c9a28ef6f5cc922493f41bd120173e337836ee2b4f80000a5f1"
+    },
+    {
+      "config_id": 105001,
+      "quality": 4,
+      "pet_id": "105001",
+      "name": "土莱姆",
+      "image_path": "images/by-id/105001.png",
+      "image_sha256": "94dcfd77dc4da9306cc2c3646ef32fec67ffb770991257943785558c6d10d28c"
+    },
+    {
+      "config_id": 105101,
+      "quality": 4,
+      "pet_id": "105101",
+      "name": "暗莱姆",
+      "image_path": "images/by-id/105101.png",
+      "image_sha256": "82f595977b0d679edb35e2c38d55b5875d0cf79336d26952256322badb6e48b2"
+    },
+    {
+      "config_id": 105201,
+      "quality": 4,
+      "pet_id": "105201",
+      "name": "光莱姆",
+      "image_path": "images/by-id/105201.png",
+      "image_sha256": "c7e21392917f50c730ce218ff7482d55af4e9b97ab1a7a70bdd71e798133501f"
+    },
+    {
+      "config_id": 105401,
+      "quality": 4,
+      "pet_id": "105401",
+      "name": "怪盗蝠",
+      "image_path": "images/by-id/105401.png",
+      "image_sha256": "7e3807cd7625a39b54ce3c6957cded97d7272f7af142bf726b1b04ed6dfaee6c"
+    },
+    {
+      "config_id": 105501,
+      "quality": 4,
+      "pet_id": "105501",
+      "name": "闪电狗",
+      "image_path": "images/by-id/105501.png",
+      "image_sha256": "4fe449056cb08e1e4abbcbffbf059e0ea8bef7e511b9293e47798fc0ecc5cc53"
+    },
+    {
+      "config_id": 105601,
+      "quality": 4,
+      "pet_id": "105601",
+      "name": "小蜜蜜",
+      "image_path": "images/by-id/105601.png",
+      "image_sha256": "04f882c62b12471c9cc362f069ba7f1c3898af3dc1db867c46d1f61b5acdbd07"
+    },
+    {
+      "config_id": 105701,
+      "quality": 4,
+      "pet_id": "105701",
+      "name": "盼盼",
+      "image_path": "images/by-id/105701.png",
+      "image_sha256": "87fdb634b4728d30098907bee7e6259634b59bd12f05d16e6fe81cad3223461a"
+    },
+    {
+      "config_id": 106101,
+      "quality": 4,
+      "pet_id": "106101",
+      "name": "月兔",
+      "image_path": "images/by-id/106101.png",
+      "image_sha256": "b93aeffa792aa3eddb41817aa4281a2b0c472ea9b1bb401e90c05bd9817b3beb"
+    },
+    {
+      "config_id": 106201,
+      "quality": 4,
+      "pet_id": "106201",
+      "name": "只鼬",
+      "image_path": "images/by-id/106201.png",
+      "image_sha256": "f04e500e4067dbffb0b3d57cbc8b86d75356f8371be27628c9dcbe89009157b4"
+    },
+    {
+      "config_id": 106301,
+      "quality": 4,
+      "pet_id": "106301",
+      "name": "狮鹫宝宝",
+      "image_path": "images/by-id/106301.png",
+      "image_sha256": "304e71b2c297aed0ae6162026a50ec9306176fac8b7b4d6c8f291762856dfddd"
+    },
+    {
+      "config_id": 106401,
+      "quality": 4,
+      "pet_id": "106401",
+      "name": "英俊狮鹫",
+      "image_path": "images/by-id/106401.png",
+      "image_sha256": "99404a4247fc3563997357d9bb6bc471df7df784f2ba2d793ad44143d769eeb3"
+    },
+    {
+      "config_id": 106601,
+      "quality": 4,
+      "pet_id": "106601",
+      "name": "美团团",
+      "image_path": "images/by-id/106601.png",
+      "image_sha256": "7bff20378449ace80e16c890f0512d4d51ca470bac50e9f639ef7d27a6fbe999"
+    },
+    {
+      "config_id": 106901,
+      "quality": 4,
+      "pet_id": "106901",
+      "name": "雨鳍猫鲨",
+      "image_path": "images/by-id/106901.png",
+      "image_sha256": "0ab6b4c1015d02afaf5649c3545c5de8074c8da3703425061d64d793ca47392b"
+    },
+    {
+      "config_id": 107001,
+      "quality": 4,
+      "pet_id": "107001",
+      "name": "迷梦猫鲨",
+      "image_path": "images/by-id/107001.png",
+      "image_sha256": "c68125c315c0d9d9ae28f6cf64f728edf28a868542e45840e0bdaefda1b0442a"
+    },
+    {
+      "config_id": 107801,
+      "quality": 4,
+      "pet_id": "107801",
+      "name": "筋肉虎",
+      "image_path": "images/by-id/107801.png",
+      "image_sha256": "0b05ef832df3a9e0f5c920eab830934cd60a3e1137220f27eaad8518957f37d8"
+    },
+    {
+      "config_id": 107901,
+      "quality": 4,
+      "pet_id": "107901",
+      "name": "火龙宝宝",
+      "image_path": "images/by-id/107901.png",
+      "image_sha256": "3c954ce572483579af486741bd89b638e5325dcc269143df696b6c2aaf3cc939"
+    },
+    {
+      "config_id": 108401,
+      "quality": 4,
+      "pet_id": "108401",
+      "name": "小火喵",
+      "image_path": "images/by-id/108401.png",
+      "image_sha256": "5df7865c8aeb89e0a7ed797e55c9bc3345f7421dfb9d3e68414fe7cb2b34b2aa"
+    },
+    {
+      "config_id": 108501,
+      "quality": 4,
+      "pet_id": "108501",
+      "name": "小叶鼠",
+      "image_path": "images/by-id/108501.png",
+      "image_sha256": "18e061ee586841e960a9785e5d180e2015611460b4629fd160682f9aa4120d6e"
+    },
+    {
+      "config_id": 108601,
+      "quality": 4,
+      "pet_id": "108601",
+      "name": "水母贝贝",
+      "image_path": "images/by-id/108601.png",
+      "image_sha256": "e4cc46f101de53dc5bf96d3bf34147d3f1174f96826dfd144c52125cd56b77ac"
+    },
+    {
+      "config_id": 108701,
+      "quality": 4,
+      "pet_id": "108701",
+      "name": "响尾眼镜蛇",
+      "image_path": "images/by-id/108701.png",
+      "image_sha256": "465c6a95f525c17c4535ec192ed9fde41e724aca57895a9afce3a6bb0946c9ef"
+    },
+    {
+      "config_id": 108801,
+      "quality": 4,
+      "pet_id": "108801",
+      "name": "石猩猩",
+      "image_path": "images/by-id/108801.png",
+      "image_sha256": "fc459ad428933b3d108a461a0d09bfcf562525fbc96c5f299114cb106fc42e20"
+    },
+    {
+      "config_id": 108901,
+      "quality": 4,
+      "pet_id": "108901",
+      "name": "花牌孔雀",
+      "image_path": "images/by-id/108901.png",
+      "image_sha256": "2cf0a69ba8003810e3cb023169e958e5456934acda0f3fa2d4e4531c916354bc"
+    },
+    {
+      "config_id": 109401,
+      "quality": 4,
+      "pet_id": "109401",
+      "name": "火炎莱姆",
+      "image_path": "images/by-id/109401.png",
+      "image_sha256": "028b60a2bb8243c3dd5f01a6809969f4a0df8bc5df98d762b275277762fa0ad4"
+    },
+    {
+      "config_id": 109501,
+      "quality": 4,
+      "pet_id": "109501",
+      "name": "水鳍莱姆",
+      "image_path": "images/by-id/109501.png",
+      "image_sha256": "aaa16f031f092d3faa0ef90ddedff578a114a990daeab0a106248de54bb44bad"
+    },
+    {
+      "config_id": 109601,
+      "quality": 4,
+      "pet_id": "109601",
+      "name": "冰晶莱姆",
+      "image_path": "images/by-id/109601.png",
+      "image_sha256": "245a1dd972905d86a37b601a36bfbf6a5130d65de2aa8b96e52cae2137ba837b"
+    },
+    {
+      "config_id": 109701,
+      "quality": 4,
+      "pet_id": "109701",
+      "name": "草冠莱姆",
+      "image_path": "images/by-id/109701.png",
+      "image_sha256": "941701b6ffa844cfbf7334961368a14d69cfa70f754f09bf2d7c2e22a9238293"
+    },
+    {
+      "config_id": 109801,
+      "quality": 4,
+      "pet_id": "109801",
+      "name": "电鸣莱姆",
+      "image_path": "images/by-id/109801.png",
+      "image_sha256": "b11479e9d139808c75d61fcc44ab3f8b14cd2e316b0cd57e024f203072a05a58"
+    },
+    {
+      "config_id": 109901,
+      "quality": 4,
+      "pet_id": "109901",
+      "name": "土脉莱姆",
+      "image_path": "images/by-id/109901.png",
+      "image_sha256": "2da61bbefc6c59953aa39fb284d5ce3e675a6712405747743dd6a90ce841dd7b"
+    },
+    {
+      "config_id": 110501,
+      "quality": 4,
+      "pet_id": "110501",
+      "name": "猫鲨",
+      "image_path": "images/by-id/110501.png",
+      "image_sha256": "14e871aee5704f0f395079ac4aba897fd90c3458d8d3c5dc46671e7c6fc4df37"
+    },
+    {
+      "config_id": 110601,
+      "quality": 4,
+      "pet_id": "110601",
+      "name": "叶刃猫鲨",
+      "image_path": "images/by-id/110601.png",
+      "image_sha256": "3492a6ae328c8340bb04b34823345b49e2023d48ed4bc621e7f5cb4de2c7b9d2"
+    },
+    {
+      "config_id": 110801,
+      "quality": 4,
+      "pet_id": "110801",
+      "name": "喵鲨",
+      "image_path": "images/by-id/110801.png",
+      "image_sha256": "65c2ca028785f49ffc2914b7e30e92fa56830cb2e55ba647f5617a10999bb6a5"
+    },
+    {
+      "config_id": 111501,
+      "quality": 4,
+      "pet_id": "111501",
+      "name": "炽焰猫鲨",
+      "image_path": "images/by-id/111501.png",
+      "image_sha256": "af8f4f1227eb9c2a1fd3b15deb25ba60a7dc9e8ec9aee7377babb6650c8a6a71"
+    },
+    {
+      "config_id": 111601,
+      "quality": 4,
+      "pet_id": "111601",
+      "name": "霹雳猫鲨",
+      "image_path": "images/by-id/111601.png",
+      "image_sha256": "b93b86c9945ace33d9af1cd04baffcf1fe402fff5c3a207cd7095912cc933eb0"
+    },
+    {
+      "config_id": 111701,
+      "quality": 4,
+      "pet_id": "111701",
+      "name": "飞行猫鲨",
+      "image_path": "images/by-id/111701.png",
+      "image_sha256": "b89570372db840e990789b6fe2195b844d32eb486831386746a59616462960ff"
+    },
+    {
+      "config_id": 111801,
+      "quality": 4,
+      "pet_id": "111801",
+      "name": "许愿灯象",
+      "image_path": "images/by-id/111801.png",
+      "image_sha256": "97ffb94309985cc531ed21e60b118e10388771c291736a07fc487cc97d31e032"
+    },
+    {
+      "config_id": 112001,
+      "quality": 4,
+      "pet_id": "112001",
+      "name": "水龙宝宝",
+      "image_path": "images/by-id/112001.png",
+      "image_sha256": "ae27d7640701d5e242b7cf66949eb9c7d06ae233dc67f58af0576cc4290bce35"
+    },
+    {
+      "config_id": 112101,
+      "quality": 4,
+      "pet_id": "112101",
+      "name": "只鼬宝宝",
+      "image_path": "images/by-id/112101.png",
+      "image_sha256": "797614f6ac2d38b2a739e32c6e0dfa7a40555955e6d4de3a9bc71e06657842ba"
+    },
+    {
+      "config_id": 112301,
+      "quality": 4,
+      "pet_id": "112301",
+      "name": "吓吓团",
+      "image_path": "images/by-id/112301.png",
+      "image_sha256": "5c87c6e498ce46777ac12a201c6f2fbb60ee26217586de6edf65e53aefdad3e8"
+    },
+    {
+      "config_id": 112401,
+      "quality": 4,
+      "pet_id": "112401",
+      "name": "喷喷蟹",
+      "image_path": "images/by-id/112401.png",
+      "image_sha256": "5c36bac2c32cec1cdb7ef4ab5f83efb6112b147e173762eb1e064a19282c5535"
+    },
+    {
+      "config_id": 112501,
+      "quality": 4,
+      "pet_id": "112501",
+      "name": "石角龟",
+      "image_path": "images/by-id/112501.png",
+      "image_sha256": "96f207a75abf4d1650823b76332e963e75c57ef5cd90bc70dca2f5e3a37e56a7"
+    },
+    {
+      "config_id": 112801,
+      "quality": 4,
+      "pet_id": "112801",
+      "name": "草龙宝宝",
+      "image_path": "images/by-id/112801.png",
+      "image_sha256": "68d9f8e85e7ae8f96eaf6170fd7699aadb6d66f9395f98a55d55f1e2603f3cda"
+    },
+    {
+      "config_id": 112901,
+      "quality": 4,
+      "pet_id": "112901",
+      "name": "刺啦汪",
+      "image_path": "images/by-id/112901.png",
+      "image_sha256": "b549fef284be96acb8a2930dced283ea67b6bea0377ff2fd409e4d89d352b3bc"
+    },
+    {
+      "config_id": 113101,
+      "quality": 4,
+      "pet_id": "113101",
+      "name": "炽焰马",
+      "image_path": "images/by-id/113101.png",
+      "image_sha256": "f2a1b13b04353155f53a3018d8f9f64375d4ebff9130e569223fc63f1ee6802c"
+    },
+    {
+      "config_id": 113301,
+      "quality": 4,
+      "pet_id": "113301",
+      "name": "球蝌蚪",
+      "image_path": "images/by-id/113301.png",
+      "image_sha256": "1d96226699c810c8ab7ea09f5f0d390f5609041b91ac7db1776ff1c5c486743b"
+    },
+    {
+      "config_id": 113601,
+      "quality": 4,
+      "pet_id": "113601",
+      "name": "云朵毛毛",
+      "image_path": "images/by-id/113601.png",
+      "image_sha256": "822a24cd6d949bea78f13af20444f87d463dedc07894ba8cf52678e1cc60d4be"
+    },
+    {
+      "config_id": 114001,
+      "quality": 4,
+      "pet_id": "114001",
+      "name": "冰狼崽",
+      "image_path": "images/by-id/114001.png",
+      "image_sha256": "6c4d343247df041e40dfdb324d05ac3d6bda5acdd1c0372ab5ee1fe2d6fb7880"
+    },
+    {
+      "config_id": 114101,
+      "quality": 4,
+      "pet_id": "114101",
+      "name": "冰晶狼",
+      "image_path": "images/by-id/114101.png",
+      "image_sha256": "ae14daa61cd01b4ddafc7200a0cc19614425761b4aaaca7deb0851dbba82d97b"
+    },
+    {
+      "config_id": 114301,
+      "quality": 4,
+      "pet_id": "114301",
+      "name": "海宝宝",
+      "image_path": "images/by-id/114301.png",
+      "image_sha256": "789a06258c58eaf316c432b86c88ed87cc7478e2fdb986c751bfcdf574d4384e"
+    },
+    {
+      "config_id": 114401,
+      "quality": 4,
+      "pet_id": "114401",
+      "name": "晴天娃娃",
+      "image_path": "images/by-id/114401.png",
+      "image_sha256": "1e7f53ff5d22c0876b04d4b5621b83d53c80404bf6d87e52dcaee4ac3a3a6cf5"
+    },
+    {
+      "config_id": 114501,
+      "quality": 4,
+      "pet_id": "114501",
+      "name": "晴天精灵",
+      "image_path": "images/by-id/114501.png",
+      "image_sha256": "00b234de3ac23633c25844902399309b656d73c3f8c093a4de56cdad07fcc390"
+    },
+    {
+      "config_id": 114701,
+      "quality": 4,
+      "pet_id": "114701",
+      "name": "光兔宝",
+      "image_path": "images/by-id/114701.png",
+      "image_sha256": "56761d7cc50dfe35969522ee3042894beb97501b5f7eb1ed4a32a506afd14207"
+    },
+    {
+      "config_id": 114801,
+      "quality": 4,
+      "pet_id": "114801",
+      "name": "光兔",
+      "image_path": "images/by-id/114801.png",
+      "image_sha256": "8931d59997352d9268f2ee65640f85dfdf0072f1ebe30a32efe6a559b881e2d9"
+    },
+    {
+      "config_id": 115001,
+      "quality": 4,
+      "pet_id": "115001",
+      "name": "暗兔宝",
+      "image_path": "images/by-id/115001.png",
+      "image_sha256": "dd2ce7593fd833768b589883158eacd5e2ada1df3dbb5312f582d537854b8644"
+    },
+    {
+      "config_id": 115101,
+      "quality": 4,
+      "pet_id": "115101",
+      "name": "暗兔",
+      "image_path": "images/by-id/115101.png",
+      "image_sha256": "fb4bb0907b9f2eb5e3bb7f9da54e71d902b6577ec81361c6a8fdc4f501073b7c"
+    },
+    {
+      "config_id": 115301,
+      "quality": 4,
+      "pet_id": "115301",
+      "name": "口哨鸦",
+      "image_path": "images/by-id/115301.png",
+      "image_sha256": "a5ad341af1dc39789c12ee113f79bacc075845ede48fa12eccca5f3e9eb781ca"
+    },
+    {
+      "config_id": 115501,
+      "quality": 4,
+      "pet_id": "115501",
+      "name": "宝剑海獭",
+      "image_path": "images/by-id/115501.png",
+      "image_sha256": "3a63028f3d419ffb822e6b66d30c3e5cf43a428605b8336575bac7b27bf2daf3"
+    },
+    {
+      "config_id": 115601,
+      "quality": 4,
+      "pet_id": "115601",
+      "name": "蓝拳海獭",
+      "image_path": "images/by-id/115601.png",
+      "image_sha256": "1e6370e1a8a73c135c6bd8c10a51f445c5309d920ad3b4823472800dfe2acb3c"
+    },
+    {
+      "config_id": 115701,
+      "quality": 4,
+      "pet_id": "115701",
+      "name": "粉拳海獭",
+      "image_path": "images/by-id/115701.png",
+      "image_sha256": "520520dcbb7860f61c0efbbf66b2a51422e7121c02ea8887719457a77b26d164"
+    },
+    {
+      "config_id": 115801,
+      "quality": 4,
+      "pet_id": "115801",
+      "name": "战甲海獭",
+      "image_path": "images/by-id/115801.png",
+      "image_sha256": "9d8686981a70a686ee58fab4a56ac92e4ce92f613adcabf2c34efa5a6f627784"
+    },
+    {
+      "config_id": 115901,
+      "quality": 4,
+      "pet_id": "115901",
+      "name": "钢盔海獭",
+      "image_path": "images/by-id/115901.png",
+      "image_sha256": "74c537f584953b53a734e5cc56a3c847028a18a91d4023df750937f467b3d4b2"
+    },
+    {
+      "config_id": 116501,
+      "quality": 4,
+      "pet_id": "116501",
+      "name": "噼啪蛋",
+      "image_path": "images/by-id/116501.png",
+      "image_sha256": "ff93d71da095fa0db61a02778d519ad4d0eff86c511e9e6f1407773c0ca231d1"
+    },
+    {
+      "config_id": 116601,
+      "quality": 4,
+      "pet_id": "116601",
+      "name": "招财猫",
+      "image_path": "images/by-id/116601.png",
+      "image_sha256": "a3ef883ad82403b4746ce14a3527833d232ae962d6979dd7df5fa5ed9f6018c9"
+    },
+    {
+      "config_id": 116701,
+      "quality": 4,
+      "pet_id": "116701",
+      "name": "甜梦",
+      "image_path": "images/by-id/116701.png",
+      "image_sha256": "ab147638dfe693f22416b04d49620b50dbf0a71e8de08bee957ceeedcf4b2005"
+    },
+    {
+      "config_id": 116801,
+      "quality": 4,
+      "pet_id": "116801",
+      "name": "梦游羊",
+      "image_path": "images/by-id/116801.png",
+      "image_sha256": "5dfc5adb77f261ff8161b383f06d5ca70b1cd5cfac84cd9d52a02ac7746bfc3b"
+    },
+    {
+      "config_id": 116901,
+      "quality": 4,
+      "pet_id": "116901",
+      "name": "呼呼兔",
+      "image_path": "images/by-id/116901.png",
+      "image_sha256": "23d5641e8b410ed13a512046a31b1c3b0e95e38da2c76cabd7f63eef70175c84"
+    },
+    {
+      "config_id": 117501,
+      "quality": 4,
+      "pet_id": "117501",
+      "name": "摸鱼雪貂",
+      "image_path": "images/by-id/117501.png",
+      "image_sha256": "275a9435e0e70e5d3c2e4ee77761a19872959445c12e03607cc0aced29b0e5e2"
+    },
+    {
+      "config_id": 118101,
+      "quality": 4,
+      "pet_id": "118101",
+      "name": "拳拳袋鼠",
+      "image_path": "images/by-id/118101.png",
+      "image_sha256": "4aba9ec19ad364fab721146182dba36d02092236ec75ded853a567f989ff2f64"
+    },
+    {
+      "config_id": 118201,
+      "quality": 4,
+      "pet_id": "118201",
+      "name": "搏击袋鼠",
+      "image_path": "images/by-id/118201.png",
+      "image_sha256": "d15c7c40700712d6cea3fb323de9535f85a92f478365b1da1b594dc373c8daa0"
+    },
+    {
+      "config_id": 118301,
+      "quality": 4,
+      "pet_id": "118301",
+      "name": "水龙",
+      "image_path": "images/by-id/118301.png",
+      "image_sha256": "7152baf61ac77142262c532dc14f1fbde90df8f67843777d46e525a79b698c72"
+    },
+    {
+      "config_id": 118901,
+      "quality": 4,
+      "pet_id": "118901",
+      "name": "草龙",
+      "image_path": "images/by-id/118901.png",
+      "image_sha256": "a125891c10873134eea608fca4a759c3a93c84c223fa06710c17f10211ea608e"
+    },
+    {
+      "config_id": 119101,
+      "quality": 4,
+      "pet_id": "119101",
+      "name": "公主蜂",
+      "image_path": "images/by-id/119101.png",
+      "image_sha256": "e9bb51e2292eead5c45833f60cd11343188572ffb54996cb3eff30c3848b3bef"
+    },
+    {
+      "config_id": 119201,
+      "quality": 4,
+      "pet_id": "119201",
+      "name": "海精灵",
+      "image_path": "images/by-id/119201.png",
+      "image_sha256": "d7f341acecffc40005e65127c54d7e0d52a0a8aa89800f20b7c35cd8692e4b60"
+    },
+    {
+      "config_id": 119601,
+      "quality": 4,
+      "pet_id": "119601",
+      "name": "水牛宝宝",
+      "image_path": "images/by-id/119601.png",
+      "image_sha256": "88dbfbc1d6454fd0e8952428e66b6d1282e2acae1d3138074617819bc92adfb4"
+    },
+    {
+      "config_id": 119701,
+      "quality": 4,
+      "pet_id": "119701",
+      "name": "莽莽水牛",
+      "image_path": "images/by-id/119701.png",
+      "image_sha256": "498dff1184083a0872073789528cf44ed95cd14657f18618383957b9c1bf65b0"
+    },
+    {
+      "config_id": 119801,
+      "quality": 4,
+      "pet_id": "119801",
+      "name": "小树仔",
+      "image_path": "images/by-id/119801.png",
+      "image_sha256": "079d899c76cee2b987d089303b63fbda821e1c1058479328d121d25307eb9240"
+    },
+    {
+      "config_id": 119901,
+      "quality": 4,
+      "pet_id": "119901",
+      "name": "鱼雷鲨",
+      "image_path": "images/by-id/119901.png",
+      "image_sha256": "64ade9752d2955dcb9b65ee7b6bf1b98b52c55d6367d4d5bc52c00ff9e2bd092"
+    },
+    {
+      "config_id": 120501,
+      "quality": 4,
+      "pet_id": "120501",
+      "name": "苞玉米",
+      "image_path": "images/by-id/120501.png",
+      "image_sha256": "4a747a73857d945b75acdc4f8a083a8d5b565b93b13bcaf098d30070f91acde7"
+    },
+    {
+      "config_id": 120601,
+      "quality": 4,
+      "pet_id": "120601",
+      "name": "拿铁刺客",
+      "image_path": "images/by-id/120601.png",
+      "image_sha256": "3359b75d6e88d94de88cced63c00b2a2e57001c429a1b511adb89a1839cc0df9"
+    },
+    {
+      "config_id": 120701,
+      "quality": 4,
+      "pet_id": "120701",
+      "name": "起舞鸭",
+      "image_path": "images/by-id/120701.png",
+      "image_sha256": "ceadc9ead59076a8f6a028ff4072a21aefa784f6e6b6ace38e5b7874ec1f0de2"
+    },
+    {
+      "config_id": 120801,
+      "quality": 4,
+      "pet_id": "120801",
+      "name": "含苞",
+      "image_path": "images/by-id/120801.png",
+      "image_sha256": "011a2ecd2b583329bbbfd060586746debce41e414f7d94715aec7e067fda4d38"
+    },
+    {
+      "config_id": 120901,
+      "quality": 4,
+      "pet_id": "120901",
+      "name": "绽放",
+      "image_path": "images/by-id/120901.png",
+      "image_sha256": "b7422cf0ea231fa11c3bf9df7094af561f30e2cb6917cf82396dd1057fc8b65a"
+    },
+    {
+      "config_id": 121001,
+      "quality": 4,
+      "pet_id": "121001",
+      "name": "战螂",
+      "image_path": "images/by-id/121001.png",
+      "image_sha256": "31cf321d5e569328cead6add9fe72939ada86dc0d22d5401857270c71ccfb6ae"
+    },
+    {
+      "config_id": 121101,
+      "quality": 4,
+      "pet_id": "121101",
+      "name": "战螂宝宝",
+      "image_path": "images/by-id/121101.png",
+      "image_sha256": "e42232d81d8d0b77991e0d163729a3e30494624040cab221e3b502e71740e5ef"
+    },
+    {
+      "config_id": 121201,
+      "quality": 4,
+      "pet_id": "121201",
+      "name": "火龙果",
+      "image_path": "images/by-id/121201.png",
+      "image_sha256": "66872908f8a8737fa8acdd62ccc2a84b00d39080456641142fd97e19731bea3d"
+    },
+    {
+      "config_id": 122301,
+      "quality": 4,
+      "pet_id": "122301",
+      "name": "陆行鸟",
+      "image_path": "images/by-id/122301.png",
+      "image_sha256": "0bc16a3006b58f5c73d4235b206969be5a5c950115d437b6ae121f2fdb3c4a0f"
+    },
+    {
+      "config_id": 123101,
+      "quality": 4,
+      "pet_id": "123101",
+      "name": "冰壳龟",
+      "image_path": "images/by-id/123101.png",
+      "image_sha256": "6e269fbeb53c94a1af3ec2c49cf72af130be1acf00a525cf2da9beec93902fa8"
+    },
+    {
+      "config_id": 123201,
+      "quality": 4,
+      "pet_id": "123201",
+      "name": "岩刺猫鲨",
+      "image_path": "images/by-id/123201.png",
+      "image_sha256": "ada6009ea6ad25a0506f73a11169d4fce09c8d4071d6c3805aa014e3528f31ea"
+    },
+    {
+      "config_id": 123401,
+      "quality": 4,
+      "pet_id": "123401",
+      "name": "头铁牛",
+      "image_path": "images/by-id/123401.png",
+      "image_sha256": "ae81a9944a1140f3d03d5b14b7497336613a08d630a47a8a6bf70ace1cf0b86a"
+    },
+    {
+      "config_id": 123801,
+      "quality": 4,
+      "pet_id": "123801",
+      "name": "螳螂虾",
+      "image_path": "images/by-id/123801.png",
+      "image_sha256": "e7500d70c5dc134cdaded984da9b600e909c0efdeb505df2e57c93b17eb9df8f"
+    },
+    {
+      "config_id": 123901,
+      "quality": 4,
+      "pet_id": "123901",
+      "name": "三彩鹿",
+      "image_path": "images/by-id/123901.png",
+      "image_sha256": "d6a2d8651851dfff336cad9d5316e9a4e1f6e3abe61d715ed96124e27f9721f0"
+    },
+    {
+      "config_id": 124001,
+      "quality": 4,
+      "pet_id": "124001",
+      "name": "六曜鹿",
+      "image_path": "images/by-id/124001.png",
+      "image_sha256": "ce86dd827acd08a764709f84c41e4242093aa921f464c3f1473e81f4758ae4a8"
+    },
+    {
+      "config_id": 124301,
+      "quality": 4,
+      "pet_id": "124301",
+      "name": "灵光鸟",
+      "image_path": "images/by-id/124301.png",
+      "image_sha256": "42f3798bbdf4a0fa76f2b05534550458d112ec95fa48d9d555c11bd169e3f4d9"
+    },
+    {
+      "config_id": 124401,
+      "quality": 4,
+      "pet_id": "124401",
+      "name": "灯光鱼",
+      "image_path": "images/by-id/124401.png",
+      "image_sha256": "9327f9bb39ffed0a07bcb6f6c7969e3115d47a254f5f3cd45e299c5dd459c47d"
+    },
+    {
+      "config_id": 125801,
+      "quality": 4,
+      "pet_id": "125801",
+      "name": "魔魔猪",
+      "image_path": "images/by-id/125801.png",
+      "image_sha256": "9b8a49b1a65ff8f9639d010ba1ed6b7a9ca15250458314ddeedf4202f7a8ae29"
+    },
+    {
+      "config_id": 125901,
+      "quality": 4,
+      "pet_id": "125901",
+      "name": "巨岩角龟",
+      "image_path": "images/by-id/125901.png",
+      "image_sha256": "46939f143f75bdb75f7b1471ab2eadf2cf9d169ea8f366c7b3585a9b59202989"
+    },
+    {
+      "config_id": 127001,
+      "quality": 4,
+      "pet_id": "127001",
+      "name": "食木沙鼠",
+      "image_path": "images/by-id/127001.png",
+      "image_sha256": "080273b61d126611e1915f69ca708aca5fb44c726edbe4f1cdd857af9a0b67ab"
+    },
+    {
+      "config_id": 127101,
+      "quality": 4,
+      "pet_id": "127101",
+      "name": "龙虾",
+      "image_path": "images/by-id/127101.png",
+      "image_sha256": "2ac3ced02881cdcf35d884ad410740852229e9c30ed6c4d5857bf2ff63416db5"
+    },
+    {
+      "config_id": 127301,
+      "quality": 4,
+      "pet_id": "127301",
+      "name": "铁甲土犀",
+      "image_path": "images/by-id/127301.png",
+      "image_sha256": "fd57f92a8caf7e6a8dbab39a653abd1dc41d67977b40d0ebd748e6c6b6d3b76b"
+    },
+    {
+      "config_id": 130001,
+      "quality": 4,
+      "pet_id": "130001",
+      "name": "石雕树懒",
+      "image_path": "images/by-id/130001.png",
+      "image_sha256": "fcf8569c848568e14e1e136b608ae3d02ca1e20e841d26aa3c997b3f06408f65"
+    },
+    {
+      "config_id": 132301,
+      "quality": 4,
+      "pet_id": "132301",
+      "name": "木秤鸟",
+      "image_path": "images/by-id/132301.png",
+      "image_sha256": "2d48d6c8c967e895decdc474cca6c129304faac7567f1832f4cb835e96cafe9d"
+    },
+    {
+      "config_id": 132401,
+      "quality": 4,
+      "pet_id": "132401",
+      "name": "衡星鸮",
+      "image_path": "images/by-id/132401.png",
+      "image_sha256": "4e206946fc6f303f7c55dca1731b711fa5a4376d7a20f0f799be3790bbcbaea8"
+    },
+    {
+      "config_id": 133801,
+      "quality": 4,
+      "pet_id": "133801",
+      "name": "钩尾蝎",
+      "image_path": "images/by-id/133801.png",
+      "image_sha256": "21a5c67a80ed4e01a7707fb671d6509e41de9994bfb9807cd78097bd7bdb3686"
+    },
+    {
+      "config_id": 133901,
+      "quality": 4,
+      "pet_id": "133901",
+      "name": "星影蝎",
+      "image_path": "images/by-id/133901.png",
+      "image_sha256": "d0a54423e127a4f08b18920742c8568316c074b4d08d345ae988f9e3c0c8c267"
+    },
+    {
+      "config_id": 135901,
+      "quality": 4,
+      "pet_id": "135901",
+      "name": "莓果羊驼",
+      "image_path": "images/by-id/135901.png",
+      "image_sha256": "0fc16d57573dcee81107da3e6dce807a25b8862bd010f53b031e8e13dceb3fc5"
+    },
+    {
+      "config_id": 136101,
+      "quality": 4,
+      "pet_id": "136101",
+      "name": "睡梦蟹",
+      "image_path": "images/by-id/136101.png",
+      "image_sha256": "a5d49a996f7fc1ff41c217315dcb29229d5a5936618827a16ed25d4286a0d963"
+    },
+    {
+      "config_id": 139801,
+      "quality": 4,
+      "pet_id": "139801",
+      "name": "松果猫头鹰",
+      "image_path": "images/by-id/139801.png",
+      "image_sha256": "d76be4d23a8850d82a1aeeddcdba76bba1ee958a3feeaedcb892627c6e879b82"
+    },
+    {
+      "config_id": 141301,
+      "quality": 4,
+      "pet_id": "141301",
+      "name": "冒险蜗牛",
+      "image_path": "images/by-id/141301.png",
+      "image_sha256": "ac99a433b88aa38280eccf2527e84e06c47ef872b6e04f3d90d08ae9880e2982"
+    },
+    {
+      "config_id": 141401,
+      "quality": 4,
+      "pet_id": "141401",
+      "name": "莓团团",
+      "image_path": "images/by-id/141401.png",
+      "image_sha256": "96408d4bd68631f51b75acf236145aaafeb998e4c8b8c929810155abb77dbb3c"
+    },
+    {
+      "config_id": 1000101,
+      "quality": 4,
+      "pet_id": "1000101",
+      "name": "蜜桃",
+      "image_path": "images/by-id/1000101.png",
+      "image_sha256": "a9eb3515008407a5523139c08cf5ba900a234c391045358ffc3cdc27f40b30c1"
+    },
+    {
+      "config_id": 1000201,
+      "quality": 4,
+      "pet_id": "1000201",
+      "name": "灰灰",
+      "image_path": "images/by-id/1000201.png",
+      "image_sha256": "cd15588b665146b29719305820bc740a703b98530691ad70a3091881452c1099"
+    },
+    {
+      "config_id": 1003201,
+      "quality": 4,
+      "pet_id": "1003201",
+      "name": "卡皮巴拉灰灰",
+      "image_path": "images/by-id/1003201.png",
+      "image_sha256": "7340e95705cc1c8943211eb4ca38e3995fb45830757822cde215a8446625d3bb"
+    },
+    {
+      "config_id": 1003301,
+      "quality": 4,
+      "pet_id": "1003301",
+      "name": "盼盼灰灰",
+      "image_path": "images/by-id/1003301.png",
+      "image_sha256": "a286c084b0e2d6b054a1f0019eef6afdea4dbffe813bd8d6386c3c3c61e0ae35"
+    },
+    {
+      "config_id": 1003401,
+      "quality": 4,
+      "pet_id": "1003401",
+      "name": "小蜜蜂蜜桃",
+      "image_path": "images/by-id/1003401.png",
+      "image_sha256": "25d70ec2a140f7718fda09fdf84a1be58d26a1b1811fb1fa5d78fe9e71d205d8"
+    }
+  ],
+  "items": [
+    {
+      "config_id": 10031,
+      "quality": 0,
+      "pet_id": null,
+      "name": null,
+      "image_path": null,
+      "image_sha256": null
+    },
+    {
+      "config_id": 10032,
+      "quality": 0,
+      "pet_id": null,
+      "name": null,
+      "image_path": null,
+      "image_sha256": null
+    },
+    {
+      "config_id": 10033,
+      "quality": 0,
+      "pet_id": null,
+      "name": null,
+      "image_path": null,
+      "image_sha256": null
+    },
+    {
+      "config_id": 10034,
+      "quality": 0,
+      "pet_id": null,
+      "name": null,
+      "image_path": null,
+      "image_sha256": null
+    },
+    {
+      "config_id": 10035,
+      "quality": 0,
+      "pet_id": null,
+      "name": null,
+      "image_path": null,
+      "image_sha256": null
+    }
+  ],
+  "limits": [
+    "Fixed public source catalog only; actual server price/stock and acceptance need a successful query.",
+    "Item names/images have no verified existing projection in the bounded sources checked; values remain null.",
+    "A pet avatar/name mapping does not prove current shop eligibility or stock."
+  ]
+}

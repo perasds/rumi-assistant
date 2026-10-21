@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "status": "verified_public_wire_schema",
+  "client_version": "1.5.3",
+  "hot_version": 65,
+  "source_game_sha256": "ab029ae5433cbaa8b214a290387b40ae762a154cbc04096a26c886eba4eab4b3",
+  "catalog_sha256": "b0f474de9795fe81b842b2f495cb8679531e14fe31cd0698df06b605af19343a",
+  "encrypted_bundle_sha256": {
+    "game": "da0ca2402b9251cb6f6d915c1752c5961d4bfd1e8cfad9774b7d849e52a0b2c4",
+    "vib": "2fee3ffbc597ae35adfbe9a49651f848893f2cd9ca7bf6acd9a4041c7a3e60dd"
+  },
+  "descriptor_sha256": "446b75c38ede4ea70d9f0916c7694ec3505011eddc23270a908b23c003d6437a",
+  "descriptor_size": 19883,
+  "selected_roots": [
+    "SNKProto.Cmd_Notify_Combine_Info",
+    "SNKProto.Cmd_Notify_HomeAll",
+    "SNKProto.Cmd_Home_ArchitecturePickWorkReward_Req",
+    "SNKProto.Cmd_Home_ArchitecturePickWorkReward_Ack",
+    "SNKProto.Cmd_Home_ArchitecturePickAllWorkReward_Req",
+    "SNKProto.Cmd_Home_ArchitecturePickAllWorkReward_Ack",
+    "SNKProto.Cmd_Home_TryUpdateWork_Req",
+    "SNKProto.Cmd_Home_TryUpdateWork_Ack",
+    "SNKProto.Cmd_Notify_AdventureBuffChange",
+    "SNKProto.Cmd_Notify_HomeOrderArchiChange",
+    "SNKProto.Cmd_Home_Order_Complete_Req",
+    "SNKProto.Cmd_Home_Order_Complete_Ack",
+    "SNKProto.Cmd_Home_Order_Refresh_Req",
+    "SNKProto.Cmd_Home_Order_Refresh_Ack"
+  ],
+  "rpc_bindings": [
+    {
+      "rpc_id": 2016,
+      "message_type": "SNKProto.Cmd_Notify_Combine_Info",
+      "parser_token": "0x600f1f5",
+      "switch_base": 2011,
+      "switch_index": 5,
+      "switch_il_offset": 78,
+      "parser_il_offset": 9397,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3001,
+      "message_type": "SNKProto.Cmd_Notify_HomeAll",
+      "parser_token": "0x6012b09",
+      "switch_base": 2891,
+      "switch_index": 110,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10442,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3025,
+      "message_type": "SNKProto.Cmd_Home_ArchitecturePickWorkReward_Req",
+      "parser_token": "0x601325c",
+      "switch_base": 2891,
+      "switch_index": 134,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10706,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3026,
+      "message_type": "SNKProto.Cmd_Home_ArchitecturePickWorkReward_Ack",
+      "parser_token": "0x6013275",
+      "switch_base": 2891,
+      "switch_index": 135,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10717,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3027,
+      "message_type": "SNKProto.Cmd_Home_ArchitecturePickAllWorkReward_Req",
+      "parser_token": "0x601328f",
+      "switch_base": 2891,
+      "switch_index": 136,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10728,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3028,
+      "message_type": "SNKProto.Cmd_Home_ArchitecturePickAllWorkReward_Ack",
+      "parser_token": "0x60132a0",
+      "switch_base": 2891,
+      "switch_index": 137,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10739,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3029,
+      "message_type": "SNKProto.Cmd_Home_TryUpdateWork_Req",
+      "parser_token": "0x60132b1",
+      "switch_base": 2891,
+      "switch_index": 138,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10750,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3030,
+      "message_type": "SNKProto.Cmd_Home_TryUpdateWork_Ack",
+      "parser_token": "0x60132c2",
+      "switch_base": 2891,
+      "switch_index": 139,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10761,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3040,
+      "message_type": "SNKProto.Cmd_Notify_AdventureBuffChange",
+      "parser_token": "0x60138b2",
+      "switch_base": 2891,
+      "switch_index": 149,
+      "switch_il_offset": 148,
+      "parser_il_offset": 10871,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3301,
+      "message_type": "SNKProto.Cmd_Notify_HomeOrderArchiChange",
+      "parser_token": "0x6012c7e",
+      "switch_base": 2891,
+      "switch_index": 410,
+      "switch_il_offset": 148,
+      "parser_il_offset": 12433,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3302,
+      "message_type": "SNKProto.Cmd_Home_Order_Complete_Req",
+      "parser_token": "0x6012c91",
+      "switch_base": 2891,
+      "switch_index": 411,
+      "switch_il_offset": 148,
+      "parser_il_offset": 12444,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3303,
+      "message_type": "SNKProto.Cmd_Home_Order_Complete_Ack",
+      "parser_token": "0x6012ca6",
+      "switch_base": 2891,
+      "switch_index": 412,
+      "switch_il_offset": 148,
+      "parser_il_offset": 12455,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3304,
+      "message_type": "SNKProto.Cmd_Home_Order_Refresh_Req",
+      "parser_token": "0x6012cb8",
+      "switch_base": 2891,
+      "switch_index": 413,
+      "switch_il_offset": 148,
+      "parser_il_offset": 12466,
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3305,
+      "message_type": "SNKProto.Cmd_Home_Order_Refresh_Ack",
+      "parser_token": "0x6012ccd",
+      "switch_base": 2891,
+      "switch_index": 414,
+      "switch_il_offset": 148,
+      "parser_il_offset": 12477,
+      "parser_invoked": false
+    }
+  ],
+  "inventory_profile_message_sha256": {
+    "SNKProto.Cmd_Notify_Combine_Info": "ef12ee19645f99f77c104b8a9cc76671f54ab9f7a32f63eae77dbe6e5ea679ee",
+    "SNKProto.CmdCombineUnit": "d797f0eda40d3a93b0f526a8c95976114961f05a1237d7eb59a516971da162f5",
+    "SNKProto.Cmd_Notify_ItemAll": "f47644784c11541336f34d944481388107c9c63c57d656c887c3219b6c02c1e0",
+    "SNKProto.Cmd_Notify_ItemChange": "437185f1e4c2e9852829d1c5585f3551ff3c3e565f1c08442dc9b7b1d6ac3e93",
+    "SNKProto.CmdRepeatChange": "0b32e2196b2e399e1203e09911ab5df1f5147b12ee1277695063c1a52d2e2ecd",
+    "SNKProto.CmdItemReal": "d3c576419684b27d8c616a205d81e2b74f8024a5f56ab9d187d9d6d81f837292"
+  },
+  "order_consumers": [
+    {
+      "owner": "Player",
+      "method": "InitHomeData",
+      "token": "0x6000692",
+      "body_sha256": "011cfb4e5797e6a0690e284e1550c1f89900566bb6f006566f090ecdef97cd0e",
+      "semantics": "replace_order_archi"
+    },
+    {
+      "owner": "Player",
+      "method": "OnNotifyHomeOrderArchiChange",
+      "token": "0x60006ab",
+      "body_sha256": "55293dbdcc97673d5a929f04d3a589c72e70f19d0a9367e74fdec81e3b6cbc22",
+      "semantics": "replace_order_archi"
+    }
+  ],
+  "capacity_profile_message_sha256": {
+    "SNKProto.Cmd_Notify_AdventureAll": "70c6d6ec34e4805fb13de9e41e3bdad5c73df8e06fab112b2be97066162f2fd0",
+    "SNKProto.CmdAdventureBuff": "5eadceab89afc8c551ef8161e9ab6d0979eda6b91af2456ef631fad4687f55a5"
+  },
+  "capacity_config": {
+    "table_sha256": {
+      "AdventureBuff": "f0ddc5608ecfcafd88158a63dca18df7d8ce8eeb15713ffa24c26698ad67a769",
+      "AdventureBuffEffect": "08a9303b0c3c482f3b9e4aa6e81d62e08fed190bede07110e5e6e48bc220b61a"
+    },
+    "strict_eof": true,
+    "buff_id": 601,
+    "buff_map_type": 8,
+    "secondary_effect_id": 602,
+    "bonus_by_stage": {
+      "1": 300,
+      "2": 200,
+      "other": 100
+    },
+    "building_buff_capacity_bonus": 0,
+    "building_buff_ids": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1101,
+      1102
+    ],
+    "stage_source": "server_buff_stage",
+    "local_stage_updates": false
+  },
+  "network_requests_sent": false,
+  "private_archives_read": false,
+  "target_execution": false,
+  "plaintext_assemblies_or_tables_saved": false,
+  "verified_hot_versions": [
+    65,
+    69,
+    71,
+    72
+  ],
+  "additional_verified_versions": [
+    {
+      "hot_version": 71,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "5ae75e7d91edf555f5776fa5eb7089162f5cc5b2918774e74d28610ca6f8cf98",
+      "source_vib_bundle_sha256": "d9d374dd6602d52dafeabf5a2ab722d12a7eb61c588091beda639a46c1937dc8",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot71-runtime-compatibility.public.json",
+      "verification_report_sha256": "39b3c3d8e1ece0cc684dd70bfeedfc95a82d3aca2a3c29f25e9482f78bded18a",
+      "real_account_tested": false,
+      "activity_farm_execution_enabled": false
+    },
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}

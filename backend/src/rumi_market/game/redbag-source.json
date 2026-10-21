@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "client_version": "1.5.3",
+  "hot_version": 71,
+  "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+  "catalog_sha256": "5ae75e7d91edf555f5776fa5eb7089162f5cc5b2918774e74d28610ca6f8cf98",
+  "source_report_sha256": "8ee895929acee4096b1489c07d95acf83ed90f610ec32f43595564c8aefddca9",
+  "cache_manifest_sha256": "5e63c29d606437c6e6eafa3514adac1ea2b3e3e6c301c11706c2b66cd51bf2bc",
+  "descriptor_sha256": "2be530641f6218dde1a5fa1f40629af415e73c49bf6ec753f3af607ebc31ea86",
+  "descriptor_size": 7599,
+  "selected_roots": [
+    "SNKProto.Cmd_Auth_Ack",
+    "SNKProto.Cmd_Auth_Req",
+    "SNKProto.Cmd_Chat_Auth_Session_Ack",
+    "SNKProto.Cmd_Chat_Auth_Session_Req",
+    "SNKProto.Cmd_Home_VisitGetShareAward_Ack",
+    "SNKProto.Cmd_Home_VisitGetShareAward_Req",
+    "SNKProto.Cmd_Home_VisitShareQuery_Ack",
+    "SNKProto.Cmd_Home_VisitShareQuery_Req",
+    "SNKProto.Cmd_JoinWorldChannel_Ack",
+    "SNKProto.Cmd_JoinWorldChannel_Req",
+    "SNKProto.Cmd_Notify_ChatMessage_Broadcast",
+    "SNKProto.Cmd_Notify_ChatMessage_History",
+    "SNKProto.Cmd_Notify_Chat_Auth_Session",
+    "SNKProto.Cmd_Notify_HomeVisitShareUpdate",
+    "SNKProto.Cmd_Reconnect_Ack",
+    "SNKProto.Cmd_Reconnect_Req",
+    "SNKProto.HomeVisitShareCardParam",
+    "SNKProto.WsClientPkg"
+  ],
+  "rpc_bindings": [
+    {
+      "rpc_id": 2919,
+      "message_type": "SNKProto.Cmd_Notify_Chat_Auth_Session",
+      "parser_token": "0x6017792",
+      "switch_base": 2672,
+      "switch_index": 247,
+      "switch_il_offset": 135,
+      "parser_il_offset": 9870
+    },
+    {
+      "rpc_id": 4009,
+      "message_type": "SNKProto.Cmd_Home_VisitShareQuery_Req",
+      "parser_token": "0x60187f3",
+      "switch_base": 3901,
+      "switch_index": 108,
+      "switch_il_offset": 3558,
+      "parser_il_offset": 15051
+    },
+    {
+      "rpc_id": 4010,
+      "message_type": "SNKProto.Cmd_Home_VisitShareQuery_Ack",
+      "parser_token": "0x6018806",
+      "switch_base": 3901,
+      "switch_index": 109,
+      "switch_il_offset": 3558,
+      "parser_il_offset": 15062
+    },
+    {
+      "rpc_id": 4011,
+      "message_type": "SNKProto.Cmd_Home_VisitGetShareAward_Req",
+      "parser_token": "0x6018819",
+      "switch_base": 3901,
+      "switch_index": 110,
+      "switch_il_offset": 3558,
+      "parser_il_offset": 15073
+    },
+    {
+      "rpc_id": 4012,
+      "message_type": "SNKProto.Cmd_Home_VisitGetShareAward_Ack",
+      "parser_token": "0x601882c",
+      "switch_base": 3901,
+      "switch_index": 111,
+      "switch_il_offset": 3558,
+      "parser_il_offset": 15084
+    },
+    {
+      "rpc_id": 23903,
+      "message_type": "SNKProto.Cmd_JoinWorldChannel_Req",
+      "parser_token": "0x6017900",
+      "switch_base": 23901,
+      "switch_index": 2,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23598
+    },
+    {
+      "rpc_id": 23904,
+      "message_type": "SNKProto.Cmd_JoinWorldChannel_Ack",
+      "parser_token": "0x6017919",
+      "switch_base": 23901,
+      "switch_index": 3,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23609
+    },
+    {
+      "rpc_id": 23909,
+      "message_type": "SNKProto.Cmd_Notify_ChatMessage_Broadcast",
+      "parser_token": "0x601798d",
+      "switch_base": 23901,
+      "switch_index": 8,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23664
+    },
+    {
+      "rpc_id": 23910,
+      "message_type": "SNKProto.Cmd_Notify_ChatMessage_History",
+      "parser_token": "0x60179a5",
+      "switch_base": 23901,
+      "switch_index": 9,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23675
+    },
+    {
+      "rpc_id": 23920,
+      "message_type": "SNKProto.Cmd_Auth_Req",
+      "parser_token": "0x60177a4",
+      "switch_base": 23901,
+      "switch_index": 19,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23785
+    },
+    {
+      "rpc_id": 23921,
+      "message_type": "SNKProto.Cmd_Auth_Ack",
+      "parser_token": "0x60177b6",
+      "switch_base": 23901,
+      "switch_index": 20,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23796
+    },
+    {
+      "rpc_id": 23922,
+      "message_type": "SNKProto.Cmd_Reconnect_Req",
+      "parser_token": "0x60177cb",
+      "switch_base": 23901,
+      "switch_index": 21,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23807
+    },
+    {
+      "rpc_id": 23923,
+      "message_type": "SNKProto.Cmd_Reconnect_Ack",
+      "parser_token": "0x60177de",
+      "switch_base": 23901,
+      "switch_index": 22,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23818
+    },
+    {
+      "rpc_id": 23938,
+      "message_type": "SNKProto.Cmd_Chat_Auth_Session_Req",
+      "parser_token": "0x6017c1c",
+      "switch_base": 23901,
+      "switch_index": 37,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23983
+    },
+    {
+      "rpc_id": 23939,
+      "message_type": "SNKProto.Cmd_Chat_Auth_Session_Ack",
+      "parser_token": "0x6017c2d",
+      "switch_base": 23901,
+      "switch_index": 38,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 23994
+    },
+    {
+      "rpc_id": 23940,
+      "message_type": "SNKProto.Cmd_Notify_HomeVisitShareUpdate",
+      "parser_token": "0x6017bbf",
+      "switch_base": 23901,
+      "switch_index": 39,
+      "switch_il_offset": 9025,
+      "parser_il_offset": 24005
+    }
+  ],
+  "source_file_descriptors": [
+    {
+      "name": "ProtoRank.proto",
+      "descriptor_sha256": "50d350ec555169e35d2e7e395464a41f963fac27aa8a3a68ba58c0d2c0308d14"
+    },
+    {
+      "name": "gmInner.proto",
+      "descriptor_sha256": "dd9f9510dc81e15503c1be55a37ae6f8a625182a86066b1e7d9dfc516c5cfd0c"
+    },
+    {
+      "name": "exoptions.proto",
+      "descriptor_sha256": "938b9bec1988e9b609fab4658147a7283962e61c0cd1b362e8cfb95322993979"
+    },
+    {
+      "name": "ClientGatewayProtocol.proto",
+      "descriptor_sha256": "468c56505d5fd64c456bc50ea8f578b593b067d662a2d21dca2b33249a9004e7"
+    },
+    {
+      "name": "ErrorDefine.proto",
+      "descriptor_sha256": "d74ca0fe9a7f478fa2baafbf97b2ed4f5534a92c6a1a85564adb1652803a61de"
+    },
+    {
+      "name": "ProtoActivityGroupCommon.proto",
+      "descriptor_sha256": "d84fa1b50e793f4d7ed5e0d4985fc6d09933b2dcc59bb73b62f8aeb680756fed"
+    },
+    {
+      "name": "ProtoActivityGroupCommonSync_auto.proto",
+      "descriptor_sha256": "994c849ef128b39dc0eb0a2a2cc1821e29ecb046b94d0dfbb5458af38b601ee7"
+    },
+    {
+      "name": "ProtoActivityGvg.proto",
+      "descriptor_sha256": "db72bb89611f1b22431741ec04da38488c1ce6c6e7d26c27f3a101bc62c38660"
+    },
+    {
+      "name": "ProtoActivityGvgCommon.proto",
+      "descriptor_sha256": "39183b9c8793f6131159d36e69b4107103973e816b5e8042141f43f3a65d5054"
+    },
+    {
+      "name": "ProtoActivityGvgCommonSync_auto.proto",
+      "descriptor_sha256": "296f78e5b14c2a6d7b297d56986ab30c0a90e9adb009ce3649815b643299043f"
+    },
+    {
+      "name": "ProtoBase.proto",
+      "descriptor_sha256": "5aab2dd9baa11960da075736ebfbcdae4ec05323304b7d2b06e2bd27f9121734"
+    },
+    {
+      "name": "ProtoBattle.proto",
+      "descriptor_sha256": "534dd895e2bb6997eabf5841319a9928e81542a193ca2e9499b1627b8f2ae8ac"
+    },
+    {
+      "name": "ProtoCache.proto",
+      "descriptor_sha256": "9ab1880168249f11832bc2926af0d1df0c5fcd8b5a6386e0f55281e2bce177e3"
+    },
+    {
+      "name": "ProtoCacheRoleCommonSync_auto.proto",
+      "descriptor_sha256": "a7621de55d3cf578ef49889fd3dba130d1d5519ca6561ae775047bdca2bfd4f1"
+    },
+    {
+      "name": "ProtoComm.proto",
+      "descriptor_sha256": "0b1025c8f28f65f005e71eeabf1e4e7d9dd78bcc831afda2afccb4e3f144eec0"
+    },
+    {
+      "name": "ProtoGame.proto",
+      "descriptor_sha256": "68b09d1a3a13ae5b9d2abed0780682b87ef713e59c6d9fc64fc1fe091f09f361"
+    },
+    {
+      "name": "ProtoGuildCommon.proto",
+      "descriptor_sha256": "30bfaa9f2f0e6a897db2eb579bc17919ec8d3956ccdd1081fff7208a2d8697d4"
+    },
+    {
+      "name": "ProtoGuildCommonSync_auto.proto",
+      "descriptor_sha256": "e6fc163ff4805ad677dca4df20378a3ccaa64f3ea19d334f12010fce9f4fbbef"
+    },
+    {
+      "name": "ProtoMessageBattle.proto",
+      "descriptor_sha256": "6caad75d1f238dbc80f62158d28a6e6ef16f4ff2a6b9609c83dc6ff79bede965"
+    },
+    {
+      "name": "ProtoRoom.proto",
+      "descriptor_sha256": "300bfab3bfa60557578b8be5a3f56115a714a1814e609e4270c83f768bdc8107"
+    },
+    {
+      "name": "ProtoRoomCommon.proto",
+      "descriptor_sha256": "2b8c9ba8207256258b87c2c8225360be8578d41a2f103ba60c8aaed6822da47b"
+    },
+    {
+      "name": "ProtoRoomCommonSync_auto.proto",
+      "descriptor_sha256": "e8ea2ac502f083b3e239daf65e48a9692c4402c336d0452ce703e964c2c2d5bc"
+    },
+    {
+      "name": "cacheCommon.proto",
+      "descriptor_sha256": "016723bd7e91a039729b72e7a6ea95c1c978b7638ffe485f2429f17af5c128f8"
+    },
+    {
+      "name": "ProtoSyncComm.proto",
+      "descriptor_sha256": "c08d70c92262c470dfc8384d6c95be358be1af2970b55f833894eb355255bbb8"
+    }
+  ],
+  "resolver_body_sha256": "ac5136bb65c55005e86056b6a3dad983e1833c4086fd740fe8505d3d54d208a8",
+  "producer_sha256": "894b882f05d4b819251a95b31cb772e242ce7fe913930a288057b391d8b98732",
+  "network_requests_sent": false,
+  "private_archives_read": false,
+  "target_execution": false,
+  "plaintext_assemblies_or_tables_saved": false,
+  "verified_hot_versions": [71, 72],
+  "additional_verified_versions": [
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}

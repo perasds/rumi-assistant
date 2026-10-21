@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "status": "verified_public_wire_schema",
+  "client_version": "1.5.3",
+  "hot_version": 64,
+  "source_game_sha256": "770f11ce26df555e7212a456066e9ddd345b164c9b87f7622b179859fb8bd3b4",
+  "catalog_sha256": "5c7956681b33766babb63cd43fbed4f11668f47f98a7391e1a472263e18a6e81",
+  "encrypted_bundle_sha256": {
+    "game": "7071f3e97d261c32e261981e9ffb1978e96b2f786cfcc1918c702248e8770dd5",
+    "vib": "033103f0ddaf02c6c83f235737aaebd713ce97bf3aa9e00e2f8477188b5e546e"
+  },
+  "descriptor_path": "rumi-market/backend/src/rumi_market/game/home.descriptor.pb",
+  "descriptor_sha256": "6d9c34c9ed4143f1f70276002dda13320008c8efd339300cd4055fdac70d3e16",
+  "descriptor_size": 22651,
+  "selected_roots": [
+    "SNKProto.Cmd_Notify_Combine_Info",
+    "SNKProto.Cmd_Notify_HomeAll",
+    "SNKProto.Cmd_Notify_HomeArchiAll",
+    "SNKProto.Cmd_Notify_HomeArchitectureChange",
+    "SNKProto.Cmd_Notify_HomeLumiList",
+    "SNKProto.Cmd_Notify_HomeLumiWorkEnergyChange",
+    "SNKProto.Cmd_HomeOld_ArchiLumiOp_Req",
+    "SNKProto.Cmd_HomeOld_ArchiLumiOp_Ack",
+    "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Req",
+    "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Ack",
+    "SNKProto.Cmd_Home_Enter_Req",
+    "SNKProto.Cmd_Home_Enter_Ack",
+    "SNKProto.Cmd_Notify_LumiAll",
+    "SNKProto.Cmd_Notify_LumiChange",
+    "SNKProto.Cmd_Notify_LumiStateChange",
+    "SNKProto.Cmd_Notify_LoginEnd",
+    "SNKProto.Cmd_Notify_ActFam_All",
+    "SNKProto.Cmd_Notify_ActFarm_StealResult",
+    "SNKProto.Cmd_Home_ActFarm_Steal_Ack",
+    "SNKProto.Cmd_Home_ActHome_GetStoreAward_Ack"
+  ],
+  "rpc_bindings": [
+    {
+      "rpc_id": 2016,
+      "message_type": "SNKProto.Cmd_Notify_Combine_Info",
+      "switch_il_offset": 78,
+      "switch_base": 2011,
+      "switch_index": 5,
+      "parser_il_offset": 9397,
+      "parser_token": "0x600f1f5",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3001,
+      "message_type": "SNKProto.Cmd_Notify_HomeAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 110,
+      "parser_il_offset": 10442,
+      "parser_token": "0x6012b09",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3998,
+      "message_type": "SNKProto.Cmd_Notify_HomeArchiAll",
+      "switch_il_offset": 3796,
+      "switch_base": 3971,
+      "switch_index": 27,
+      "parser_il_offset": 14666,
+      "parser_token": "0x6012af7",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3003,
+      "message_type": "SNKProto.Cmd_Notify_HomeArchitectureChange",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 112,
+      "parser_il_offset": 10464,
+      "parser_token": "0x6012b81",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3004,
+      "message_type": "SNKProto.Cmd_Notify_HomeLumiList",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 113,
+      "parser_il_offset": 10475,
+      "parser_token": "0x60135fb",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3005,
+      "message_type": "SNKProto.Cmd_Notify_HomeLumiWorkEnergyChange",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 114,
+      "parser_il_offset": 10486,
+      "parser_token": "0x6012baa",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3401,
+      "message_type": "SNKProto.Cmd_HomeOld_ArchiLumiOp_Req",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 510,
+      "parser_il_offset": 12906,
+      "parser_token": "0x60159db",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3402,
+      "message_type": "SNKProto.Cmd_HomeOld_ArchiLumiOp_Ack",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 511,
+      "parser_il_offset": 12917,
+      "parser_token": "0x60159fc",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3403,
+      "message_type": "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Req",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 512,
+      "parser_il_offset": 12928,
+      "parser_token": "0x6015a57",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3404,
+      "message_type": "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Ack",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 513,
+      "parser_il_offset": 12939,
+      "parser_token": "0x6015a7c",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3387,
+      "message_type": "SNKProto.Cmd_Home_Enter_Req",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 496,
+      "parser_il_offset": 12752,
+      "parser_token": "0x6012fed",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3388,
+      "message_type": "SNKProto.Cmd_Home_Enter_Ack",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 497,
+      "parser_il_offset": 12763,
+      "parser_token": "0x6012ffe",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2971,
+      "message_type": "SNKProto.Cmd_Notify_LumiAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 80,
+      "parser_il_offset": 10112,
+      "parser_token": "0x6012021",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2972,
+      "message_type": "SNKProto.Cmd_Notify_LumiChange",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 81,
+      "parser_il_offset": 10123,
+      "parser_token": "0x601204a",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3235,
+      "message_type": "SNKProto.Cmd_Notify_LumiStateChange",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 344,
+      "parser_il_offset": 12356,
+      "parser_token": "0x6012075",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2913,
+      "message_type": "SNKProto.Cmd_Notify_LoginEnd",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 22,
+      "parser_il_offset": 9639,
+      "parser_token": "0x600f3db",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 10093,
+      "message_type": "SNKProto.Cmd_Notify_ActFam_All",
+      "switch_il_offset": 6194,
+      "switch_base": 9901,
+      "switch_index": 192,
+      "parser_il_offset": 19946,
+      "parser_token": "0x601673b",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 10091,
+      "message_type": "SNKProto.Cmd_Notify_ActFarm_StealResult",
+      "switch_il_offset": 6194,
+      "switch_base": 9901,
+      "switch_index": 190,
+      "parser_il_offset": 19924,
+      "parser_token": "0x6016716",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 10083,
+      "message_type": "SNKProto.Cmd_Home_ActFarm_Steal_Ack",
+      "switch_il_offset": 6194,
+      "switch_base": 9901,
+      "switch_index": 182,
+      "parser_il_offset": 19836,
+      "parser_token": "0x6016646",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 10089,
+      "message_type": "SNKProto.Cmd_Home_ActHome_GetStoreAward_Ack",
+      "switch_il_offset": 6194,
+      "switch_base": 9901,
+      "switch_index": 188,
+      "parser_il_offset": 19902,
+      "parser_token": "0x60166c4",
+      "parser_invoked": false
+    }
+  ],
+  "resolver": {
+    "owner": "ProtoCmdTable",
+    "name": "ResolveParser",
+    "token": "0x6000130",
+    "rva": "0xa7e8",
+    "method_body_sha256": "16b1b54f583cf93c563e2edf160e24ed4cc2cded49cad4789e952285a73cabcd"
+  },
+  "summary": {
+    "file_count": 24,
+    "message_count_including_maps": 92,
+    "map_entry_message_count": 10,
+    "field_count": 393,
+    "explicit_proto3_optional_field_count": 266,
+    "message_metadata_byte_identical_to_hot64": true,
+    "file_metadata_byte_identical_to_hot64": true,
+    "selected_enum_metadata_byte_identical_to_hot64": true,
+    "missing_from_existing_profile": [
+      "SNKProto.CmdHomeArchitectureChange",
+      "SNKProto.CmdHomeLumiWorkEnergyChange",
+      "SNKProto.CmdLumiStateItem",
+      "SNKProto.Cmd_HomeOld_ArchiLumiOp_Ack",
+      "SNKProto.Cmd_HomeOld_ArchiLumiOp_Req",
+      "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Ack",
+      "SNKProto.Cmd_HomeOld_ArchiRecipeOp_Req",
+      "SNKProto.Cmd_Home_ActFarm_Steal_Ack",
+      "SNKProto.Cmd_Home_ActHome_GetStoreAward_Ack",
+      "SNKProto.Cmd_Home_Enter_Ack",
+      "SNKProto.Cmd_Home_Enter_Req",
+      "SNKProto.Cmd_Notify_ActFam_All",
+      "SNKProto.Cmd_Notify_ActFarm_StealResult",
+      "SNKProto.Cmd_Notify_HomeArchiAll",
+      "SNKProto.Cmd_Notify_HomeArchitectureChange",
+      "SNKProto.Cmd_Notify_HomeLumiList",
+      "SNKProto.Cmd_Notify_HomeLumiWorkEnergyChange",
+      "SNKProto.Cmd_Notify_LoginEnd",
+      "SNKProto.Cmd_Notify_LumiChange",
+      "SNKProto.Cmd_Notify_LumiStateChange"
+    ]
+  },
+  "subset_metadata": [
+    {
+      "name": "ProtoBase.proto",
+      "messages": [
+        "CmdShowLumi",
+        "CmdColorVariant",
+        "CmdShowLumiCommon",
+        "CmdItemShow",
+        "CmdLumiTrainHistory",
+        "CmdLumiBase"
+      ],
+      "enums": []
+    },
+    {
+      "name": "ProtoGame.proto",
+      "messages": [
+        "CmdCombineUnit",
+        "Cmd_Notify_Combine_Info",
+        "Cmd_Notify_LoginEnd",
+        "CmdRepeatChange",
+        "CmdLumiAptitude",
+        "CmdLumiEvoHistory",
+        "CmdLumiAchieveData",
+        "CmdLumiAchieveDataList",
+        "CmdLumiMedalData",
+        "CmdLumiOne",
+        "Cmd_Notify_LumiAll",
+        "Cmd_Notify_LumiChange",
+        "CmdLumiStateItem",
+        "Cmd_Notify_LumiStateChange",
+        "CmdHomeVector2",
+        "CmdHomeBlock",
+        "CmdHomeWorkRecipe",
+        "CmdHomeWorkStore",
+        "CmdHomeWorkOld",
+        "CmdHomeInteration",
+        "CmdHomeTravelEvent",
+        "CmdHomeTravelPostcard",
+        "CmdHomeTravelPokdexMap",
+        "CmdHomeTravelPokdex",
+        "CmdHomeTravelNormalRwd",
+        "CmdHomeTravelOneSlot",
+        "CmdHomeTravelVisitorInfo",
+        "CmdHomeTravelAll",
+        "CmdHomeDormLumi",
+        "CmdHomeDorm",
+        "CmdHomeArchitecture",
+        "CmdHomeLumiWorkEnergy",
+        "CmdHomeCanteenSlot",
+        "CmdHomeCanteenLog",
+        "CmdHomeCanteenTipLog",
+        "CmdHomeCanteenArchi",
+        "CmdHomeArchiUnlock",
+        "CmdHomeOneOrder",
+        "CmdHomeOrderSlot",
+        "CmdHomeOrderArchi",
+        "CmdHomeArchiMaxNum",
+        "CmdHomeRobArchiData",
+        "CmdHomeTradeOneSlot",
+        "CmdHomeTradeOneBoard",
+        "CmdHomeTradeArchi",
+        "CmdHomeNewTradeOneSlot",
+        "CmdHomeNewTradeOneBoard",
+        "CmdHomeNewTradeArchi",
+        "CmdHomeProsperity",
+        "Cmd_Notify_HomeArchiAll",
+        "Cmd_Notify_HomeAll",
+        "CmdHomeArchitectureChange",
+        "Cmd_Notify_HomeArchitectureChange",
+        "CmdHomeLumiWorkEnergyChange",
+        "Cmd_Notify_HomeLumiWorkEnergyChange",
+        "CmdHomeBlockUnlockInfo",
+        "Cmd_Home_Enter_Req",
+        "Cmd_Home_Enter_Ack",
+        "Cmd_Notify_HomeLumiList",
+        "CmdCondProgress",
+        "Cmd_HomeOld_ArchiLumiOp_Req",
+        "Cmd_HomeOld_ArchiLumiOp_Ack",
+        "Cmd_HomeOld_ArchiRecipeOp_Req",
+        "Cmd_HomeOld_ArchiRecipeOp_Ack",
+        "CmdCacheHomeActFarm",
+        "Cmd_Home_ActFarm_Steal_Ack",
+        "Cmd_Home_ActHome_GetStoreAward_Ack",
+        "Cmd_Notify_ActFarm_StealResult",
+        "Cmd_Notify_ActFam_All",
+        "CmdMMHouseData"
+      ],
+      "enums": []
+    },
+    {
+      "name": "ProtoSyncComm.proto",
+      "messages": [
+        "CmdRoleHeadInfo",
+        "ActFarmDispatchStealLumi",
+        "ActFarmBeStealLumiInfo",
+        "ActFarmHistoryBeStealLumiInfo",
+        "ActFarmDayProduct",
+        "CacheUseDecoration"
+      ],
+      "enums": []
+    },
+    {
+      "name": "exoptions.proto",
+      "messages": [],
+      "enums": [
+        "ServiceType",
+        "Owners",
+        "SyncFlag",
+        "OwnerShip",
+        "OpFlag"
+      ]
+    }
+  ],
+  "source_file_descriptors": [
+    {
+      "name": "ClientGatewayProtocol.proto",
+      "sha256": "468c56505d5fd64c456bc50ea8f578b593b067d662a2d21dca2b33249a9004e7"
+    },
+    {
+      "name": "ErrorDefine.proto",
+      "sha256": "ca65ad033eecf34d468bdb976b5b83b7086f60c95b13a6cec9a324284e8b9f8f"
+    },
+    {
+      "name": "ProtoActivityGroupCommon.proto",
+      "sha256": "baf57317ba79239e17f2e71345a436d2a024eb757f367d15085b8d80c9c1352e"
+    },
+    {
+      "name": "ProtoActivityGroupCommonSync_auto.proto",
+      "sha256": "994c849ef128b39dc0eb0a2a2cc1821e29ecb046b94d0dfbb5458af38b601ee7"
+    },
+    {
+      "name": "ProtoActivityGvg.proto",
+      "sha256": "203e81afcc7cdca8f40300606348babb3a29c40f035bde4d50f5f11fc0f329dd"
+    },
+    {
+      "name": "ProtoActivityGvgCommon.proto",
+      "sha256": "a07b9ff681f523db857ed0c15a47587a64235bf2f24489fe84f93f782918d350"
+    },
+    {
+      "name": "ProtoActivityGvgCommonSync_auto.proto",
+      "sha256": "296f78e5b14c2a6d7b297d56986ab30c0a90e9adb009ce3649815b643299043f"
+    },
+    {
+      "name": "ProtoBase.proto",
+      "sha256": "a807dfb1aebdd4b0f3406d776597cd2adde429fefc00da8ead6009a76d13abe5"
+    },
+    {
+      "name": "ProtoBattle.proto",
+      "sha256": "f5c5b6fd29a80b72d42e21612e9619c46ad71a85f8fbb1d5158874a996f28881"
+    },
+    {
+      "name": "ProtoCache.proto",
+      "sha256": "19d194df7d9e5291aa0d235dd897993bfca94598ff795ddfb0e32afe9b349752"
+    },
+    {
+      "name": "ProtoCacheRoleCommonSync_auto.proto",
+      "sha256": "a7621de55d3cf578ef49889fd3dba130d1d5519ca6561ae775047bdca2bfd4f1"
+    },
+    {
+      "name": "ProtoComm.proto",
+      "sha256": "0b1025c8f28f65f005e71eeabf1e4e7d9dd78bcc831afda2afccb4e3f144eec0"
+    },
+    {
+      "name": "ProtoGame.proto",
+      "sha256": "28cff7a239df7a827d3c3178d3b6c24134b0f64c387da764995c72f3d158cb25"
+    },
+    {
+      "name": "ProtoGuildCommon.proto",
+      "sha256": "c3193529fac1b21ad1046662f8a0b859ac6e79555afdd022e016179398eff65a"
+    },
+    {
+      "name": "ProtoGuildCommonSync_auto.proto",
+      "sha256": "e6fc163ff4805ad677dca4df20378a3ccaa64f3ea19d334f12010fce9f4fbbef"
+    },
+    {
+      "name": "ProtoMessageBattle.proto",
+      "sha256": "fdb92160146ebe77f61ad7f22e909384586c566b86857983110569a7f68855f3"
+    },
+    {
+      "name": "ProtoRank.proto",
+      "sha256": "50d350ec555169e35d2e7e395464a41f963fac27aa8a3a68ba58c0d2c0308d14"
+    },
+    {
+      "name": "ProtoRoom.proto",
+      "sha256": "e97e083e47fabf7d0f45a8a885117c7d90cf4dc7560f1481c52f7980906e15af"
+    },
+    {
+      "name": "ProtoRoomCommon.proto",
+      "sha256": "6ea4f5593e269c48189c6322cfe02b39a285130cf7faaf1aa3c6f36541821cd7"
+    },
+    {
+      "name": "ProtoRoomCommonSync_auto.proto",
+      "sha256": "e8ea2ac502f083b3e239daf65e48a9692c4402c336d0452ce703e964c2c2d5bc"
+    },
+    {
+      "name": "ProtoSyncComm.proto",
+      "sha256": "74f5f6c48012ba6f1bc5785b2f1859cd5e629e2f3aae44b421e2cd1a1127b67e"
+    },
+    {
+      "name": "cacheCommon.proto",
+      "sha256": "bd4ea17accba79ba562e0a7267734110c6c8acc853d9196a359505aad085bf08"
+    },
+    {
+      "name": "exoptions.proto",
+      "sha256": "938b9bec1988e9b609fab4658147a7283962e61c0cd1b362e8cfb95322993979"
+    },
+    {
+      "name": "gmInner.proto",
+      "sha256": "aaf57ec8473dd9a0afaf742af4dab2509095197b965dc494d0714d0d9a65eac0"
+    }
+  ],
+  "export_helpers": [
+    {
+      "path": "artifacts/rumi/home-analysis/home_public_resources.py",
+      "sha256": "3d7a12cd98dea72e014dc85534ec3846dd2be5a5a9f4d64820743a9916f21c43"
+    },
+    {
+      "path": "artifacts/rumi/pet-catalog/managed_descriptor_probe.py",
+      "sha256": "756185ab6cd6325edc5340834ed16baec6ac47c9a32917cdaf3d4b801674996e"
+    },
+    {
+      "path": "artifacts/rumi/pet-catalog/protocol_schema_subset.py",
+      "sha256": "f13ed6ba7d12a8dc2c35a232d49b05040374d2d7f76d787018758c9329d8ef6b"
+    }
+  ],
+  "semantics": {
+    "3001": "Player.InitHomeData 0x6000692 chooses pending architecture batches if non-null, otherwise HomeAll.architecture_list; then clears pending and assigns energy list",
+    "3003": {
+      "verified_cases": {
+        "1": "append architecture",
+        "2": "remove matching architecture_uid",
+        "5": "replace matching architecture_uid"
+      },
+      "other_cases": "unverified; no generic repeated-change enum assumed"
+    },
+    "3004": "HomeClientExecer._OnHomeLumiListChange 0x6003dd1 contains only nop and ret; source handler is no-op",
+    "3005": "replace matching LumiUid energy entry, otherwise append; change_type ignored by verified handler",
+    "3998": "LoginClientExecer._OnHomeArchiAllNotify 0x6003f0c -> Player.InitHomeArchiData 0x6000691 appends architecture_list to pending; HomeAll InitHomeData 0x6000692 uses pending if non-null in preference to its own architecture_list, then clears pending",
+    "2971": "Player.InitPetData 0x600080a accumulates a round of LumiOne records; not one-message replacement",
+    "2913": "LoginClientExecer._OnNotifyLoginEnd 0x6003f14 calls Player.FinishPetDataInit 0x600080b; removes unobserved round UIDs and marks roster initialized",
+    "2972": "Player.UpdatePetList 0x600080c -> ReceiveDataArray<PetStruct>.Update 0x6000f79: 1 AddFrom 0x6001087 ignores existing UID; 2 DelFrom 0x6001085 removes matching UID; 3 ModFrom 0x6001086 replaces whole matching record",
+    "3235": "Player.UpdatePetStateList 0x600080f requires UID and state presence and replaces only matched State; no new UID",
+    "farm_dispatch": "Bounded projection keeps only dispatch id and value.lumiUid; no role data. Four dynamic command bindings re-proven from same hot64 ResolveParser."
+  },
+  "unreviewed_fields_to_omit": [
+    "SNKProto.CmdHomeRobArchiData.token_id"
+  ],
+  "network_requests_sent": false,
+  "target_execution": false,
+  "private_runtime_read": false,
+  "plaintext_assembly_persisted": false,
+  "secret_values_exported": false,
+  "project_profile_files_unchanged": true,
+  "filesystem_write_scope": [
+    "artifacts/rumi/home-analysis/home-live.descriptor.pb",
+    "artifacts/rumi/home-analysis/home-live-source.public.json"
+  ],
+  "source_evidence": {
+    "path": "artifacts/rumi/home-analysis/home-live-semantics.public.json",
+    "sha256": "bfb5f72c3a17c268e3c35d1bd198ab020bd9310da70bda9ff733c57e7e1b0812"
+  },
+  "compatible_public_sources": {
+    "65": {
+      "client_version": "1.5.3",
+      "catalog_sha256": "b0f474de9795fe81b842b2f495cb8679531e14fe31cd0698df06b605af19343a",
+      "source_game_sha256": "ab029ae5433cbaa8b214a290387b40ae762a154cbc04096a26c886eba4eab4b3",
+      "encrypted_bundle_sha256": {
+        "game": "da0ca2402b9251cb6f6d915c1752c5961d4bfd1e8cfad9774b7d849e52a0b2c4",
+        "vib": "2fee3ffbc597ae35adfbe9a49651f848893f2cd9ca7bf6acd9a4041c7a3e60dd"
+      },
+      "descriptor_sha256": "6d9c34c9ed4143f1f70276002dda13320008c8efd339300cd4055fdac70d3e16",
+      "exact_descriptor_bytes_same": true,
+      "rpc_bindings_same": 20,
+      "normalized_cil_method_groups_same": 160,
+      "normalized_cil_overloads_same": 174,
+      "configuration_recursive_record_types_same": 14,
+      "configuration_tables_same": 423,
+      "compatibility_report": "artifacts/rumi/home-analysis/home-hot65-compatibility.public.json",
+      "compatibility_report_sha256": "b9e4617ddd3ff64444e62d1f86620b339f2f27d32bf7fa4ace07b23e518bc786",
+      "resource_report_sha256": "1958d01824f2e63b87f56b8b9611191b1afa02f6f3c66fa81e73eab462d6dc05",
+      "target_execution": false,
+      "real_game_writes_verified": false,
+      "official_public_resource_requests_sent": true
+    }
+  },
+  "verified_hot_versions": [
+    64,
+    65,
+    69,
+    71,
+    72
+  ],
+  "additional_verified_versions": [
+    {
+      "hot_version": 71,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "5ae75e7d91edf555f5776fa5eb7089162f5cc5b2918774e74d28610ca6f8cf98",
+      "source_vib_bundle_sha256": "d9d374dd6602d52dafeabf5a2ab722d12a7eb61c588091beda639a46c1937dc8",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot71-runtime-compatibility.public.json",
+      "verification_report_sha256": "39b3c3d8e1ece0cc684dd70bfeedfc95a82d3aca2a3c29f25e9482f78bded18a",
+      "real_account_tested": false,
+      "activity_farm_execution_enabled": false
+    },
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}

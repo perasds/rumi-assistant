@@ -1,0 +1,970 @@
+{
+  "schema_version": 1,
+  "source": {
+    "client_version": "1.5.3",
+    "hot_version": 64,
+    "game_sha256": "770f11ce26df555e7212a456066e9ddd345b164c9b87f7622b179859fb8bd3b4",
+    "catalog_sha256": "5c7956681b33766babb63cd43fbed4f11668f47f98a7391e1a472263e18a6e81",
+    "report_sha256": "7ccc1a15a461f1233eb9626e64d3133554056b588be0c42ed8eead0a8078539d",
+    "table_sha256": {
+      "Architecture": "ec15af253d85fbc5870a5c68e3d3e15dea2e66b306234398bcc2856ff1d84147",
+      "Recipe": "7aef02c3abde543989d3d973e191bdff7d450f56b25c5ce671f98e1dafd1ccc4",
+      "Item": "23663ade36275c4b7e2a21e26bc091f23774838dfb30ac524adb799b77a22bcc",
+      "MultilingualCN": "6441486cdd4d6aa0e190041399ae0cc5de9fff08b5a7f0a7b3597f849e63abc5",
+      "HomeIsland": "80e1d9a6d11aeb7abd80e5f97a4952589c7fd983a1d6c1751bfddb0f9821e590",
+      "LumiWorkingLevelEfficiency": "212fe10861dfbf5c3ae5718957463e72e272f64a8eed46d8660d584a4e5ceb46"
+    }
+  },
+  "buildings": [
+    {
+      "building_id": "10101",
+      "name": "简易制卡台",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "手工",
+      "recipes": [
+        {
+          "recipe_id": "1",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20001",
+              "name": "木头",
+              "count": 5,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "10031",
+              "name": "噜咪卡",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "2",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20002",
+              "name": "石头",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20001",
+              "name": "木头",
+              "count": 6,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "10032",
+              "name": "强化噜咪卡",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "3",
+          "min_building_level": 3,
+          "materials": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 10,
+              "image_url": null
+            },
+            {
+              "item_id": "20003",
+              "name": "砂石",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "10033",
+              "name": "精致噜咪卡",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10102",
+      "name": "伐木场",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "伐木",
+      "recipes": [
+        {
+          "recipe_id": "7",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20001",
+              "name": "木头",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10103",
+      "name": "流星祭坛",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "祈愿",
+      "recipes": [
+        {
+          "recipe_id": "8",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10104",
+      "name": "农田",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "种植",
+      "recipes": [
+        {
+          "recipe_id": "9",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20008",
+              "name": "莓果",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "26",
+          "min_building_level": 2,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20017",
+              "name": "生菜",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "44",
+          "min_building_level": 3,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20033",
+              "name": "玉米",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "27",
+          "min_building_level": 4,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20018",
+              "name": "蘑菇",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10105",
+      "name": "炉灶",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "生火",
+      "recipes": [
+        {
+          "recipe_id": "11",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20008",
+              "name": "莓果",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20011",
+              "name": "烤莓果",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "28",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20008",
+              "name": "莓果",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20017",
+              "name": "生菜",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20019",
+              "name": "水果沙拉",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "54",
+          "min_building_level": 3,
+          "materials": [
+            {
+              "item_id": "20033",
+              "name": "玉米",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20016",
+              "name": "鸡蛋",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20028",
+              "name": "玉米蛋饼",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "32",
+          "min_building_level": 4,
+          "materials": [
+            {
+              "item_id": "20018",
+              "name": "蘑菇",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20016",
+              "name": "鸡蛋",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20023",
+              "name": "蘑菇炒蛋",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10106",
+      "name": "祈露池",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "祈愿",
+      "recipes": [
+        {
+          "recipe_id": "43",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20038",
+              "name": "星露",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10107",
+      "name": "石矿",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "采矿",
+      "recipes": [
+        {
+          "recipe_id": "17",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20002",
+              "name": "石头",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10108",
+      "name": "鸡舍",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "产蛋",
+      "recipes": [
+        {
+          "recipe_id": "16",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20016",
+              "name": "鸡蛋",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10109",
+      "name": "饮品摊",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "手工",
+      "recipes": [
+        {
+          "recipe_id": "50",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20008",
+              "name": "莓果",
+              "count": 5,
+              "image_url": null
+            },
+            {
+              "item_id": "20025",
+              "name": "牛奶",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20029",
+              "name": "芝芝莓莓",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "51",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20017",
+              "name": "生菜",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20025",
+              "name": "牛奶",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20030",
+              "name": "绿叶拿铁",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "52",
+          "min_building_level": 3,
+          "materials": [
+            {
+              "item_id": "20033",
+              "name": "玉米",
+              "count": 2,
+              "image_url": null
+            },
+            {
+              "item_id": "20025",
+              "name": "牛奶",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20031",
+              "name": "玉米糯糯",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10110",
+      "name": "精密制卡台",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "发电",
+      "recipes": [
+        {
+          "recipe_id": "4",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 30,
+              "image_url": null
+            },
+            {
+              "item_id": "20004",
+              "name": "紫晶砂",
+              "count": 6,
+              "image_url": null
+            },
+            {
+              "item_id": "20003",
+              "name": "砂石",
+              "count": 6,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "10034",
+              "name": "史诗噜咪卡",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "5",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20000",
+              "name": "星尘",
+              "count": 100,
+              "image_url": null
+            },
+            {
+              "item_id": "20003",
+              "name": "砂石",
+              "count": 15,
+              "image_url": null
+            },
+            {
+              "item_id": "20005",
+              "name": "紫水晶",
+              "count": 5,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "10035",
+              "name": "传奇噜咪卡",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10113",
+      "name": "石材坊",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "生火",
+      "recipes": [
+        {
+          "recipe_id": "21",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20002",
+              "name": "石头",
+              "count": 2,
+              "image_url": null
+            },
+            {
+              "item_id": "20001",
+              "name": "木头",
+              "count": 4,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20003",
+              "name": "砂石",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10114",
+      "name": "紫晶矿",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "采矿",
+      "recipes": [
+        {
+          "recipe_id": "24",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20004",
+              "name": "紫晶砂",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10115",
+      "name": "水晶坊",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "生火",
+      "recipes": [
+        {
+          "recipe_id": "22",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20004",
+              "name": "紫晶砂",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20002",
+              "name": "石头",
+              "count": 3,
+              "image_url": null
+            },
+            {
+              "item_id": "20034",
+              "name": "木板",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20005",
+              "name": "紫水晶",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10116",
+      "name": "牛棚",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "产奶",
+      "recipes": [
+        {
+          "recipe_id": "34",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "20025",
+              "name": "牛奶",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10118",
+      "name": "建材加工台",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "手工",
+      "recipes": [
+        {
+          "recipe_id": "46",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20034",
+              "name": "木板",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20035",
+              "name": "榫卯",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "47",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20003",
+              "name": "砂石",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20036",
+              "name": "石砖",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "48",
+          "min_building_level": 3,
+          "materials": [
+            {
+              "item_id": "20005",
+              "name": "紫水晶",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20034",
+              "name": "木板",
+              "count": 3,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20037",
+              "name": "晶体元件",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10120",
+      "name": "糖果屋",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "手工",
+      "recipes": [
+        {
+          "recipe_id": "36",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20008",
+              "name": "莓果",
+              "count": 5,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "21001",
+              "name": "莓莓糖",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "41",
+          "min_building_level": 2,
+          "materials": [
+            {
+              "item_id": "20017",
+              "name": "生菜",
+              "count": 2,
+              "image_url": null
+            },
+            {
+              "item_id": "20038",
+              "name": "星露",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "21003",
+              "name": "果蔬糖",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "49",
+          "min_building_level": 3,
+          "materials": [
+            {
+              "item_id": "20033",
+              "name": "玉米",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20038",
+              "name": "星露",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "21005",
+              "name": "玉米糖",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        },
+        {
+          "recipe_id": "42",
+          "min_building_level": 4,
+          "materials": [
+            {
+              "item_id": "20018",
+              "name": "蘑菇",
+              "count": 1,
+              "image_url": null
+            },
+            {
+              "item_id": "20038",
+              "name": "星露",
+              "count": 1,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "21004",
+              "name": "迷幻糖",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10122",
+      "name": "木材加工厂",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "伐木",
+      "recipes": [
+        {
+          "recipe_id": "45",
+          "min_building_level": 1,
+          "materials": [
+            {
+              "item_id": "20001",
+              "name": "木头",
+              "count": 5,
+              "image_url": null
+            }
+          ],
+          "products": [
+            {
+              "item_id": "20034",
+              "name": "木板",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10124",
+      "name": "星辉苗圃",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "祈愿",
+      "recipes": [
+        {
+          "recipe_id": "55",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "10020",
+              "name": "星辉树叶",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10125",
+      "name": "农田",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "种植",
+      "recipes": [
+        {
+          "recipe_id": "19",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "55001",
+              "name": "苹果",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10130",
+      "name": "渔场",
+      "island_id": 1,
+      "island_name": "雨林",
+      "work_type": "水殖",
+      "recipes": [
+        {
+          "recipe_id": "56",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "55002",
+              "name": "胖头鱼",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "10206",
+      "name": "建筑 #10206",
+      "island_id": 2,
+      "island_name": "海岛",
+      "work_type": "水殖",
+      "recipes": [
+        {
+          "recipe_id": "109",
+          "min_building_level": 1,
+          "materials": [],
+          "products": [
+            {
+              "item_id": "22008",
+              "name": "水产",
+              "count": 1,
+              "image_url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

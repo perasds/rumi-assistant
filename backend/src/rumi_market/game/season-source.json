@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "source_game_sha256": "ab029ae5433cbaa8b214a290387b40ae762a154cbc04096a26c886eba4eab4b3",
+  "client_version": "1.5.3",
+  "hot_version": 65,
+  "descriptor_sha256": "aa0a0b4bfd0d15989b297fa7654cb97ff9eb35b5988feec9d92c553424e4d89c",
+  "descriptor_size": 540,
+  "selected_roots": [
+    "SNKProto.Cmd_Notify_ACT_All",
+    "SNKProto.Cmd_Notify_ACT_Change"
+  ],
+  "rpc_bindings": [
+    {
+      "rpc_id": 8001,
+      "message_type": "SNKProto.Cmd_Notify_ACT_All",
+      "switch_il_offset": 5671,
+      "switch_base": 8001,
+      "switch_index": 0,
+      "parser_il_offset": 17504,
+      "parser_token": "0x6010676"
+    },
+    {
+      "rpc_id": 8002,
+      "message_type": "SNKProto.Cmd_Notify_ACT_Change",
+      "switch_il_offset": 5671,
+      "switch_base": 8001,
+      "switch_index": 1,
+      "parser_il_offset": 17515,
+      "parser_token": "0x6010689"
+    }
+  ],
+  "selected_wire_fields": {
+    "SNKProto.CmdACTComm": [
+      {
+        "name": "system_open_id",
+        "number": 1,
+        "type": 5,
+        "label": 1,
+        "type_name": "",
+        "proto3_optional": true
+      },
+      {
+        "name": "system_id",
+        "number": 2,
+        "type": 5,
+        "label": 1,
+        "type_name": "",
+        "proto3_optional": true
+      },
+      {
+        "name": "begin_time",
+        "number": 3,
+        "type": 3,
+        "label": 1,
+        "type_name": "",
+        "proto3_optional": true
+      },
+      {
+        "name": "end_time",
+        "number": 4,
+        "type": 3,
+        "label": 1,
+        "type_name": "",
+        "proto3_optional": true
+      }
+    ],
+    "SNKProto.CmdACTSeasonSystem": [
+      {
+        "name": "act_comm",
+        "number": 1,
+        "type": 11,
+        "label": 1,
+        "type_name": ".SNKProto.CmdACTComm",
+        "proto3_optional": true
+      }
+    ],
+    "SNKProto.CmdACTAll": [
+      {
+        "name": "season_list",
+        "number": 15,
+        "type": 11,
+        "label": 3,
+        "type_name": ".SNKProto.CmdACTSeasonSystem",
+        "proto3_optional": false
+      }
+    ],
+    "SNKProto.Cmd_Notify_ACT_All": [
+      {
+        "name": "activity_info",
+        "number": 1,
+        "type": 11,
+        "label": 1,
+        "type_name": ".SNKProto.CmdACTAll",
+        "proto3_optional": true
+      }
+    ],
+    "SNKProto.Cmd_Notify_ACT_Change": [
+      {
+        "name": "activity_info",
+        "number": 1,
+        "type": 11,
+        "label": 1,
+        "type_name": ".SNKProto.CmdACTAll",
+        "proto3_optional": true
+      }
+    ]
+  },
+  "source_evidence": "artifacts/rumi/market-season-analysis/market-season-runtime.public.json",
+  "source_evidence_sha256": "c45e20cd6eb152a3c8fca3cfce90654dbd5c3139b8cc5bd3c3e137f1f864018e",
+  "source_methods": [
+    {
+      "owner": "LumiTagEx",
+      "method": "GetNowSeasonTag",
+      "method_token": "0x6000187",
+      "method_body_sha256": "d770e151ea6b222492a1a6615c5d3cdce7b8fd116d53e134edfd7c9bf9b2e726"
+    },
+    {
+      "owner": "Player",
+      "method": "InitActivityData",
+      "method_token": "0x600022f",
+      "method_body_sha256": "da4070832c200138fdcd54925bc9e29204b5e0dc58f44bd40bc8f9ec2cceb5d2"
+    },
+    {
+      "owner": "Player",
+      "method": "ChangeActivityData",
+      "method_token": "0x6000230",
+      "method_body_sha256": "908af108af901f27f0248dd4693fcad2fd80340fd13619aac05e3df59708fb92"
+    },
+    {
+      "owner": "Player",
+      "method": "GetActSeason",
+      "method_token": "0x60002cb",
+      "method_body_sha256": "00a1cf50ce22b38cc08d3c74057587eb8d3dd67ab391568f8a623db445f647ea"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "InitACTData",
+      "method_token": "0x6000dda",
+      "method_body_sha256": "0f0875305e699a62297e29ca679448eb85ce47d121a0c8c369f2c84445af501a"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "UpdateACTData",
+      "method_token": "0x6000ddf",
+      "method_body_sha256": "472a56d64371ab46e09ee5700314e1d6185efeaadd48a32bd3391fdc50f8e512"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "GetCurrentActData",
+      "method_token": "0x6000de0",
+      "method_body_sha256": "9af94b1aa67349f311b2b306b06ed673ed4dce0a0ff4bb8d48c13975c05ad497"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "GetCurrentActSystemId",
+      "method_token": "0x6000de2",
+      "method_body_sha256": "162f5b61556cf6ef09246205cd9543a19e5b9e7442808cb3ac3454d00ad02814"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "GetCurrentSeasonId",
+      "method_token": "0x6000de3",
+      "method_body_sha256": "a808975d7dd2b6133d29d87b00f9dc9522017742f825e29239bcc698e13834e2"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "IsSeasonOpening",
+      "method_token": "0x6000de6",
+      "method_body_sha256": "1d227bbc0607f53b6889228a6969da55a5c480428bf99e806473eb3a675660d3"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "Clear",
+      "method_token": "0x6000de8",
+      "method_body_sha256": "970ea1ebe03c254a1a446619f685d820eaf856180dbac4735bd68efb810f31c0"
+    },
+    {
+      "owner": "Player_Activity_Season",
+      "method": "GetCurrentSeasonNumber",
+      "method_token": "0x6000df1",
+      "method_body_sha256": "1952344f7d5c13f9875962a2c2b47e1bc1729e6569a22304d15f38fd7917d14b"
+    },
+    {
+      "owner": "LoginClientExecer",
+      "method": "_OnActAllNotify",
+      "method_token": "0x6003f06",
+      "method_body_sha256": "a02a1289bd85e98187c6b0bbed58b306e8c340f6869c57e531bea6170814dc70"
+    },
+    {
+      "owner": "LoginClientExecer",
+      "method": "_OnActChangeNotify",
+      "method_token": "0x6003f07",
+      "method_body_sha256": "fb0b0e201b918682899b636ae59d62c0f95ad66496d1f497b357f78193ee71d6"
+    }
+  ],
+  "projection": "Only season activity identity/time fields are retained; unrelated fields are protobuf unknowns.",
+  "season_id_expression": "system_id < 0 ? -1 : ((system_id / 100) % 10) * 10 + ((system_id / 10) % 10)",
+  "lumi_tag_expression": "season_id > 0 ? season_id + 1 : 0",
+  "active_interval": "begin_time <= current_server_time <= end_time",
+  "target_execution": false,
+  "network_requests_sent": false,
+  "private_account_archives_read": false,
+  "source_assemblies_persisted": false,
+  "verified_hot_versions": [
+    65,
+    69,
+    71,
+    72
+  ],
+  "additional_verified_versions": [
+    {
+      "hot_version": 71,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "5ae75e7d91edf555f5776fa5eb7089162f5cc5b2918774e74d28610ca6f8cf98",
+      "source_vib_bundle_sha256": "d9d374dd6602d52dafeabf5a2ab722d12a7eb61c588091beda639a46c1937dc8",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot71-runtime-compatibility.public.json",
+      "verification_report_sha256": "39b3c3d8e1ece0cc684dd70bfeedfc95a82d3aca2a3c29f25e9482f78bded18a",
+      "real_account_tested": false,
+      "activity_farm_execution_enabled": false
+    },
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}

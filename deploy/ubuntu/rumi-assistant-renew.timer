@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Rumi Assistant certificate twice daily
+
+[Timer]
+OnCalendar=*-*-* 00,12:00:00
+RandomizedDelaySec=5min
+Persistent=yes
+Unit=rumi-assistant-renew.service
+
+[Install]
+WantedBy=timers.target

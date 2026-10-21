@@ -1,0 +1,33 @@
+[Unit]
+Description=Rumi Assistant API
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=rumi-assistant
+Group=rumi-assistant
+WorkingDirectory=/opt/rumi-assistant/current/rumi-market
+EnvironmentFile=/etc/rumi-assistant.env
+Environment="PYTHONPATH=/opt/rumi-assistant/current/rumi-market/backend/src"
+Environment="PATH=/opt/rumi-assistant/node/bin:/opt/rumi-assistant/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+Environment="HOME=/opt/rumi-assistant/shared/runtime"
+Environment="XDG_CACHE_HOME=/opt/rumi-assistant/shared/runtime/cache"
+Environment="XDG_CONFIG_HOME=/opt/rumi-assistant/shared/runtime/config"
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/rumi-assistant/venv/bin/uvicorn rumi_market.live_app:app --host 127.0.0.1 --port 18082 --workers 1 --proxy-headers --forwarded-allow-ips 127.0.0.1 --no-access-log
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=30s
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/opt/rumi-assistant/shared/runtime
+MemoryAccounting=yes
+MemoryHigh=512M
+MemoryMax=768M
+
+[Install]
+WantedBy=multi-user.target

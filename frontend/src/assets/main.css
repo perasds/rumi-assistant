@@ -1,0 +1,41 @@
+:root {
+  font-family: 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--page-background);
+  font-synthesis: none;
+  --page-background: #fffaf2;
+  --ink: #453b34;
+  --accent: #805c45;
+  --accent-deep: var(--accent);
+  --accent-light: #f2e3d1;
+  --accent-border: #cbb39a;
+  --border: #e7dccf;
+  --surface: #fffdf8;
+  --surface-muted: #f7efe4;
+  --field-background: #fbf5ec;
+  --text-muted: #706458;
+  --gold: #ae7527;
+  --gold-light: #fff0c8;
+  --success: #47735d;
+  --success-light: #edf8f0;
+  --danger: #a34e42;
+  --van-primary-color: var(--accent);
+  --van-button-primary-background: var(--accent);
+  --van-button-primary-border-color: var(--accent);
+  --van-success-color: var(--success);
+  --van-danger-color: var(--danger);
+  --van-text-color: var(--ink);
+  --van-text-color-2: var(--text-muted);
+  --van-border-color: var(--border);
+  --van-background: var(--page-background);
+  --van-background-2: var(--surface);
+  --van-tabs-bottom-bar-color: var(--accent);
+  --van-tab-active-text-color: var(--accent);
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--page-background); }
+#app { min-height: 100svh; }
+img, svg { max-width: 100%; }
+button, input { font: inherit; }
+input { accent-color: var(--accent); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }

@@ -1,0 +1,41 @@
+const descriptions: Record<string, string> = {
+  inventory_unknown: '库存未同步完整，暂不能确定可用物资和缺料',
+  search_budget_exhausted: '计算预算已用完，当前方案可行，尚未证明最优',
+  order_scope_truncated: '订单数量超过本轮计算范围，当前方案只覆盖部分订单',
+  order_type_unknown: '部分订单类型尚未核实，未纳入计划',
+  empty_order_materials: '部分订单没有有效物资需求，未纳入计划',
+  material_cycle: '物资依赖存在循环，相关补货暂未安排',
+  refresh_not_modeled: '自动换单暂未开放，预览不计入换单收益',
+  production_is_estimate: '生产计划按当前工况估计，工况变化后会重算',
+  claim_requires_server_confirmation: '产物须经服务器确认并领取后才计入库存',
+  energy_rate_unverified: '精力消耗尚未核实，不能保证整段生产持续运行',
+  production_inputs_reserved_unless_prepaid: '尚未确认预付的生产原料会继续预留，避免重复使用',
+  production_unavailable: '暂无可用生产条件',
+  automatic_production_disabled: '默认不安排自动生产',
+  production_branch_unverified: '该建筑生产方式尚未核实',
+  building_unavailable: '建筑暂不可用，可能处于升级或待启用状态',
+  recipe_locked: '当前建筑等级尚未解锁该配方',
+  worker_invalid: '尚无已确认可用的工人',
+  recipe_unknown: '当前生产配方尚未同步或不匹配',
+  speed_unknown: '当前建筑实际工作速度未知或为零',
+  energy_unavailable: '工人精力未知或不足',
+  server_stopped: '服务器状态显示生产已停止',
+  state_unknown: '当前生产状态尚未核实',
+  not_producing: '建筑当前未在生产',
+  capacity_unknown: '有效库存容量尚未同步',
+  capacity_full: '建筑库存已满',
+  capacity_insufficient: '剩余容量不足以容纳生产结果',
+  work_amount_unknown: '配方工作量尚未核实',
+  progress_unknown: '当前生产进度尚未同步完整',
+  clock_before_update: '游戏时间与生产更新时间尚未对齐',
+  queue_finished: '当前生产批次已经结束',
+  progress_invalid: '生产进度暂不可用，请等待重新同步',
+  energy_insufficient: '已知精力不足以完成本轮生产',
+  queue_exhausted: '当前生产队列无法覆盖所需数量',
+  outside_horizon: '预计生产完成时间超出计划时域',
+}
+
+export function orderReason(message: string | null) {
+  if (!message) return ''
+  return descriptions[message] ?? (/^[a-z][a-z0-9_]*$/.test(message) ? '该条件尚未核实' : message)
+}

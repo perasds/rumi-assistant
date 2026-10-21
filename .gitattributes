@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.pb -text
+data/**/*.json -text whitespace=cr-at-eol
+backend/src/rumi_market/game/*-source.json -text

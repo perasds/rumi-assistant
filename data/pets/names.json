@@ -1,0 +1,2468 @@
+{
+  "names": {
+    "100101": {
+      "name": "卡皮巴拉",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100101"
+    },
+    "100501": {
+      "name": "多肉猫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100501"
+    },
+    "100601": {
+      "name": "咕咕鸡",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100601"
+    },
+    "100701": {
+      "name": "炸弹鸡",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100701"
+    },
+    "100801": {
+      "name": "练习鸡",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100801"
+    },
+    "100901": {
+      "name": "香菇鸡",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#100901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_100901"
+    },
+    "101001": {
+      "name": "小菜鸡",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101001"
+    },
+    "101101": {
+      "name": "柴火熊",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101101"
+    },
+    "101201": {
+      "name": "火猫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101201"
+    },
+    "101301": {
+      "name": "好运鸟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101301"
+    },
+    "101601": {
+      "name": "火龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101601"
+    },
+    "101701": {
+      "name": "烈焰龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101701"
+    },
+    "101801": {
+      "name": "飞叶鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101801"
+    },
+    "101901": {
+      "name": "小鹿晶晶",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#101901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_101901"
+    },
+    "102001": {
+      "name": "冰川鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102001"
+    },
+    "102004": {
+      "name": "冰川鹿·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102004",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102004"
+    },
+    "102101": {
+      "name": "九色鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102101"
+    },
+    "102102": {
+      "name": "祥云鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102102",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102102"
+    },
+    "102103": {
+      "name": "铃兰鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102103",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102103"
+    },
+    "102201": {
+      "name": "小马嘟嘟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102201"
+    },
+    "102301": {
+      "name": "独角兽",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102301"
+    },
+    "102401": {
+      "name": "金刚狼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102401"
+    },
+    "102404": {
+      "name": "金刚狼·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102404",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102404"
+    },
+    "102501": {
+      "name": "发奋仓鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102501"
+    },
+    "102601": {
+      "name": "筋肉狗",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102601"
+    },
+    "102602": {
+      "name": "旋风柴",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102602",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102602"
+    },
+    "102701": {
+      "name": "筋肉鹅",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102701"
+    },
+    "102801": {
+      "name": "传话蛙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102801"
+    },
+    "102901": {
+      "name": "淘淘",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#102901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_102901"
+    },
+    "103201": {
+      "name": "水母花花",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103201"
+    },
+    "103301": {
+      "name": "企鹅秋秋",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103301"
+    },
+    "103401": {
+      "name": "小火狐",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103401"
+    },
+    "103501": {
+      "name": "软脚虾",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103501"
+    },
+    "103601": {
+      "name": "奶牛哞哞",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103601"
+    },
+    "103701": {
+      "name": "呐喊君",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103701"
+    },
+    "103704": {
+      "name": "呐喊君·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103704",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103704"
+    },
+    "103801": {
+      "name": "黄风大圣",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103801"
+    },
+    "103804": {
+      "name": "黄风大圣·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103804",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103804"
+    },
+    "103901": {
+      "name": "食梦貘",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#103901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_103901"
+    },
+    "104101": {
+      "name": "小钢狼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104101"
+    },
+    "104201": {
+      "name": "土犀犀",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104201"
+    },
+    "104301": {
+      "name": "火马墩墩",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104301"
+    },
+    "104401": {
+      "name": "地鼠方方",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104401"
+    },
+    "104501": {
+      "name": "火莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104501"
+    },
+    "104601": {
+      "name": "水莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104601"
+    },
+    "104701": {
+      "name": "冰莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104701"
+    },
+    "104801": {
+      "name": "草莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104801"
+    },
+    "104901": {
+      "name": "电莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#104901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_104901"
+    },
+    "105001": {
+      "name": "土莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105001"
+    },
+    "105101": {
+      "name": "暗莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105101"
+    },
+    "105201": {
+      "name": "光莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105201"
+    },
+    "105301": {
+      "name": "史莱姆王",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105301"
+    },
+    "105401": {
+      "name": "怪盗蝠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105401"
+    },
+    "105501": {
+      "name": "闪电狗",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105501"
+    },
+    "105504": {
+      "name": "闪电狗·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105504",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105504"
+    },
+    "105601": {
+      "name": "小蜜蜜",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105601"
+    },
+    "105701": {
+      "name": "盼盼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105701"
+    },
+    "105801": {
+      "name": "海浪龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105801"
+    },
+    "105804": {
+      "name": "海浪龙·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#105804",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_105804"
+    },
+    "106101": {
+      "name": "月兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106101"
+    },
+    "106104": {
+      "name": "月兔·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106104",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106104"
+    },
+    "106201": {
+      "name": "只鼬",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106201"
+    },
+    "106202": {
+      "name": "竹隐只鼬",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106202",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106202"
+    },
+    "106301": {
+      "name": "狮鹫宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106301"
+    },
+    "106401": {
+      "name": "英俊狮鹫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106401"
+    },
+    "106404": {
+      "name": "英俊狮鹫·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106404",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106404"
+    },
+    "106601": {
+      "name": "美团团",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106601"
+    },
+    "106901": {
+      "name": "雨鳍猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#106901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_106901"
+    },
+    "107001": {
+      "name": "迷梦猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#107001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_107001"
+    },
+    "107801": {
+      "name": "筋肉虎",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#107801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_107801"
+    },
+    "107901": {
+      "name": "火龙宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#107901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_107901"
+    },
+    "108001": {
+      "name": "青龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108001"
+    },
+    "108301": {
+      "name": "玄武",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108301"
+    },
+    "108401": {
+      "name": "小火喵",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108401"
+    },
+    "108501": {
+      "name": "小叶鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108501"
+    },
+    "108601": {
+      "name": "水母贝贝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108601"
+    },
+    "108701": {
+      "name": "响尾眼镜蛇",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108701"
+    },
+    "108704": {
+      "name": "响尾眼镜蛇·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108704",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108704"
+    },
+    "108801": {
+      "name": "石猩猩",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108801"
+    },
+    "108901": {
+      "name": "花牌孔雀",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#108901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_108901"
+    },
+    "109001": {
+      "name": "双刃炎猫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109001"
+    },
+    "109101": {
+      "name": "隐叶鼠侠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109101"
+    },
+    "109201": {
+      "name": "水母奈奈",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109201"
+    },
+    "109401": {
+      "name": "火炎莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109401"
+    },
+    "109501": {
+      "name": "水鳍莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109501"
+    },
+    "109601": {
+      "name": "冰晶莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109601"
+    },
+    "109701": {
+      "name": "草冠莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109701"
+    },
+    "109801": {
+      "name": "电鸣莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109801"
+    },
+    "109901": {
+      "name": "土脉莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#109901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_109901"
+    },
+    "110001": {
+      "name": "暗蚀莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110001"
+    },
+    "110101": {
+      "name": "光辉莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110101"
+    },
+    "110201": {
+      "name": "风暴狮鹫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110201"
+    },
+    "110501": {
+      "name": "猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110501"
+    },
+    "110601": {
+      "name": "叶刃猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110601"
+    },
+    "110801": {
+      "name": "喵鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#110801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_110801"
+    },
+    "111001": {
+      "name": "发牌雀圣",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111001"
+    },
+    "111004": {
+      "name": "发牌雀圣·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111004",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111004"
+    },
+    "111201": {
+      "name": "森灵龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111201"
+    },
+    "111204": {
+      "name": "森灵龙·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111204",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111204"
+    },
+    "111501": {
+      "name": "炽焰猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111501"
+    },
+    "111601": {
+      "name": "霹雳猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111601"
+    },
+    "111701": {
+      "name": "飞行猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111701"
+    },
+    "111801": {
+      "name": "许愿灯象",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#111801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_111801"
+    },
+    "112001": {
+      "name": "水龙宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112001"
+    },
+    "112101": {
+      "name": "只鼬宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112101"
+    },
+    "112201": {
+      "name": "魔影只鼬",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112201"
+    },
+    "112301": {
+      "name": "吓吓团",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112301"
+    },
+    "112401": {
+      "name": "喷喷蟹",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112401"
+    },
+    "112501": {
+      "name": "石角龟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112501"
+    },
+    "112801": {
+      "name": "草龙宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112801"
+    },
+    "112901": {
+      "name": "刺啦汪",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#112901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_112901"
+    },
+    "113101": {
+      "name": "炽焰马",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113101"
+    },
+    "113301": {
+      "name": "球蝌蚪",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113301"
+    },
+    "113601": {
+      "name": "云朵毛毛",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113601"
+    },
+    "113701": {
+      "name": "云朵蛹",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113701"
+    },
+    "113801": {
+      "name": "云朵蝶",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113801"
+    },
+    "113804": {
+      "name": "云朵蝶·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113804",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113804"
+    },
+    "113901": {
+      "name": "流星蝶",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113901"
+    },
+    "113904": {
+      "name": "流星蝶·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#113904",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_113904"
+    },
+    "114001": {
+      "name": "冰狼崽",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114001"
+    },
+    "114101": {
+      "name": "冰晶狼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114101"
+    },
+    "114201": {
+      "name": "冰原战狼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114201"
+    },
+    "114202": {
+      "name": "冰霜魔狼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114202",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114202"
+    },
+    "114301": {
+      "name": "海宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114301"
+    },
+    "114401": {
+      "name": "晴天娃娃",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114401"
+    },
+    "114501": {
+      "name": "晴天精灵",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114501"
+    },
+    "114601": {
+      "name": "晴天舞姬",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114601"
+    },
+    "114701": {
+      "name": "光兔宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114701"
+    },
+    "114801": {
+      "name": "光兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114801"
+    },
+    "114901": {
+      "name": "耀光兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114901"
+    },
+    "114904": {
+      "name": "耀光兔·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#114904",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_114904"
+    },
+    "115001": {
+      "name": "暗兔宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115001"
+    },
+    "115101": {
+      "name": "暗兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115101"
+    },
+    "115201": {
+      "name": "暗影兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115201"
+    },
+    "115204": {
+      "name": "暗影兔·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115204",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115204"
+    },
+    "115301": {
+      "name": "口哨鸦",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115301"
+    },
+    "115501": {
+      "name": "宝剑海獭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115501"
+    },
+    "115601": {
+      "name": "蓝拳海獭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115601"
+    },
+    "115701": {
+      "name": "粉拳海獭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115701"
+    },
+    "115801": {
+      "name": "战甲海獭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115801"
+    },
+    "115901": {
+      "name": "钢盔海獭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#115901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_115901"
+    },
+    "116001": {
+      "name": "骑士铠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116001"
+    },
+    "116501": {
+      "name": "噼啪蛋",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116501"
+    },
+    "116601": {
+      "name": "招财猫",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116601"
+    },
+    "116701": {
+      "name": "甜梦",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116701"
+    },
+    "116801": {
+      "name": "梦游羊",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116801"
+    },
+    "116901": {
+      "name": "呼呼兔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#116901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_116901"
+    },
+    "117501": {
+      "name": "摸鱼雪貂",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#117501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_117501"
+    },
+    "118101": {
+      "name": "拳拳袋鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#118101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_118101"
+    },
+    "118201": {
+      "name": "搏击袋鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#118201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_118201"
+    },
+    "118204": {
+      "name": "搏击袋鼠·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#118204",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_118204"
+    },
+    "118301": {
+      "name": "水龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#118301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_118301"
+    },
+    "118901": {
+      "name": "草龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#118901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_118901"
+    },
+    "119101": {
+      "name": "公主蜂",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119101"
+    },
+    "119201": {
+      "name": "海精灵",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119201"
+    },
+    "119204": {
+      "name": "海精灵·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119204",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119204"
+    },
+    "119301": {
+      "name": "海天使",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119301"
+    },
+    "119601": {
+      "name": "水牛宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119601"
+    },
+    "119701": {
+      "name": "莽莽水牛",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119701"
+    },
+    "119801": {
+      "name": "小树仔",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119801"
+    },
+    "119901": {
+      "name": "鱼雷鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#119901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_119901"
+    },
+    "120501": {
+      "name": "苞玉米",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120501"
+    },
+    "120601": {
+      "name": "拿铁刺客",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120601"
+    },
+    "120701": {
+      "name": "起舞鸭",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120701"
+    },
+    "120704": {
+      "name": "起舞鸭·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120704",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120704"
+    },
+    "120801": {
+      "name": "含苞",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120801"
+    },
+    "120901": {
+      "name": "绽放",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120901"
+    },
+    "120902": {
+      "name": "荆棘盛放",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120902",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120902"
+    },
+    "120904": {
+      "name": "绽放·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#120904",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_120904"
+    },
+    "121001": {
+      "name": "战螂",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121001"
+    },
+    "121004": {
+      "name": "战螂·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121004",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121004"
+    },
+    "121101": {
+      "name": "战螂宝宝",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121101"
+    },
+    "121201": {
+      "name": "火龙果",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121201"
+    },
+    "121301": {
+      "name": "果火龙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121301"
+    },
+    "121304": {
+      "name": "果火龙·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121304",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121304"
+    },
+    "121401": {
+      "name": "龙裹火",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#121401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_121401"
+    },
+    "122301": {
+      "name": "陆行鸟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#122301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_122301"
+    },
+    "123101": {
+      "name": "冰壳龟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123101"
+    },
+    "123201": {
+      "name": "岩刺猫鲨",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123201"
+    },
+    "123401": {
+      "name": "头铁牛",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123401"
+    },
+    "123404": {
+      "name": "头铁牛·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123404",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123404"
+    },
+    "123801": {
+      "name": "螳螂虾",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123801"
+    },
+    "123901": {
+      "name": "三彩鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#123901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_123901"
+    },
+    "124001": {
+      "name": "六曜鹿",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#124001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_124001"
+    },
+    "124301": {
+      "name": "灵光鸟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#124301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_124301"
+    },
+    "124401": {
+      "name": "灯光鱼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#124401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_124401"
+    },
+    "125001": {
+      "name": "妙妙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125001"
+    },
+    "125002": {
+      "name": "公主妙妙",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125002",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125002"
+    },
+    "125101": {
+      "name": "缇可",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125101"
+    },
+    "125201": {
+      "name": "希希",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125201"
+    },
+    "125301": {
+      "name": "富贵",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125301"
+    },
+    "125401": {
+      "name": "魔芋",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125401"
+    },
+    "125501": {
+      "name": "咪可",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125501"
+    },
+    "125801": {
+      "name": "魔魔猪",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125801"
+    },
+    "125804": {
+      "name": "魔魔猪·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125804",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125804"
+    },
+    "125901": {
+      "name": "巨岩角龟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#125901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_125901"
+    },
+    "126301": {
+      "name": "粉扇雀圣",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#126301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_126301"
+    },
+    "126304": {
+      "name": "粉扇雀圣·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#126304",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_126304"
+    },
+    "127001": {
+      "name": "食木沙鼠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#127001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_127001"
+    },
+    "127101": {
+      "name": "龙虾",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#127101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_127101"
+    },
+    "127301": {
+      "name": "铁甲土犀",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#127301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_127301"
+    },
+    "130001": {
+      "name": "石雕树懒",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#130001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_130001"
+    },
+    "132301": {
+      "name": "木秤鸟",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#132301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_132301"
+    },
+    "132401": {
+      "name": "衡星鸮",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#132401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_132401"
+    },
+    "132501": {
+      "name": "裁星天秤",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#132501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_132501"
+    },
+    "133801": {
+      "name": "钩尾蝎",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#133801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_133801"
+    },
+    "133901": {
+      "name": "星影蝎",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#133901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_133901"
+    },
+    "134001": {
+      "name": "蜇星天蝎",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#134001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_134001"
+    },
+    "135901": {
+      "name": "莓果羊驼",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#135901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_135901"
+    },
+    "136101": {
+      "name": "睡梦蟹",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#136101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_136101"
+    },
+    "136301": {
+      "name": "龙神",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#136301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_136301"
+    },
+    "136901": {
+      "name": "小矮人希希",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#136901",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_136901"
+    },
+    "139001": {
+      "name": "苹果蝠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139001",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139001"
+    },
+    "139101": {
+      "name": "浮游汪",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139101"
+    },
+    "139201": {
+      "name": "幽浮狗",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139201"
+    },
+    "139301": {
+      "name": "幽冥猎犬",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139301"
+    },
+    "139304": {
+      "name": "幽冥猎犬·异",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139304",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139304"
+    },
+    "139801": {
+      "name": "松果猫头鹰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#139801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_139801"
+    },
+    "141301": {
+      "name": "冒险蜗牛",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#141301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_141301"
+    },
+    "141401": {
+      "name": "莓团团",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#141401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_141401"
+    },
+    "147101": {
+      "name": "无头骑士",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147101"
+    },
+    "147301": {
+      "name": "瓜莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147301"
+    },
+    "147401": {
+      "name": "烛芯芯",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147401"
+    },
+    "147501": {
+      "name": "飘飘",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147501"
+    },
+    "147601": {
+      "name": "慢慢糖",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147601"
+    },
+    "147701": {
+      "name": "安眠蛛",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147701"
+    },
+    "147801": {
+      "name": "南瓜莱姆",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#147801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_147801"
+    },
+    "1000101": {
+      "name": "蜜桃",
+      "aliases": [],
+      "source": "Game trade overview card name and exact Avatar_1000101 illustration, independently linked by saved dedicated-list query; see evidence/1000101-name.png",
+      "evidence_image": "evidence/1000101-name.png",
+      "evidence_sha256": "edc8c30294af001c5d144f1ce36c3b91098d25ce56e2c5428bba00335b4c4484",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000101"
+    },
+    "1000201": {
+      "name": "灰灰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000201"
+    },
+    "1000301": {
+      "name": "小番茄",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000301"
+    },
+    "1000401": {
+      "name": "番茄君",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000401",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000401"
+    },
+    "1000501": {
+      "name": "老番茄",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000501"
+    },
+    "1000502": {
+      "name": "番茄侠",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000502",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000502"
+    },
+    "1000601": {
+      "name": "粉龙蜜桃",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000601"
+    },
+    "1000701": {
+      "name": "蓝龙灰灰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000701",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000701"
+    },
+    "1000801": {
+      "name": "小学生蜜桃",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000801",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000801"
+    },
+    "1000902": {
+      "name": "超人蜜桃",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1000902",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1000902"
+    },
+    "1003201": {
+      "name": "卡皮巴拉灰灰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1003201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1003201"
+    },
+    "1003301": {
+      "name": "盼盼灰灰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1003301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1003301"
+    },
+    "1003401": {
+      "name": "小蜜蜂蜜桃",
+      "aliases": [],
+      "source": "Game trade overview card name and exact Avatar_1003401/CA_1003401 illustrations, independently linked to saved market field2; rank03-back-overview and phase05-enter-marketplace screenshots agree",
+      "evidence_image": "evidence/1003401-name.png",
+      "evidence_sha256": "5928336883d7924a79150bccaee08550124acdde5d990208e15a7b19afa82357",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1003401"
+    },
+    "1003501": {
+      "name": "小红帽蜜桃",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1003501",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1003501"
+    },
+    "1003601": {
+      "name": "大灰狼灰灰",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1003601",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1003601"
+    },
+    "1004101": {
+      "name": "小司马",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1004101",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1004101"
+    },
+    "1004201": {
+      "name": "司马缸",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1004201",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1004201"
+    },
+    "1004301": {
+      "name": "大司马",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1004301",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1004301"
+    },
+    "1004302": {
+      "name": "肌肉金轮",
+      "aliases": [],
+      "source": "Game Config.Table.Lumi.Id/Name/Avatar and MultilingualCN.Data, linked by actual trade UI; see evidence/pet-config-names.public.json#1004302",
+      "app_version": "1.5.3",
+      "official_configuration_field_name_confirmed": true,
+      "configuration_evidence": "evidence/pet-config-names.public.json",
+      "configuration_evidence_sha256": "f9427e5fda3d48a45e9d11e5d492cc6a855f097e097a4162407e903fc84a6232",
+      "configuration_name_key": "LumiName_1004302"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Rumi Assistant">
+  <rect width="96" height="96" rx="24" fill="#fff7e9"/>
+  <path d="M24 28c10-4 18-3 24 2 6-5 14-6 24-2v42c-10-4-18-3-24 2-6-5-14-6-24-2z" fill="#ead7b9" stroke="#80583f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M48 31v39M32 40h8M32 50h8M56 40h8M56 50h8" fill="none" stroke="#80583f" stroke-width="3" stroke-linecap="round"/>
+</svg>

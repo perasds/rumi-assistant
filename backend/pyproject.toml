@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rumi-market-backend"
+version = "0.1.0"
+description = "Rumi Assistant API with encyclopedia and optional game-account task adapters"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.143.0",
+  "uvicorn==0.54.0",
+  "httpx==0.28.1",
+  "cryptography==48.0.1",
+  "protobuf==7.36.2",
+  "websockets==16.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1", "pytest-asyncio==1.4.0", "httpx2==2.13.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rumi_market = ["game/*.pb", "game/protocol-source.json", "game/profile-source.json", "game/gold-source.json", "game/home-source.json", "game/order-source.json", "game/season-source.json", "game/redbag-source.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["external_materials: needs separately supplied research evidence or original game assets"]

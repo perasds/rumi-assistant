@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "source_game_sha256": "3ba755a6360e3cd8ce36d6e17b86545158a01641a0bdf9b99985c5b09f215431",
+  "descriptor_sha256": "5f16daf3fb9f27e8cb84c67f52096ba63620a26946654c5630ed0fa24bc993d6",
+  "descriptor_size": 28843,
+  "selected_roots": [
+    "SNKProto.Cmd_Notify_RoleSummary",
+    "SNKProto.Cmd_Notify_RoleBase",
+    "SNKProto.Cmd_Notify_ItemAll",
+    "SNKProto.Cmd_Notify_ItemChange",
+    "SNKProto.Cmd_Notify_Guild_Base",
+    "SNKProto.Cmd_Notify_Guild",
+    "SNKProto.Cmd_Notify_Guild_Role_Data",
+    "SNKProto.Cmd_Notify_Combine_Info",
+    "SNKProto.Cmd_Notify_LumiAll",
+    "SNKProto.Cmd_Notify_HomeAll",
+    "SNKProto.Cmd_Notify_AdventureAll"
+  ],
+  "rpc_bindings": [
+    {
+      "rpc_id": 2018,
+      "message_type": "SNKProto.Cmd_Notify_RoleSummary",
+      "switch_il_offset": 78,
+      "switch_base": 2011,
+      "switch_index": 7,
+      "parser_il_offset": 9193,
+      "parser_token": "0x600f183",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2931,
+      "message_type": "SNKProto.Cmd_Notify_RoleBase",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 40,
+      "parser_il_offset": 9501,
+      "parser_token": "0x600f441",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2941,
+      "message_type": "SNKProto.Cmd_Notify_ItemAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 50,
+      "parser_il_offset": 9611,
+      "parser_token": "0x6011c36",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2942,
+      "message_type": "SNKProto.Cmd_Notify_ItemChange",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 51,
+      "parser_il_offset": 9622,
+      "parser_token": "0x6011c63",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 5425,
+      "message_type": "SNKProto.Cmd_Notify_Guild_Base",
+      "switch_il_offset": 4880,
+      "switch_base": 5251,
+      "switch_index": 174,
+      "parser_il_offset": 17124,
+      "parser_token": "0x600fbdf",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 5426,
+      "message_type": "SNKProto.Cmd_Notify_Guild",
+      "switch_il_offset": 4880,
+      "switch_base": 5251,
+      "switch_index": 175,
+      "parser_il_offset": 17135,
+      "parser_token": "0x600fbf2",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 5432,
+      "message_type": "SNKProto.Cmd_Notify_Guild_Role_Data",
+      "switch_il_offset": 4880,
+      "switch_base": 5251,
+      "switch_index": 181,
+      "parser_il_offset": 17201,
+      "parser_token": "0x600fc72",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2016,
+      "message_type": "SNKProto.Cmd_Notify_Combine_Info",
+      "switch_il_offset": 78,
+      "switch_base": 2011,
+      "switch_index": 5,
+      "parser_il_offset": 9171,
+      "parser_token": "0x600f1e7",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 2971,
+      "message_type": "SNKProto.Cmd_Notify_LumiAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 80,
+      "parser_il_offset": 9886,
+      "parser_token": "0x6012013",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3001,
+      "message_type": "SNKProto.Cmd_Notify_HomeAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 110,
+      "parser_il_offset": 10216,
+      "parser_token": "0x6012afb",
+      "parser_invoked": false
+    },
+    {
+      "rpc_id": 3036,
+      "message_type": "SNKProto.Cmd_Notify_AdventureAll",
+      "switch_il_offset": 148,
+      "switch_base": 2891,
+      "switch_index": 145,
+      "parser_il_offset": 10601,
+      "parser_token": "0x60137f7",
+      "parser_invoked": false
+    }
+  ],
+  "subset_metadata": [
+    {
+      "name": "ProtoActivityGvg.proto",
+      "messages": [
+        "GvgTaskShow"
+      ],
+      "enums": []
+    },
+    {
+      "name": "ProtoBase.proto",
+      "messages": [
+        "UseDecoration",
+        "CmdShowLumi",
+        "CmdColorVariant",
+        "CmdShowLumiCommon",
+        "CmdItemShow",
+        "CmdItemReal",
+        "CmdLumiTrainHistory",
+        "CmdLumiBase"
+      ],
+      "enums": []
+    },
+    {
+      "name": "ProtoGame.proto",
+      "messages": [
+        "Cmd_Notify_RoleSummary",
+        "CmdCombineUnit",
+        "Cmd_Notify_Combine_Info",
+        "Cmd_Notify_RoleBase",
+        "Cmd_Notify_Guild_Base",
+        "Cmd_Notify_Guild",
+        "Cmd_Notify_Guild_Role_Data",
+        "CmdRepeatChange",
+        "Cmd_Notify_ItemAll",
+        "Cmd_Notify_ItemChange",
+        "CmdLumiAptitude",
+        "CmdLumiEvoHistory",
+        "CmdLumiAchieveData",
+        "CmdLumiAchieveDataList",
+        "CmdLumiMedalData",
+        "CmdLumiOne",
+        "Cmd_Notify_LumiAll",
+        "CmdHomeVector2",
+        "CmdHomeBlock",
+        "CmdHomeWorkRecipe",
+        "CmdHomeWorkStore",
+        "CmdHomeWorkOld",
+        "CmdHomeInteration",
+        "CmdHomeTravelEvent",
+        "CmdHomeTravelPostcard",
+        "CmdHomeTravelPokdexMap",
+        "CmdHomeTravelPokdex",
+        "CmdHomeTravelNormalRwd",
+        "CmdHomeTravelOneSlot",
+        "CmdHomeTravelVisitorInfo",
+        "CmdHomeTravelAll",
+        "CmdHomeDormLumi",
+        "CmdHomeDorm",
+        "CmdHomeArchitecture",
+        "CmdHomeLumiWorkEnergy",
+        "CmdHomeCanteenSlot",
+        "CmdHomeCanteenLog",
+        "CmdHomeCanteenTipLog",
+        "CmdHomeCanteenArchi",
+        "CmdHomeArchiUnlock",
+        "CmdHomeOneOrder",
+        "CmdHomeOrderSlot",
+        "CmdHomeOrderArchi",
+        "CmdHomeArchiMaxNum",
+        "CmdHomeRobArchiData",
+        "CmdHomeTradeOneSlot",
+        "CmdHomeTradeOneBoard",
+        "CmdHomeTradeArchi",
+        "CmdHomeNewTradeOneSlot",
+        "CmdHomeNewTradeOneBoard",
+        "CmdHomeNewTradeArchi",
+        "CmdHomeProsperity",
+        "Cmd_Notify_HomeAll",
+        "CmdHomeBlockUnlockInfo",
+        "CmdAdventureEvent",
+        "CmdAdventureRunAwayLumiShow",
+        "CmdAdventureFootBuff",
+        "CmdAdventureAreaLumi",
+        "CmdAdventureMapInfo",
+        "CmdAdventureMapUnlock",
+        "CmdAdventureTreasureMapBuff",
+        "CmdAdventureAdvPKLogInfoElem",
+        "CmdAdventureAdvPKLogInfo",
+        "CmdAdvFootBuffLumi",
+        "CmdAdventureBuff",
+        "CmdAdvMapFootBuff",
+        "CmdAdventureDesiredLumi",
+        "CmdEnergyAdvEvent",
+        "Cmd_Notify_AdventureAll",
+        "CmdCondProgress",
+        "CmdCacheHomeActFarm",
+        "CmdMMHouseData"
+      ],
+      "enums": [
+        "ERepeatChangeType"
+      ]
+    },
+    {
+      "name": "ProtoGuildCommon.proto",
+      "messages": [
+        "RoleGuildShow",
+        "GuildBaseShow",
+        "GuildMemberShow",
+        "GuildGvgTaskList",
+        "GuildShow"
+      ],
+      "enums": []
+    },
+    {
+      "name": "ProtoSyncComm.proto",
+      "messages": [
+        "I32I32Map",
+        "CmdRoleHeadInfo",
+        "ActFarmDispatchStealLumi",
+        "ActFarmBeStealLumiInfo",
+        "ActFarmHistoryBeStealLumiInfo",
+        "ActFarmDayProduct",
+        "CacheUseDecoration"
+      ],
+      "enums": []
+    },
+    {
+      "name": "exoptions.proto",
+      "messages": [],
+      "enums": [
+        "ServiceType",
+        "Owners",
+        "SyncFlag",
+        "OwnerShip",
+        "OpFlag"
+      ]
+    }
+  ],
+  "source_evidence": "artifacts/rumi/pet-catalog/profile-source-cil.sanitized.json",
+  "source_evidence_sha256": "b798b320db76f186caf7be40c44438a6bcb9bf6ec528f99cd3a8cb19d3285c94",
+  "gold_source": {
+    "client_getter": "Player.get_GoldNum",
+    "item_id": 10001,
+    "getter_method_token": "0x600070a",
+    "count_method_token": "0x6000711",
+    "source_notice": "SNKProto.Cmd_Notify_ItemAll"
+  },
+  "guild_sources": [
+    "SNKProto.Cmd_Notify_Guild_Role_Data.data.gid",
+    "SNKProto.Cmd_Notify_Guild_Base.base.gid",
+    "SNKProto.Cmd_Notify_Guild.guild.base.gid"
+  ],
+  "opaque_byte_fields": [
+    "SNKProto.CmdCombineUnit.msg",
+    "SNKProto.CmdRepeatChange.data",
+    "SNKProto.CmdAdventureEvent.event_data"
+  ],
+  "target_execution": false,
+  "network_requests_sent": false,
+  "private_values_exported": false,
+  "source_assemblies_persisted": false,
+  "unreviewed_fields_to_omit": [
+    "SNKProto.CmdHomeRobArchiData.token_id"
+  ],
+  "additional_verified_versions": [
+    {
+      "hot_version": 72,
+      "client_version": "1.5.3",
+      "source_game_sha256": "0867970fcfd9a33984120c85ad91644b1e17352c4ddae85e083cea5f59c089f8",
+      "source_catalog_sha256": "1a78a543153649577058c5a461c3d37ff0466e30c429da73fc090bb812999fa1",
+      "source_vib_bundle_sha256": "a7f165628755f46921e06ad48f2bc363eb47e277b51d759d1f9c2f69e6010049",
+      "wire_contract_compatible": true,
+      "supported_execution_configuration_compatible": true,
+      "verification_report": "docs/hot72-runtime-compatibility.public.json",
+      "verification_report_sha256": "f5638bcd34accb8044fe6271a52cefaa1a350caf6cfc9323cc4c2a0a2e9b635c",
+      "real_account_tested": false
+    }
+  ]
+}
